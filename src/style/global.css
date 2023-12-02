@@ -4,11 +4,19 @@
     text-transform: uppercase;
     border-radius: 4px;
     border: 1px solid #FF5A30;
+    cursor: pointer;
 }
 .button_primary{
     color: #ffffff;
     background: #FF5A30;
 }
+
+@media (min-width: 1200px){
+    .button_primary:hover {
+        background: #FC3300;
+    }
+}
+
 .button_white{
     color: #FF5A30;
     background: white;
@@ -28,3 +36,4 @@
     line-height: 36px;
     padding: 0 26px;
 }
+
