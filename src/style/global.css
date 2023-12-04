@@ -43,13 +43,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     color: #ffffff;
     background: #FF5A30;
 }
-
 @media (min-width: 1200px){
     .button_primary:hover {
         background: #FC3300;
     }
 }
-
 .button_white{
     color: #FF5A30;
     background: white;
