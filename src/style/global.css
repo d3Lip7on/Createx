@@ -69,3 +69,76 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     padding: 0 26px;
 }
 
+/* сделал потому что не было готовых, потом удалить */
+h3{
+    font-family: Ubuntu;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.form-text{
+    color: var(--gray-800, #424551);
+    font-family: Ubuntu;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    margin: 0;
+}
+.form-button{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0rem 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: var(--primary, #FF5A30);
+}
+.button-text{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.75rem; /* 314.286% */
+    letter-spacing: 0.03125rem;
+    text-transform: uppercase;
+}
+
+/* не удалять, маму выебу */
+.form{
+    width: 27.15rem;
+    padding: 3rem 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 55%;
+    border-radius: 0.25rem;
+    border: 1px solid var(--gray-300, #E5E8ED);
+    background: var(--white, #FFF);
+}
+
+.form-input{
+    width: 95%;
+    border-radius: 0.25rem;
+    border: 1px solid var(--gray-400, #D7DADD);
+    background: var(--gray-200, #F4F5F6);
+    height: 2.5625rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-flexbox{
+    display: flex;
+    margin-bottom: 1.3rem;
+}
+.form-checkbox{
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+}
+
