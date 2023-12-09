@@ -30,7 +30,21 @@ a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h4,h5,h6{font-size:inherit;font-weight: 700;}
+h1{
+    font-size: 2.875rem;
+    line-height: 130%; 
+}
+h2{
+    font-size: 2rem;
+    line-height: 150%; 
+}
+h3{
+    font-size: 1.75rem;
+    line-height: 150%; 
+}
+
+
 
 header, footer, section{
     padding: 10px;
