@@ -116,6 +116,7 @@ h3{
     align-items: center;
     gap: 1.5rem;
     margin-left: 55%;
+    margin-top: 5rem;
     border-radius: 0.25rem;
     border: 1px solid var(--gray-300, #E5E8ED);
     background: var(--white, #FFF);
