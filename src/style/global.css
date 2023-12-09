@@ -69,4 +69,147 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     line-height: 36px;
     padding: 0 26px;
 }
+/******************HEADER*******************/
+.logo{
+    cursor: pointer;
+}
+.header {
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.navbar__buttons {
+    display: flex;
+}
+
+.active {
+    color: #FF5A30;
+}
+
+.inactive {
+    color: #424551;
+}
+
+.button__navbar {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.right__navbar {
+    display: flex;
+}
+
+.right__navbar__phone {
+    display: flex;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.right__navbar__chat {
+    display: flex;
+    cursor: pointer;
+}
+
+.small__bold {
+    color: #424551;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.large__regular {
+    color: #1E212C;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.navbar__svg {
+    margin-right: 12px;
+}
+
+.burger-menu {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+    position: absolute;
+    top: 10px; /* Поднимаем иконку бургера наверх */
+    right: 10px; /* Размещаем иконку бургера справа */
+}
+
+.burger-menu:hover {
+    color: #FF5A30;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed; /* Используем fixed вместо absolute */
+    top: 60px; /* Размещаем мобильное меню в верхнем крае страницы */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    animation: slideDown 0.5s ease-in-out;
+}
+
+.mobile-menu a {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #424551;
+}
+
+.mobile-menu.show {
+    animation: slideUp 0.5s ease-in-out;
+    display: flex;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .navbar__right__text__hidden {
+        display: none;
+    }
+
+    .right__navbar__bold {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar__buttons {
+        display: none;
+    }
+}
