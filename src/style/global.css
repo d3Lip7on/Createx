@@ -75,27 +75,27 @@ header, footer, section{
 
 /** Размер **/
 
-.extrasmall{
+.text_extrasmall{
     font-size: 0.75rem;
     line-height: 150%; 
 }
 
-.small{
+.text_small{
     font-size: 0.875rem;
     line-height: 150%; 
 }
 
-.base{
+.text_base{
     font-size: 1rem;
     line-height: 160%; 
 }
 
-.large{
+.text_large{
     font-size: 1.125rem;
     line-height: 150%; /* 27px */
 }
 
-.lead{
+.text_lead{
     font-size: 1.25rem;
     line-height: 150%;
 }
