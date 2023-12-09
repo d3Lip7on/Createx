@@ -32,6 +32,15 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
+header, footer, section{
+    padding: 10px;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
 .button{
     font-weight: 700;
     letter-spacing: 0.5px;
