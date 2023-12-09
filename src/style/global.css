@@ -69,3 +69,186 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     padding: 0 26px;
 }
 
+/*************************FOOTER********************************/
+
+.footer{
+	width: 1920px;
+	height: 566px;
+	margin: 0 auto;
+	background-color: rgb(11, 11, 28);
+
+}
+.footer__inner{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+}
+.container__leftpart{
+	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  
+}
+.logoline{
+	display: flex;
+	flex-direction: row;
+	
+
+}
+.logoline__part1{
+	display: flex;
+	font-size: 22px;
+	font-weight: 700;
+	color: white;
+}
+.logoline__part2{
+	width: 184px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: space-between;
+}
+.logoline__part2 img {	
+
+}
+.firstinformation{
+	padding-top: 25px;
+ 	width: 475px;
+	text-align: left;
+	color: white;
+font-size: 14px;
+font-family: Ubuntu;
+font-weight: 400;
+line-height: 21px;
+}
+.information{
+	display: flex;
+	flex-direction: row;
+	padding-top: 70px;
+}
+.information 
+.information li {
+	display: inline;
+	padding-top: 15px;
+	color: white;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 400;
+line-height: 25.60px;
+}
+
+.info1{
+width: 350px;
+height: 125px;
+
+}
+.info1 li{
+	padding-top: 15px;
+	display: flex;
+	color: white;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 400;
+}
+
+.info1 li p{
+	display: flex;
+	color: grey;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 400;
+}
+
+.info2{
+	width: 140px;
+	height: 125px;
+	text-align: left;
+	margin-left: 115px;
+}
+.info2 :first-child{
+	display: flex;
+	color: white;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 24px;
+letter-spacing: 1px;
+}
+.info2 li{
+	padding-top: 7.5px;
+	color: gray;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 400;
+line-height: 25.60px;
+}
+
+.container__rightpart{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	width: 510px;
+	height: 325px;
+	margin-left: 125px;
+	
+}
+.rightpart__stayintouch{
+	padding-top: 80px;
+	color: white;
+font-size: 24px;
+font-family: Ubuntu;
+font-weight: 700;
+line-height: 36px;
+}
+.rightpart_textline{
+	margin-top: 25px;
+	height: 45px;
+	width: 365px;
+	border-radius: 4px;
+}
+.button{
+	
+	height: 45px;
+	width: 130px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #FF5A30;
+	color: #ffffff;
+    background: #FF5A30;
+}
+.rightpart__undertext{
+	padding-top: 20px;
+	color: gray;
+	font-size: 12px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 18px;
+}
+.info3{
+	padding-top: 40px;
+	width: 200px;
+	height: 200px;
+	text-align: left;
+}
+.info3 :first-child{
+	display: flex;
+	color: white;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 24px;
+letter-spacing: 1px;
+}
+.info3 li{
+	padding-top: 7.5px;
+	color: gray;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 400;
+line-height: 25.60px;
+}
