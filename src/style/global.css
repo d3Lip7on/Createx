@@ -151,6 +151,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .burger-menu:hover {
     color: #FF5A30;
 }
+
 .mobile-menu {
     display: none;
     position: fixed; /* Используем fixed вместо absolute */
