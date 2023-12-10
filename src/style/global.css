@@ -194,7 +194,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         transform: translateY(-100%);
     }
 }
-
 @media screen and (max-width: 1300px) {
     .navbar__right__text__hidden {
         display: none;
