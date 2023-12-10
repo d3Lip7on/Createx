@@ -80,7 +80,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     align-items: center;
 }
 
-.navbar__buttons {
+.navbar__links {
     display: flex;
 }
 
@@ -92,7 +92,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     color: #424551;
 }
 
-.button__navbar {
+.navbar__link {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -209,7 +209,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 @media screen and (max-width: 1050px) {
-    .navbar__buttons {
+    .navbar__links {
         display: none;
     }
 }
