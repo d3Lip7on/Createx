@@ -72,24 +72,32 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*************************FOOTER********************************/
 
 .footer{
-	width: 1920px;
-	height: 566px;
+	max-width: 1920px;
+	max-height: 566px;
 	margin: 0 auto;
 	background-color: rgb(11, 11, 28);
 
 }
+.container{
+	max-width: 1230px;
+	margin: 0 auto;
+}
 .footer__inner{
 	display: flex;
-	flex-direction: row;
-	text-align: center;
-	justify-content: center;
+	flex-direction: column;	
 }
-.container__leftpart{
+.container__apperpart{
 	padding-top: 80px;
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.container__leftpart{
+	display: flex;
 	flex-direction: column;
-	align-items: center;
-  
+	
 }
 .logoline{
 	display: flex;
@@ -104,7 +112,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	color: white;
 }
 .logoline__part2{
-	width: 184px;
+	max-width: 184px;
 	display: flex;
 	margin-left: 60px;
 	justify-content: space-between;
@@ -114,7 +122,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .firstinformation{
 	padding-top: 25px;
- 	width: 475px;
+ 	max-width: 475px;
 	text-align: left;
 	color: white;
 font-size: 14px;
@@ -122,80 +130,10 @@ font-family: Ubuntu;
 font-weight: 400;
 line-height: 21px;
 }
-.information{
-	display: flex;
-	flex-direction: row;
-	padding-top: 70px;
-}
-.information 
-.information li {
-	display: inline;
-	padding-top: 15px;
-	color: white;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 400;
-line-height: 25.60px;
-}
-
-.info1{
-width: 350px;
-height: 125px;
-
-}
-.info1 li{
-	padding-top: 15px;
-	display: flex;
-	color: white;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 400;
-}
-
-.info1 li p{
-	display: flex;
-	color: grey;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 400;
-}
-
-.info2{
-	width: 140px;
-	height: 125px;
-	text-align: left;
-	margin-left: 115px;
-}
-.info2 :first-child{
-	display: flex;
-	color: white;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 700;
-text-transform: uppercase;
-line-height: 24px;
-letter-spacing: 1px;
-}
-.info2 li{
-	padding-top: 7.5px;
-	color: gray;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 400;
-line-height: 25.60px;
-}
-
 .container__rightpart{
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	width: 510px;
-	height: 325px;
-	margin-left: 125px;
-	
+
 }
 .rightpart__stayintouch{
-	padding-top: 80px;
 	color: white;
 font-size: 24px;
 font-family: Ubuntu;
@@ -227,12 +165,85 @@ line-height: 36px;
 	font-family: Ubuntu;
 	font-weight: 400;
 	line-height: 18px;
+	max-width: 495px;
 }
+
+.container__middlepart{
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.information{
+	display: flex;
+	flex-direction: row;
+	padding-top: 70px;
+}
+ 
+.information li {
+	display: inline;
+	padding-top: 15px;
+	color: white;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 400;
+line-height: 25.60px;
+}
+
+.info1{
+max-width: 350px;
+max-height: 125px;
+
+}
+
+.info1 li{
+	
+	display: flex;
+	color: white;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 400;
+}
+	.info1 li p{
+	display: flex;
+	color: grey;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+
+.info2{
+	display: flex;
+	flex-direction: column;
+	max-width: 140px;
+	max-height: 125px;
+	margin-left: 115px;
+}
+.info2 :first-child{
+	display: flex;
+	color: white;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 24px;
+letter-spacing: 1px;
+}
+.info2 li{
+	
+	color: gray;
+font-size: 16px;
+font-family: Ubuntu;
+font-weight: 400;
+line-height: 25.60px;
+}
+
 .info3{
-	padding-top: 40px;
-	width: 200px;
-	height: 200px;
-	text-align: left;
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+	max-height: 200px;
+	margin-left: 125px;
 }
 .info3 :first-child{
 	display: flex;
@@ -245,10 +256,171 @@ line-height: 24px;
 letter-spacing: 1px;
 }
 .info3 li{
-	padding-top: 7.5px;
+	
 	color: gray;
 font-size: 16px;
 font-family: Ubuntu;
 font-weight: 400;
 line-height: 25.60px;
 }
+.container_downpart{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top:45px ;
+}
+.copyright{
+
+	color: white;
+font-size: 12px;
+font-family: Ubuntu;
+font-weight: 400;
+line-height: 18px;
+}
+
+.up{
+	
+	color: white;
+font-size: 14px;
+font-family: Ubuntu;
+font-weight: 400;
+line-height: 21px;
+text-align: right;
+margin-bottom: 40px;
+}
+.up img{
+	padding-left:15px;
+}
+
+@media (max-width: 1200px) {
+	.container__apperpart {
+	  padding-top: 20px;
+	}
+  
+	.logoline__part1 {
+	  font-size: 18px;
+	}
+  
+	.logoline__part2 {
+	  max-width: 100%;
+	  margin-left: 0;
+	  margin-top: 10px;
+	  justify-content: flex-start;
+	}
+  
+	.rightpart__undertext {
+	  max-width: 100%;
+	}
+  
+	.rightpart_textline {
+	  max-width: 100%;
+	}
+  
+	.container__middlepart,
+	.information {
+	  padding-top: 20px;
+	  font-size: 16px;
+	}
+  }
+  
+
+  @media (max-width: 1000px) {
+	.container__apperpart {
+		padding-top: 15px;
+	  }
+	
+	  .logoline__part1 {
+		font-size: 16px;
+	  }
+	
+	  .logoline__part2 {
+		max-width: 100%;
+		margin-left: 0;
+		margin-top: 8px;
+		justify-content: flex-start;
+	  }
+	
+	 
+	  .rightpart__undertext {
+		max-width: 100%;
+	  }
+	
+	  .rightpart_textline {
+		max-width: 100%;
+	  }
+	
+	  .container__middlepart,
+	  .information {
+		padding-top: 15px;
+		font-size: 14px;
+	  }
+  }
+  
+
+  @media (max-width: 768px) {
+	.container__apperpart {
+		padding-top: 10px;
+	  }
+	
+	  .logoline__part1 {
+		font-size: 14px;
+	  }
+	
+	  .logoline__part2 {
+		max-width: 100%;
+		margin-left: 0;
+		margin-top: 6px;
+		justify-content: flex-start;
+	  }
+	
+	  .rightpart__undertext {
+		max-width: 100%;
+	  }
+	
+	  .rightpart_textline {
+		max-width: 100%;
+	  }
+	
+	  .container__middlepart,
+	  .information {
+		padding-top: 10px;
+		font-size: 12px;
+	  }
+  }
+  
+
+  @media (max-width: 480px) {
+	.container__apperpart {
+		padding-top: 5px;
+	  }
+	
+	  .logoline__part1 {
+		font-size: 12px;
+	  }
+	
+	  .logoline__part2 {
+		max-width: 100%;
+		margin-left: 0;
+		margin-top: 4px;
+		justify-content: flex-start;
+	  }
+	
+	  
+	  .rightpart__undertext {
+		max-width: 100%;
+	  }
+	
+	  .rightpart_textline {
+		max-width: 100%;
+	  }
+  
+	  .container__middlepart,
+	  .information {
+		padding-top: 5px;
+		font-size: 10px;
+	  }
+	  .info2{
+		
+	  }
+  }
