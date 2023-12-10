@@ -1,27 +1,27 @@
 /************** Обнуление стилей  ************/
 *{
-	padding: 0;
-	margin: 0;
-	border: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
     font-family: 'Ubuntu', sans-serif;
 }
 *,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
@@ -36,7 +36,7 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-weight: 700;line-height: 150%;}
 h1{
     font-size: 2.875rem;
-    line-height: 130%; 
+    line-height: 130%;
 }
 h2{
     font-size: 2rem;
@@ -77,17 +77,17 @@ header, footer, section{
 
 .text_extrasmall{
     font-size: 0.75rem;
-    line-height: 150%; 
+    line-height: 150%;
 }
 
 .text_small{
     font-size: 0.875rem;
-    line-height: 150%; 
+    line-height: 150%;
 }
 
 .text_base{
     font-size: 1rem;
-    line-height: 160%; 
+    line-height: 160%;
 }
 
 .text_large{
@@ -126,7 +126,7 @@ header, footer, section{
 }
 .button_large{
     font-size: 16px;
-    line-height: 52px; 
+    line-height: 52px;
     padding: 0 40px;
 }
 .button_regular{
@@ -144,7 +144,6 @@ header, footer, section{
     cursor: pointer;
 }
 .nav {
-    margin: 20px auto 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -187,6 +186,7 @@ header, footer, section{
 }
 
 .small__bold {
+    margin-top: 20px;
     color: #424551;
     font-family: Ubuntu;
     font-size: 14px;
@@ -196,6 +196,7 @@ header, footer, section{
 }
 
 .large__regular {
+    width: 115px;
     color: #1E212C;
     font-family: Ubuntu;
     font-size: 18px;
@@ -208,62 +209,29 @@ header, footer, section{
     margin-right: 12px;
 }
 
-.burger-menu {
-    display: block;
-    cursor: pointer;
-    font-size: 24px;
-    transition: color 0.3s ease-in-out;
-    position: absolute;
-    top: 10px; /* Поднимаем иконку бургера наверх */
-    right: 10px; /* Размещаем иконку бургера справа */
-}
-
-.burger-menu:hover {
-    color: #FF5A30;
-}
-
-.mobile-menu {
+#burger__links {
     display: none;
-    position: fixed; /* Используем fixed вместо absolute */
-    top: 60px; /* Размещаем мобильное меню в верхнем крае страницы */
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex-direction: column;
+    position: absolute;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-    animation: slideDown 0.5s ease-in-out;
+    width: 100%;
+    height: calc(100% - 140px);
+    flex-direction: column;
+    background-color: #FC3300;
 }
 
-.mobile-menu a {
-    margin: 10px 0;
-    font-size: 16px;
-    color: #424551;
+#burger {
+    visibility: hidden;
 }
 
-.mobile-menu.show {
-    animation: slideUp 0.5s ease-in-out;
-    display: flex;
+.hidden {
+    visibility: hidden;
 }
 
-@keyframes slideDown {
-    from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(0);
-    }
+.visible {
+    visibility: visible;
 }
 
-@keyframes slideUp {
-    from {
-        transform: translateY(0);
-    }
-    to {
-        transform: translateY(-100%);
-    }
-}
 @media screen and (max-width: 1300px) {
     .navbar__right__text__hidden {
         display: none;
@@ -276,8 +244,16 @@ header, footer, section{
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1150px) {
     .navbar__links {
         display: none;
+    }
+
+    #burger {
+        visibility: visible;
+    }
+
+    #burger__links {
+        display: flex;
     }
 }
