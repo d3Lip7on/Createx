@@ -1,7 +1,9 @@
+/************** Обнуление стилей  ************/
 *{
 	padding: 0;
 	margin: 0;
 	border: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 *,*:before,*:after{
 	-moz-box-sizing: border-box;
@@ -29,8 +31,78 @@ a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
+/************** Общие стили  ************/
+h1,h2,h3,h4,h5,h6{font-weight: 700;line-height: 150%;}
+h1{
+    font-size: 2.875rem;
+    line-height: 130%; 
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+header, footer, section{
+    padding: 10px;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+/************** Текст ***************/
+
+/** Жирность **/
+.regular{
+    font-weight: 400;
+}
+.bold{
+    font-weight: 700;
+}
+
+
+/** Размер **/
+
+.text_extrasmall{
+    font-size: 0.75rem;
+    line-height: 150%; 
+}
+
+.text_small{
+    font-size: 0.875rem;
+    line-height: 150%; 
+}
+
+.text_base{
+    font-size: 1rem;
+    line-height: 160%; 
+}
+
+.text_large{
+    font-size: 1.125rem;
+    line-height: 150%; /* 27px */
+}
+
+.text_lead{
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+
+
+
+/************** Кнопки  ************/
 .button{
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -43,13 +115,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     color: #ffffff;
     background: #FF5A30;
 }
-
 @media (min-width: 1200px){
     .button_primary:hover {
         background: #FC3300;
     }
 }
-
 .button_white{
     color: #FF5A30;
     background: white;
