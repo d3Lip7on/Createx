@@ -253,6 +253,12 @@ header, footer, section{
         align-self: center;
         padding-bottom: 0;
     }
+    .navbar_large_regular{
+        margin: 5px 0 0;
+    }
+    .navbar__svg{
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
