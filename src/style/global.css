@@ -140,16 +140,16 @@ header, footer, section{
     padding: 0 26px;
 }
 /******************HEADER*******************/
-.logo{
+.navbar_logo{
     cursor: pointer;
 }
-.nav {
+.navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.navbar__links {
+.navbar_container {
     display: flex;
 }
 
@@ -161,7 +161,7 @@ header, footer, section{
     color: #424551;
 }
 
-.navbar__link {
+.navbar_link {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -170,13 +170,12 @@ header, footer, section{
     cursor: pointer;
 }
 
-.right__navbar {
+.navbar_right {
     display: flex;
 }
 
 .right__navbar__phone {
     display: flex;
-    margin-right: 36px;
     cursor: pointer;
 }
 
@@ -185,7 +184,7 @@ header, footer, section{
     cursor: pointer;
 }
 
-.small__bold {
+.navbar_small_bold {
     margin-top: 20px;
     color: #424551;
     font-family: 'Ubuntu', sans-serif;
@@ -195,14 +194,15 @@ header, footer, section{
     line-height: 150%;
 }
 
-.large__regular {
-    width: 115px;
+.navbar_large_regular {
+    width: 130px;
     color: #1E212C;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+
 }
 
 .navbar__svg {
@@ -215,9 +215,9 @@ header, footer, section{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(100% - 140px);
+    height: 100%;
     flex-direction: column;
-    background-color: #FF5A30;
+    background-color: rgba(255, 90, 48, 1);
 }
 
 #burger {
@@ -233,21 +233,30 @@ header, footer, section{
 .visible {
     visibility: visible;
 }
+.navbar_right_bold {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 16px;
+}
+.burger-menu-svg{
+}
 
 @media screen and (max-width: 1300px) {
     .navbar__right__text__hidden {
         display: none;
     }
 
-    .right__navbar__bold {
+    .navbar_right_bold {
         display: flex;
         flex-direction: column;
         align-self: center;
+        padding-bottom: 0;
     }
 }
 
 @media screen and (max-width: 1150px) {
-    .navbar__links {
+    .navbar_container {
         display: none;
     }
 
@@ -257,5 +266,18 @@ header, footer, section{
 
     #burger__links {
         display: flex;
+    }
+    .navbar_link{
+        color: white;
+        font-size: 26px;
+        padding-bottom: 25px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .right__navbar__chat{
+        display: none;
+    }
+    .right__navbar__phone{
+        display: none;
     }
 }
