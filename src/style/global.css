@@ -16,9 +16,9 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{
     width: 100%;
-    font-size: 100%;
+    /*font-size: 100%;*/
     line-height: 1;
-    font-size: 14px;
+    /*font-size: 14px;*/
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -147,6 +147,7 @@ header, footer, section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    /*width: 100%;*/
 }
 
 .navbar_container {
@@ -240,14 +241,14 @@ header, footer, section{
     padding-bottom: 16px;
 }
 .burger-menu-svg{
-    z-index: 999;
+    z-index: 3;
     position: fixed;
 }
 .menu-btn {
     width: 30px;
     height: 30px;
     position: relative;
-    z-index:999;
+    z-index:3;
     overflow: hidden;
 }
 .menu-btn span {
@@ -309,7 +310,7 @@ header, footer, section{
 
     #burger__links {
         display: flex;
-        z-index: 998;
+        z-index: 2;
         position: fixed;
         top: 0;
         left: 0;
