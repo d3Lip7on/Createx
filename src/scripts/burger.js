@@ -12,3 +12,9 @@ function hideMenu(e) {
         menu.classList.remove('hidden')
     }
 }
+let menuBtn = document.querySelector('.menu-btn');
+let menu1 = document.querySelector('.burger__menu');
+menuBtn.addEventListener('click', function(){
+    menuBtn.classList.toggle('active');
+    menu1.classList.toggle('active');
+})
