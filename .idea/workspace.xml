@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9add786a-4314-41b6-b42d-bd859cbbc6eb" name="Changes" comment="Смена иконки бургер меню">
+    <list default="true" id="9add786a-4314-41b6-b42d-bd859cbbc6eb" name="Changes" comment="BEM, burger-menu upd, not finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/burger.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/global.css" afterDir="false" />
     </list>
@@ -80,7 +79,9 @@
       <workItem from="1702219055128" duration="684000" />
       <workItem from="1702230190318" duration="1500000" />
       <workItem from="1702231801692" duration="8204000" />
-      <workItem from="1702392373677" duration="1894000" />
+      <workItem from="1702392373677" duration="2251000" />
+      <workItem from="1702559787718" duration="1053000" />
+      <workItem from="1702562825519" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="navbar sec commit (Не закончено)">
       <option name="closed" value="true" />
@@ -138,7 +139,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702240552590</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Смена иконки бургер меню">
+      <option name="closed" value="true" />
+      <created>1702394473888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702394473888</updated>
+    </task>
+    <task id="LOCAL-00009" summary="BEM, burger-menu upd, not finished">
+      <option name="closed" value="true" />
+      <created>1702394629958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702394629958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +168,7 @@
     <MESSAGE value="Маленькое изменения (перенос файла index.html в pages)" />
     <MESSAGE value="Введения бургер меню (Не финальный вариант)" />
     <MESSAGE value="Смена иконки бургер меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="Смена иконки бургер меню" />
+    <MESSAGE value="BEM, burger-menu upd, not finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="BEM, burger-menu upd, not finished" />
   </component>
 </project>
