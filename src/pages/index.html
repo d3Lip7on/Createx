@@ -8,44 +8,41 @@
     <link rel="stylesheet" href="../style/global.css">
 </head>
 <body>
-<nav class="navbar"> <!--Добавить хедер-->
-    <div class="navbar_logo"><img src="../images/logo.svg" alt=""></div>
-    <div class="navbar_container">
-        <a class="navbar_link inactive">About Us</a>
-        <a class="navbar_link inactive">Services</a>
-        <a class="navbar_link inactive">Work</a>
-        <a class="navbar_link inactive">News</a>
-        <a class="navbar_link inactive">Contacts</a>
-    </div>
-    <div class="navbar_right"> <!--Сделать через дифис-->
-        <div class="right__navbar__phone">
-            <img class="navbar__svg" src="../images/iPhone.svg" alt="">
-            <div class="navbar_right_bold">
-                <p class="navbar_small_bold  navbar__right__text__hidden">Call us</p>
-                <p class="navbar_large_regular">(405) 555-0128</p>
-            </div>
+<header class="header">
+    <div class="container header__container">
+        <div class="header__navbar-logo">
+                <img src="../images/logo.svg" alt="">
         </div>
-        <div class="right__navbar__chat">
-            <img class="navbar__svg" src="../images/Chat.svg" alt="">
-            <div class="navbar_right_bold">
-                <p class="navbar_small_bold navbar__right__text__hidden">Talk to us</p>
-                <p class="navbar_large_regular">hello@createx.com</p>
+        <nav class="header__navbar__container" id="burger__links">
+            <a class="navbar__container-link navbar__container-link-inactive">About Us</a>
+            <a class="navbar__container-link navbar__container-link-inactive">Services</a>
+            <a class="navbar__container-link navbar__container-link-inactive">Work</a>
+            <a class="navbar__container-link navbar__container-link-inactive">News</a>
+            <a class="navbar__container-link navbar__container-link-inactive">Contacts</a>
+        </nav>
+            <div class="header__navbar__contacts">
+                <div class="header__navbar__contacts-phone">
+                    <img class="header__navbar__contacts-image" src="../images/iPhone.svg" alt="">
+                    <div class="header__navbar__contacts__text">
+                        <p class="header__navbar__contacts__text-bold">Call us</p>
+                        <p class="header__navbar__contacts__text-regular">(405) 555-0128</p>
+                    </div>
+                </div>
+                <div class="header__navbar__contacts-chat">
+                    <img class="header__navbar__contacts-image" src="../images/Chat.svg" alt="">
+                    <div class="header__navbar__contacts__text">
+                        <p class="header__navbar__contacts__text-bold">Talk to us</p>
+                        <p class="header__navbar__contacts__text-regular">hello@createx.com</p>
+                    </div>
+                </div>
             </div>
-        </div>
-            <div class="menu-btn burger-menu-svg" id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+                <div class="header__navbar__burger-menu" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
     </div>
-</nav>
-<div class="burger__menu hidden" id="burger__links">
-    <a class="navbar_link inactive">About Us</a>
-    <a class="navbar_link inactive">Services</a>
-    <a class="navbar_link inactive">Work</a>
-    <a class="navbar_link inactive">News</a>
-    <a class="navbar_link inactive">Contacts</a>
-</div>
+</header>
 <script src="../scripts/burger.js"></script>
 </body>
 </html>

@@ -3,17 +3,17 @@ const menu = document.getElementById("burger__links")
 
 burger.addEventListener("click", (e) => hideMenu(e));
 
-function hideMenu(e) {
-    if (!menu.classList.contains('hidden')) {
-        menu.classList.add('hidden')
-        menu.classList.remove('visible')
+function hideMenu() {
+    if (!menu.classList.contains('header__navbar__container-hidden')) {
+        menu.classList.add('header__navbar__container-hidden')
+        menu.classList.remove('header__navbar__container-visible')
     } else {
-        menu.classList.add('visible')
-        menu.classList.remove('hidden')
+        menu.classList.add('header__navbar__container-visible')
+        menu.classList.remove('header__navbar__container-hidden')
     }
 }
-let menuBtn = document.querySelector('.menu-btn');
-let menu1 = document.querySelector('.burger__menu');
+let menuBtn = document.querySelector('.header__navbar__burger-menu');
+let menu1 = document.querySelector('.header__navbar__container');
 menuBtn.addEventListener('click', function(){
     menuBtn.classList.toggle('active');
     menu1.classList.toggle('active');
