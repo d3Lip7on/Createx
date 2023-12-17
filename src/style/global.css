@@ -312,7 +312,6 @@ header, footer, section{
     .header__navbar__container-visible {
         display: flex;
     }
-
 }
 
 @media screen and (max-width: 750px) {

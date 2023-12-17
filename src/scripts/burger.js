@@ -2,7 +2,6 @@ const burger = document.getElementById("burger");
 const menu = document.getElementById("burger__links")
 
 burger.addEventListener("click", (e) => hideMenu(e));
-
 function hideMenu() {
     if (!menu.classList.contains('header__navbar__container-hidden')) {
         menu.classList.add('header__navbar__container-hidden')
