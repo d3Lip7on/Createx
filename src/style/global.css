@@ -117,7 +117,7 @@ header, footer, section{
     background: white;
 }
 .button_large{
-    font-size: 16px;
+    font-size: 16px; 
     line-height: 52px; 
     padding: 0 40px;
 }
@@ -132,3 +132,9 @@ header, footer, section{
     padding: 0 26px;
 }
 
+/************** Иконки  ************/
+.icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/icons-sprite.png');
+}
