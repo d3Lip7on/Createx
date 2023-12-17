@@ -136,5 +136,5 @@ header, footer, section{
 .icon {
     width: 24px;
     height: 24px;
-    background-image: url('../images/icons-sprite.png');
+    background-image: url('../images/icons/icons-sprite.png');
 }
