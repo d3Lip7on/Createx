@@ -178,6 +178,7 @@ header, footer, section{
 .header__navbar__contacts-phone {
     display: flex;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .header__navbar__contacts-chat {
@@ -280,7 +281,6 @@ header, footer, section{
     .header__navbar__container {
         display: none;
     }
-
     #burger {
         visibility: visible;
     }
