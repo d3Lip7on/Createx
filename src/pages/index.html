@@ -9,38 +9,45 @@
 </head>
 <body>
 <header class="header">
-    <div class="container header__container">
-        <div class="header__navbar-logo">
-                <img src="../images/logo.svg" alt="">
-        </div>
-        <nav class="header__navbar__container header__navbar__container-hidden" id="burger__links">
-            <a class="navbar__container-link navbar__container-link-inactive">About Us</a>
-            <a class="navbar__container-link navbar__container-link-inactive">Services</a>
-            <a class="navbar__container-link navbar__container-link-inactive">Work</a>
-            <a class="navbar__container-link navbar__container-link-inactive">News</a>
-            <a class="navbar__container-link navbar__container-link-inactive">Contacts</a>
-        </nav>
-            <div class="header__navbar__contacts">
-                <div class="header__navbar__contacts-phone">
-                    <img class="header__navbar__contacts-image" src="../images/iPhone.svg" alt="">
-                    <div class="header__navbar__contacts__text">
-                        <p class="header__navbar__contacts__text-bold">Call us</p>
-                        <p class="header__navbar__contacts__text-regular">(405) 555-0128</p>
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__main">
+                <div class="navbar-brand">
+                    <img src="../images/logo.svg" alt="Createx Logo" width="130">
+                </div>
+                <nav class="navbar-nav" id="burger__links">
+                    <a class="nav__item">About Us</a>
+                    <a class="nav__item">Services</a>
+                    <a class="nav__item">Work</a>
+                    <a class="nav__item">News</a>
+                    <a class="nav__item">Contacts</a>
+                </nav>
+                <div class="header-contacts">
+                    <div class="header-contacts__phone">
+                        <img class="header__contacts-image" src="../images/iPhone.svg" alt="">
+                        <div class="header__contacts-text">
+                            <p class="header__contacts--text-bold">Call us</p>
+                            <p class="header__contacts--text-regular">(405) 555-0128</p>
+                        </div>
+                    </div>
+                    <div class="header-contacts__chat">
+                        <img class="header__contacts-image" src="../images/Chat.svg" alt="">
+                        <div class="header__contacts-text">
+                            <p class="header__contacts--text-bold">Talk to us</p>
+                            <p class="header__contacts--text-regular">hello@createx.com</p>
+                        </div>
                     </div>
                 </div>
-                <div class="header__navbar__contacts-chat">
-                    <img class="header__navbar__contacts-image" src="../images/Chat.svg" alt="">
-                    <div class="header__navbar__contacts__text">
-                        <p class="header__navbar__contacts__text-bold">Talk to us</p>
-                        <p class="header__navbar__contacts__text-regular">hello@createx.com</p>
-                    </div>
+                <div class="burger-button" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
-                <div class="header__navbar__burger-menu" id="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+            </div>
+            <div class="header__content">
+<!--                Место для написания продолжения header(-a)-->
+            </div>
         </div>
 </header>
 <script src="../scripts/burger.js"></script>
