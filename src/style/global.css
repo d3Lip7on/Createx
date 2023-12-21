@@ -73,21 +73,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .footer{
 	max-width: 1920px;
-	max-height: 566px;
 	margin: 0 auto;
 	background-color: rgb(11, 11, 28);
-
 }
 .container{
 	max-width: 1230px;
 	margin: 0 auto;
+	
 }
 .footer__inner{
 	display: flex;
 	flex-direction: column;	
+	padding: 30px;
 }
 .container__apperpart{
-	padding-top: 80px;
+	padding-top: 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -96,44 +96,38 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .container__leftpart{
 	display: flex;
-	flex-direction: column;
-	
+	flex-direction: column;	
 }
 .logoline{
 	display: flex;
 	flex-direction: row;
-	
-
 }
-.logoline__part1{
+.logoline__cretex{
 	display: flex;
 	font-size: 22px;
 	font-weight: 700;
 	color: white;
 }
-.logoline__part2{
+.logoline__icons{
 	max-width: 184px;
 	display: flex;
 	margin-left: 60px;
-	justify-content: space-between;
 }
-.logoline__part2 img {	
 
-}
-.firstinformation{
+.logoline__undertext{
 	padding-top: 25px;
  	max-width: 475px;
 	text-align: left;
 	color: white;
-font-size: 14px;
-font-family: Ubuntu;
-font-weight: 400;
-line-height: 21px;
+	font-size: 14px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 21px;
 }
 .container__rightpart{
 
 }
-.rightpart__stayintouch{
+.rightpart__title{
 	color: white;
 font-size: 24px;
 font-family: Ubuntu;
@@ -141,9 +135,9 @@ font-weight: 700;
 line-height: 36px;
 }
 .rightpart_textline{
-	margin-top: 25px;
 	height: 45px;
-	width: 365px;
+	width: 100%;
+	max-width: 375px;
 	border-radius: 4px;
 }
 .button{
@@ -167,101 +161,88 @@ line-height: 36px;
 	line-height: 18px;
 	max-width: 495px;
 }
-
-.container__middlepart{
-	
+.footer__inforow{
 	display: flex;
 	flex-direction: row;
+	padding-top: 30px;
 	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
 }
-.information{
-	display: flex;
-	flex-direction: row;
-	padding-top: 70px;
+.inforow__contacts{
+	
+	padding-top: 30px;
 }
- 
-.information li {
+.footer__inforow h1{
+	color: white;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.footer__inforow li {
 	display: inline;
 	padding-top: 15px;
 	color: white;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 400;
-line-height: 25.60px;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 25.60px;
 }
-
-.info1{
-max-width: 350px;
-max-height: 125px;
-
+.info1 {
+	display: flex;
+	flex-direction: column;
 }
-
 .info1 li{
-	
-	display: flex;
 	color: white;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 400;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
 }
-	.info1 li p{
-	display: flex;
+	.info1 li span{
 	color: grey;
 	font-size: 16px;
 	font-family: Ubuntu;
 	font-weight: 400;
 }
-
+.inforow__who-we-are{
+	min-width: 165px;
+	padding-top: 30px;
+}
 .info2{
 	display: flex;
 	flex-direction: column;
 	max-width: 140px;
-	max-height: 125px;
-	margin-left: 115px;
 }
-.info2 :first-child{
-	display: flex;
-	color: white;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 700;
-text-transform: uppercase;
-line-height: 24px;
-letter-spacing: 1px;
-}
+
 .info2 li{
 	
 	color: gray;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 400;
-line-height: 25.60px;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 25.60px;
 }
-
+.inforow__our-experience{
+	min-width: 195px;
+	padding-top: 30px;
+}
 .info3{
 	display: flex;
 	flex-direction: column;
 	max-width: 200px;
-	max-height: 200px;
-	margin-left: 125px;
 }
-.info3 :first-child{
-	display: flex;
-	color: white;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 700;
-text-transform: uppercase;
-line-height: 24px;
-letter-spacing: 1px;
-}
+
+
 .info3 li{
 	
 	color: gray;
-font-size: 16px;
-font-family: Ubuntu;
-font-weight: 400;
-line-height: 25.60px;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 25.60px;
 }
 .container_downpart{
 
@@ -273,154 +254,148 @@ line-height: 25.60px;
 .copyright{
 
 	color: white;
-font-size: 12px;
-font-family: Ubuntu;
-font-weight: 400;
-line-height: 18px;
+	font-size: 12px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 18px;
 }
 
 .up{
 	
 	color: white;
-font-size: 14px;
-font-family: Ubuntu;
-font-weight: 400;
-line-height: 21px;
-text-align: right;
-margin-bottom: 40px;
+	font-size: 14px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: right;
+	margin-bottom: 40px;
 }
 .up img{
 	padding-left:15px;
 }
+.footer__form{
+	display: flex;
+	align-items: center;
+	padding-top: 25px;
+}
+/****************Спрайты*********************/
 
-@media (max-width: 1200px) {
-	.container__apperpart {
-	  padding-top: 20px;
-	}
-  
-	.logoline__part1 {
-	  font-size: 18px;
-	}
-  
-	.logoline__part2 {
-	  max-width: 100%;
-	  margin-left: 0;
-	  margin-top: 10px;
-	  justify-content: flex-start;
-	}
-  
-	.rightpart__undertext {
-	  max-width: 100%;
-	}
-  
-	.rightpart_textline {
-	  max-width: 100%;
-	}
-  
-	.container__middlepart,
-	.information {
-	  padding-top: 20px;
-	  font-size: 16px;
-	}
-  }
-  
 
-  @media (max-width: 1000px) {
-	.container__apperpart {
-		padding-top: 15px;
-	  }
-	
-	  .logoline__part1 {
-		font-size: 16px;
-	  }
-	
-	  .logoline__part2 {
-		max-width: 100%;
-		margin-left: 0;
-		margin-top: 8px;
-		justify-content: flex-start;
-	  }
-	
-	 
-	  .rightpart__undertext {
-		max-width: 100%;
-	  }
-	
-	  .rightpart_textline {
-		max-width: 100%;
-	  }
-	
-	  .container__middlepart,
-	  .information {
-		padding-top: 15px;
-		font-size: 14px;
-	  }
-  }
-  
-
-  @media (max-width: 768px) {
-	.container__apperpart {
-		padding-top: 10px;
-	  }
-	
-	  .logoline__part1 {
-		font-size: 14px;
-	  }
-	
-	  .logoline__part2 {
-		max-width: 100%;
-		margin-left: 0;
-		margin-top: 6px;
-		justify-content: flex-start;
-	  }
-	
-	  .rightpart__undertext {
-		max-width: 100%;
-	  }
-	
-	  .rightpart_textline {
-		max-width: 100%;
-	  }
-	
-	  .container__middlepart,
-	  .information {
-		padding-top: 10px;
-		font-size: 12px;
-	  }
-  }
-  
-
-  @media (max-width: 480px) {
-	.container__apperpart {
-		padding-top: 5px;
-	  }
-	
-	  .logoline__part1 {
-		font-size: 12px;
-	  }
-	
-	  .logoline__part2 {
-		max-width: 100%;
-		margin-left: 0;
-		margin-top: 4px;
-		justify-content: flex-start;
-	  }
-	
-	  
-	  .rightpart__undertext {
-		max-width: 100%;
-	  }
-	
-	  .rightpart_textline {
-		max-width: 100%;
-	  }
-  
-	  .container__middlepart,
-	  .information {
-		padding-top: 5px;
-		font-size: 10px;
-	  }
-	  .info2{
+@media screen and (max-width:550px){
+	.footer__inforow{
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+	.title__contacts{
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer;
+	}
+	.title__contacts:before,
+	.title__contacts:after{
+		content: '';
+		width: 10px;
+		height: 1px;
+		background-color:#FC3300;
+		position: absolute;
+		top: 12px;
+		transition:all 0.3s ease 0s;
+	}
+	.title__contacts:before{
+		transform: rotate(40deg);
+		left: 0;
+	}
+	.title__contacts:after{
+		transform: rotate(-40deg);
+		left: 8px;
+	}
+	.title__contacts_active:before{
+		transform: rotate(-40deg);
+	}
+	.title__contacts_active:after{
+		transform: rotate(40deg);
+	}
+	.info1{
+		display: none;
+	}
+	.active{
+		display: flex;
 		
-	  }
-  }
+	}
+	
+	
+
+	.title__who-we-are{
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer;
+	}
+	.title__who-we-are:after,
+	.title__who-we-are:before{
+		content: '';
+		width: 10px;
+		height: 1px;
+		background-color:#FC3300;
+		position: absolute;
+		top: 12px;
+		transition:all 0.3s ease 0s;
+	}
+	.title__who-we-are:before{
+		transform: rotate(40deg);
+		left: 0px;
+	}
+	.title__who-we-are:after{
+		transform: rotate(-40deg);
+		left: 8px;
+	}
+	.title__who-we-are_active:before{
+		transform: rotate(-40deg);
+	}
+	.title__who-we-are_active:after{
+		transform: rotate(40deg);
+	}
+	.info2{
+		display: none;
+	}
+	.active{
+		display: flex;
+	}
+	
+	
+	
+	.title__our-experience{
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer
+	}
+	.title__our-experience:after,
+	.title__our-experience:before{
+		content: '';
+		width: 10px;
+		height: 1px;
+		background-color:#FC3300;
+		position: absolute;
+		top: 12px;
+		transition:all 0.3s ease 0s;
+	}
+	.title__our-experience:before{
+		transform: rotate(40deg);
+		left: 0px;
+	}
+	.title__our-experience:after{
+		transform: rotate(-40deg);
+		left: 8px;
+	}
+	.title__our-experience_active:before{
+		transform: rotate(-40deg);
+	}
+	.title__our-experience_active:after{
+		transform: rotate(40deg);
+	}
+	.info3{
+		display: none;
+	}
+	.active{
+		display: flex;
+	}
+}
