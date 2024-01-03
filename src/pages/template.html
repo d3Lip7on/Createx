@@ -1,29 +1,38 @@
-
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
-<!DOCTYpE html>
-<!-- Оболочка документа, указываем язык содержимого -->
-<html lang="ru">
-	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
-	<head>
-		<!-- Заголовок страницы в браузере -->
-		<title>CSS. Часть №2 (Свойства текста и шрифта)</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-
-		<!-- Подключаем CSS -->
-		<link rel="stylesheet" href="../style/global.css" />
-		
-		<!-- Кодировка страницы -->
-		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@200;400;600;900&family=pT+Sans:ital,wght@0,400;0,700;1,400&family=playfair+Display:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-	</head>
-	<!-- Отображаемое тело страницы -->
-	<body>
-		<footer class="footer">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/style/global.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <section class="form-section">
+        <div class="container">
+            <div class="form-section__inner">
+                <form action="#" class="form">
+                    <h3>A quick way to discuss details</h3>
+                    <p class="form-text" id="p_name">Name*</p>
+                    <input type="text" id="input_name" class="form-input form-text" type="text" placeholder="Your name">
+                    <p class="form-text" id="p_phone">Phone*</p>
+                    <input type="tel" id="input_phone" class="form-input form-text" placeholder="Your phone number">
+                    <p class="form-text" id="p_email">Email</p>
+                    <input type="email" id="input_email" class="form-input form-text" placeholder="Your working email">
+                    <p class="form-text" id="p_message">Message*</p>
+                    <textarea name="" id="input_message" style="height: 76px;" class="form-input form-text" placeholder="Your message" cols="3" ></textarea>
+                    <div class="form-flexbox">
+                        <input type="checkbox" class="form-checkbox">
+                        <p class="form-text">I agree to receive communications from Createx Construction Bureau.</p>
+                    </div>
+                    <button class="form-button button-text" id="input_button">send request</button>  
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
 			<div class="container">
 				<div class="footer__inner">
 					<div class="container__apperpart">
@@ -76,7 +85,7 @@
 				</div>
 			</div>
 		</footer>
-		<script src="../scripts/footer.js">
-		</script>
-	</body>
+		<script src="../scripts/footer.js"></script>
+    <script src="/src/scripts/form.js"></script>
+</body>
 </html>
