@@ -92,6 +92,13 @@ header, footer, section{
     line-height: 150%;
 }
 
+/************** Иконки  ************/
+.icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('../images/icons/icons-sprite.png');
+}
+
 
 
 /************** Кнопки  ************/
@@ -103,6 +110,7 @@ header, footer, section{
     border: 1px solid #FF5A30;
     cursor: pointer;
 }
+
 .button_primary{
     color: #ffffff;
     background: #FF5A30;
@@ -132,9 +140,321 @@ header, footer, section{
     padding: 0 26px;
 }
 
-/************** Иконки  ************/
-.icon {
-    width: 24px;
-    height: 24px;
-    background-image: url('../images/icons/icons-sprite.png');
+/*************************FOOTER********************************/
+
+.footer{
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: rgb(11, 11, 28);
 }
+.container{
+	max-width: 1230px;
+	margin: 0 auto;
+	
+}
+.footer__inner{
+	display: flex;
+	flex-direction: column;	
+	padding: 30px;
+}
+.container__apperpart{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.container__leftpart{
+	display: flex;
+	flex-direction: column;	
+}
+.logoline{
+	display: flex;
+	flex-direction: row;
+}
+.logoline__cretex{
+	display: flex;
+	font-size: 22px;
+	font-weight: 700;
+	color: white;
+}
+.logoline__icons{
+	max-width: 184px;
+	display: flex;
+	margin-left: 60px;
+}
+
+.logoline__undertext{
+	padding-top: 25px;
+ 	max-width: 475px;
+	text-align: left;
+	color: white;
+	font-size: 14px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.rightpart__title{
+	color: white;
+font-size: 24px;
+font-family: Ubuntu;
+font-weight: 700;
+line-height: 36px;
+}
+.rightpart_textline{
+	height: 45px;
+	width: 100%;
+	max-width: 375px;
+	border-radius: 4px;
+}
+
+.rightpart__undertext{
+	padding-top: 20px;
+	color: gray;
+	font-size: 12px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 18px;
+	max-width: 495px;
+}
+.footer__inforow{
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+}
+.inforow__contacts{
+	
+	padding-top: 30px;
+}
+.footer__inforow h1{
+	color: white;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.footer__inforow li {
+	display: inline;
+	padding-top: 15px;
+	color: white;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 25.60px;
+}
+.info1 {
+	display: flex;
+	flex-direction: column;
+}
+.info1 li{
+	color: white;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+	.info1 li span{
+	color: grey;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+}
+.inforow__who-we-are{
+	min-width: 165px;
+	padding-top: 30px;
+}
+.info2{
+	display: flex;
+	flex-direction: column;
+	max-width: 140px;
+}
+
+.info2 li{
+	
+	color: gray;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 25.60px;
+}
+.inforow__our-experience{
+	min-width: 195px;
+	padding-top: 30px;
+}
+.info3{
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+}
+
+
+.info3 li{
+	
+	color: gray;
+	font-size: 16px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 25.60px;
+}
+.container_downpart{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top:45px ;
+}
+.copyright{
+
+	color: white;
+	font-size: 12px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.up{
+	
+	color: white;
+	font-size: 14px;
+	font-family: Ubuntu;
+	font-weight: 400;
+	line-height: 21px;
+	text-align: right;
+	margin-bottom: 40px;
+}
+.up img{
+	padding-left:15px;
+}
+.footer__form{
+	display: flex;
+	align-items: center;
+	padding-top: 25px;
+}
+/****************Спрайты*********************/
+
+
+@media screen and (max-width:550px){
+	.footer__inforow{
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+	.title__contacts{
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer;
+	}
+	.title__contacts:before,
+	.title__contacts:after{
+		content: '';
+		width: 10px;
+		height: 1px;
+		background-color:#FC3300;
+		position: absolute;
+		top: 12px;
+		transition:all 0.3s ease 0s;
+	}
+	.title__contacts:before{
+		transform: rotate(40deg);
+		left: 0;
+	}
+	.title__contacts:after{
+		transform: rotate(-40deg);
+		left: 8px;
+	}
+	.title__contacts_active:before{
+		transform: rotate(-40deg);
+	}
+	.title__contacts_active:after{
+		transform: rotate(40deg);
+	}
+	.info1{
+		display: none;
+	}
+	.active{
+		display: flex;
+		
+	}
+	
+	
+
+	.title__who-we-are{
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer;
+	}
+	.title__who-we-are:after,
+	.title__who-we-are:before{
+		content: '';
+		width: 10px;
+		height: 1px;
+		background-color:#FC3300;
+		position: absolute;
+		top: 12px;
+		transition:all 0.3s ease 0s;
+	}
+	.title__who-we-are:before{
+		transform: rotate(40deg);
+		left: 0px;
+	}
+	.title__who-we-are:after{
+		transform: rotate(-40deg);
+		left: 8px;
+	}
+	.title__who-we-are_active:before{
+		transform: rotate(-40deg);
+	}
+	.title__who-we-are_active:after{
+		transform: rotate(40deg);
+	}
+	.info2{
+		display: none;
+	}
+	.active{
+		display: flex;
+	}
+	
+	
+	
+	.title__our-experience{
+		position: relative;
+		padding-left: 25px;
+		cursor: pointer
+	}
+	.title__our-experience:after,
+	.title__our-experience:before{
+		content: '';
+		width: 10px;
+		height: 1px;
+		background-color:#FC3300;
+		position: absolute;
+		top: 12px;
+		transition:all 0.3s ease 0s;
+	}
+	.title__our-experience:before{
+		transform: rotate(40deg);
+		left: 0px;
+	}
+	.title__our-experience:after{
+		transform: rotate(-40deg);
+		left: 8px;
+	}
+	.title__our-experience_active:before{
+		transform: rotate(-40deg);
+	}
+	.title__our-experience_active:after{
+		transform: rotate(40deg);
+	}
+	.info3{
+		display: none;
+	}
+	.active{
+		display: flex;
+	}
+}
+
