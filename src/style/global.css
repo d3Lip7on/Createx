@@ -209,7 +209,18 @@ line-height: 36px;
 	max-width: 375px;
 	border-radius: 4px;
 }
-
+.footer__button{
+	
+	height: 45px;
+	width: 130px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #FF5A30;
+	color: #ffffff;
+    background: #FF5A30;
+}
 .rightpart__undertext{
 	padding-top: 20px;
 	color: gray;
