@@ -47,7 +47,7 @@ h6 {
     text-transform: uppercase;
 }
 header, footer, section{
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .container{
@@ -155,10 +155,9 @@ header, footer, section{
 .footer__inner{
 	display: flex;
 	flex-direction: column;	
-	padding: 30px;
+	padding: 80px 0;
 }
 .container__apperpart{
-	padding-top: 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -168,6 +167,7 @@ header, footer, section{
 .container__leftpart{
 	display: flex;
 	flex-direction: column;	
+	justify-self: center;
 }
 .logoline{
 	display: flex;
@@ -331,7 +331,6 @@ line-height: 36px;
 	font-weight: 400;
 	line-height: 21px;
 	text-align: right;
-	margin-bottom: 40px;
 }
 .up img{
 	padding-left:15px;
@@ -342,7 +341,17 @@ line-height: 36px;
 	padding-top: 25px;
 }
 
+@media screen and (max-width: 1040px){
+	.container__apperpart{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 @media screen and (max-width:550px){
+	.footer__inner{
+		padding: 40px 0;
+	}
 	.footer__inforow{
 		flex-wrap: nowrap;
 		flex-direction: column;
@@ -569,8 +578,7 @@ h3{
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 80px 0;
 }
 .form {
     width: 433.6px;
@@ -612,6 +620,12 @@ h3{
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 550px) {
+	.form-section__inner{
+		padding: 40px 0;
+	}
+}
 /******************HEADER*******************/
 .navbar-brand{
     cursor: pointer;
@@ -619,6 +633,7 @@ h3{
     align-items: center;
 }
 .header__main {
+	padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
