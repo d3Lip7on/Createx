@@ -8,5 +8,5 @@ function hideMenu() {
 let menuBtn = document.querySelector('.burger-button');
 let menu1 = document.querySelector('.navbar-nav');
 menuBtn.addEventListener('click', function(){
-    menuBtn.classList.toggle('active');
+    menuBtn.classList.toggle('burger-button_active');
 })
