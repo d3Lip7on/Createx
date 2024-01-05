@@ -167,18 +167,18 @@ section {
 	background: white;
 }
 .button_large {
-	font-size: 16px;
-	line-height: 52px;
+	font-size: 1rem;
+	line-height: 3.25em;
 	padding: 0 40px;
 }
 .button_regular {
-	font-size: 14px;
-	line-height: 44px;
+	font-size: 0.875rem;
+	line-height: 3.14em;
 	padding: 0 40px;
 }
 .button_small {
-	font-size: 12px;
-	line-height: 36px;
+	font-size: 0.75rem;
+	line-height: 3em;
 	padding: 0 26px;
 }
 
