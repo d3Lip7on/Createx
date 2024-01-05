@@ -7,6 +7,8 @@ function hideMenu() {
 }
 let menuBtn = document.querySelector('.burger-button');
 let menu1 = document.querySelector('.navbar-nav');
+
 menuBtn.addEventListener('click', function(){
-    menuBtn.classList.toggle('burger-button_active');
+    let isNavActive = menuBtn.classList.toggle('burger-button_active');
+    document.body.style.overflowY = isNavActive ? 'hidden' : 'auto';
 })

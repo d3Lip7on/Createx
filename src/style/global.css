@@ -481,12 +481,6 @@ line-height: 36px;
 
 /*************** FORM SECTION ****************/
 
-/* сделал потому что не было готовых, потом удалить */
-h3{
-    font-family: Ubuntu;
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-}
 .form-text{
     color: var(--gray-800, #424551);
     font-family: Ubuntu;
@@ -720,6 +714,9 @@ h3{
     transition: all 0.5s;
 		background-color: #FF5A30;
 }
+.burger-button_active{
+    position: fixed;
+}
 .burger-button span:nth-of-type(2) {
     top: calc(50% - 8px);
 }
@@ -766,7 +763,7 @@ h3{
         z-index: 2;
         top: 0;
         left: 0;
-        position: absolute;
+        position: fixed;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -783,6 +780,7 @@ h3{
         color: white;
         font-size: 26px;
         padding-bottom: 25px;
+        margin-right: 0;
     }
     .header__navbar__container-visible {
         display: flex;
