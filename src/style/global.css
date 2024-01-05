@@ -143,8 +143,6 @@ header, footer, section{
 /*************************FOOTER********************************/
 
 .footer{
-	max-width: 1920px;
-	margin: 0 auto;
 	background-color: rgb(11, 11, 28);
 }
 .container{
