@@ -574,7 +574,8 @@ h3{
 
 .form-section{
     background-image: url(/src/images/form-bg.png);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .form-section__inner{
     display: flex;
