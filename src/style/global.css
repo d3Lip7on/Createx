@@ -102,10 +102,10 @@ section {
 /************** Текст ***************/
 
 /** Жирность **/
-.regular {
+.text_regular {
 	font-weight: 400;
 }
-.bold {
+.text_bold {
 	font-weight: 700;
 }
 
@@ -566,10 +566,6 @@ section {
 
 .nav__item {
 	color: #424551;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 160%;
 	margin-right: 40px;
 	cursor: pointer;
 }
@@ -596,11 +592,6 @@ section {
 .header__contacts--text-bold {
 	margin-top: 5px;
 	color: #424551;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 150%;
 	display: flex;
 	flex-direction: column;
 	align-self: center;
@@ -609,11 +600,6 @@ section {
 .header__contacts--text-regular {
 	width: 130px;
 	color: #1e212c;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 150%;
 }
 
 .header__contacts-image {
@@ -671,11 +657,6 @@ section {
 
 	.header__contacts--text-regular {
 		margin: 17px 0 0;
-		font-style: normal;
-		font-weight: 700;
-		line-height: 150%;
-		font-size: 16px;
-		color: #424551;
 	}
 	.header__contacts-image {
 		margin: 10px;
