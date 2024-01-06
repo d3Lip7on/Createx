@@ -510,10 +510,30 @@ section {
 }
 
 .form-checkbox {
+	width: 0;
+	height: 0;
+	flex-shrink: 0;
+	margin-right: 28px;
+}
+
+.form-checkbox::before {
+	content: '';
+	position: relative;
+	top: 2px;
+	display: inline-block;
 	width: 16px;
 	height: 16px;
-	flex-shrink: 0;
-	margin-right: 8px;
+	border: 1px solid #ff5a30;
+	border-radius: 4px;
+	background-color: #fff;
+}
+.form-checkbox:checked::before {
+	content: '\2713';
+	color: white;
+	background-color: #ff5a30;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media only screen and (max-width: 600px) {

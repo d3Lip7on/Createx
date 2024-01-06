@@ -1,3 +1,8 @@
+const checkbox = document.querySelector('.form-checkbox');
+checkbox.onclick = (e) => {
+	checkbox.hasAttribute('checked') ? checkbox.removeAttribute('checked') : checkbox.setAttribute('checked', '');
+};
+
 const form_button = document.getElementById('input_button');
 form_button.addEventListener('click', () => {
 	let check = true;
