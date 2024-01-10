@@ -1,0 +1,65 @@
+.header{
+    height: 600px;
+}
+.header-homepage{
+    padding-top: 80px;
+    margin-bottom: 53px;
+}
+.header-heading{
+    margin-bottom: 11px;
+}
+.header-paragraph{
+    width: 600px;
+    color: var(--gray-700, #787A80);
+    margin-bottom: 120px;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.header-button{
+    width: 230px;
+    height: 154px;
+    border-radius: 4px;
+    background: var(--primary, #FF5A30);
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(255, 90, 48, 0.08), 0px 26px 24px -10px rgba(255, 90, 48, 0.10), 0px 60px 80px -20px rgba(255, 90, 48, 0.16);
+}
+
+.photos{
+    padding-top: 215px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.loadmore-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.comment-section{
+    background: var(--gray-200, #F4F5F6);
+}
+.comment-flexbox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.comment-content{
+    width: 600px;
+}
+.comment-heading{
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+.comment-icon{
+    margin-bottom: 24px;
+}
+.comment-content2{
+    display: flex;
+    justify-content: space-between;
+}
