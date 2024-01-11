@@ -169,7 +169,7 @@
 
 /***********************************************/
 
-.service_v2__benefits {
+.benefits {
   max-width: 1920px;
   min-height: 565px;
   background-color: rgba(30, 33, 44, 1);
@@ -182,19 +182,11 @@
   align-items: center;
   padding: 80px 0px 60px 0px;
 }
-.apperpart-title {
+.apperpart__title {
   color: white;
-  font-size: 46px;
-  font-family: Ubuntu;
-  font-weight: 700;
-  line-height: 59.8px;
 }
-.apperpart-undertitle {
+.apperpart__undertitle {
   color: rgba(255, 255, 255, 1);
-  font-size: 18px;
-  font-family: Ubuntu;
-  font-weight: 400;
-  line-height: 27px;
   opacity: 0.6;
   padding-top: 25px;
 }
@@ -203,14 +195,12 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.benefit_item1 {
+.benefits__item {
   width: 285px;
   height: 188px;
   text-align: center;
 }
-.benefits__item-img1 {
-}
-.benefits__item-subtitle1 {
+.benefits__item-subtitle {
   color: white;
   font-size: 20px;
   font-family: Ubuntu;
@@ -218,215 +208,16 @@
   line-height: 30px;
   padding: 25px 0px 10px 0px;
 }
-.benefits__item-text1 {
+.benefits__item-text {
   color: white;
-  font-size: 16px;
-  font-family: Ubuntu;
-  font-weight: 400;
-  line-height: 25.6px;
   opacity: 0.6;
 }
-.button__discuss {
+
+.button {
   width: 390px;
+  color: #ffffff;
+  background: #ff5a30;
   display: block;
   margin: 0 auto;
   margin-top: 100px;
-}
-/**********************************************************/
-
-.item__content {
-  width: 390px;
-  height: 100px;
-}
-
-.slider___subtitle {
-  text-align: center;
-}
-.benefits__item-text2 {
-  color: white;
-  font-size: 16px;
-  font-family: Ubuntu;
-  font-weight: 400;
-  line-height: 25.6px;
-  opacity: 0.6;
-}
-
-.slider__title {
-  padding: 180px 0px 60px 50px;
-}
-.splide__arrow {
-  opacity: 1;
-}
-.splide__arrow--prev {
-  top: -21%;
-  right: 6%;
-  left: auto;
-}
-.splide__arrow--next {
-  top: -21%;
-  right: 1%;
-}
-
-/*********888*/
-
-/* .slider {
-  position: relative;
-  padding: 40px 60px;
-}
-.slider .slick-arrow {
-  position: absolute;
-  top: -80px;
-  z-index: 10;
-  font-size: 0;
-  width: 24px;
-  height: 24px;
-}
-.slider .slick-arrow.slick-prev {
-  opacity: 1;
-  left: auto;
-  background: url("../images/icons/Left.svg") 0 0 / 100% no-repeat;
-  right: 203px;
-}
-.slider .slick-arrow.slick-next {
-  right: 153px;
-  background: url("../images/icons/Right.svg") 0 0 / 100% no-repeat;
-}
-/* Точки (булиты) */
-/* .slider .slick-dots {
-  display: flex;
-  text-align: center;
-}
-.benefits__item-img3 {
-}
-
-/* Элемент точки */
-
-/***************************/
-.portfolio__subtitle {
-  padding-left: 40px;
-}
-.portfolio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 80px 0px 100px 0px;
-  gap: 40px;
-}
-
-.button__portfolio {
-}
-
-/************************************/
-
-.prising {
-  max-width: 1920px;
-  min-height: 1420px;
-  margin: 0 auto;
-  background-image: url("../images/background/image.svg");
-  background-repeat: no-repeat;
-  background-color: #e3e3e3;
-}
-.prising__header {
-  align-items: center;
-}
-.container__pricing-layout {
-  max-width: 1230px;
-  min-height: 745px;
-  margin: 0 auto;
-  background-color: #fff;
-}
-.pricing-layout__content {
-  display: flex;
-  max-width: 1230px;
-  min-height: 56px;
-}
-.blocks-names {
-  max-width: 495px;
-  width: 100%;
-}
-.block-title__name {
-  padding: 60px 0px 24px 24px;
-}
-.pricing-layout__types-of-prising {
-  max-width: 735px;
-  min-height: 63px;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  padding-top: 32px;
-}
-.block-basicprices {
-  max-width: 245px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-top: 24px;
-}
-.block-standardprices {
-  max-width: 245px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
-}
-.block-bisinessprices {
-  max-width: 245px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
-}
-
-.block-title {
-  color: #1e212c;
-  font-size: 24px;
-  font-family: Ubuntu;
-  font-weight: 700;
-  line-height: 36px;
-}
-
-.content__item {
-  display: flex;
-  width: 100%;
-}
-.pricing-layout_collumn-name {
-  max-width: 495px;
-  min-height: 58px;
-  width: 100%;
-  padding-left: 24px;
-  padding-top: 18px;
-}
-.mark {
-  max-width: 245px;
-  min-height: 58px;
-  width: 100%;
-  padding-top: 18px;
-  text-align: center;
-}
-.pricing-layout_collumn-name-grey {
-  max-width: 520px;
-  min-height: 58px;
-  width: 100%;
-
-  background-color: #e3e3e3;
-  border-color: #e3e3e3;
-  box-sizing: border-box;
-  padding-left: 24px;
-  padding-top: 18px;
-}
-.mark-grey {
-  box-sizing: border-box;
-  max-width: 245px;
-  min-height: 58px;
-  width: 100%;
-  padding-top: 18px;
-  text-align: center;
-  background-color: #e3e3e3;
-  border-color: #e3e3e3;
 }
