@@ -17,5 +17,7 @@ const offerspoilers = document.querySelectorAll(".offers__subtitle");
 offerspoilers.forEach((offerspoiler) => {
   offerspoiler.addEventListener("click", () => {
     offerspoiler.classList.toggle("offers__subtitle_active");
+    const text = offerspoiler.nextElementSibling;
+    text.classList.toggle("offers__text_active");
   });
 });
