@@ -5,25 +5,51 @@
     padding-top: 80px;
     margin-bottom: 53px;
 }
-.header-heading{
+.header__heading{
     margin-bottom: 11px;
 }
-.header-paragraph{
+.header__paragraph{
     width: 600px;
     color: var(--gray-700, #787A80);
     margin-bottom: 120px;
 }
 
-.header-buttons{
+.header__buttons{
     display: flex;
     justify-content: space-between;
 }
-.header-button{
+.header__button{
+    border-radius: 4px;
+    background: var(--white, #FFF);
+    display: flex;
+    flex-direction: column;
     width: 230px;
     height: 154px;
-    border-radius: 4px;
+    padding: 32px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.svg-icon {
+    fill: #FF5A30;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.header__button__text{
+    margin-top: 16px;
+    color: var(--gray-600, #9A9CA5);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.header__button:hover{
     background: var(--primary, #FF5A30);
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(255, 90, 48, 0.08), 0px 26px 24px -10px rgba(255, 90, 48, 0.10), 0px 60px 80px -20px rgba(255, 90, 48, 0.16);
+}
+.header__button:hover .svg-icon{
+    fill: white;
+}
+.header__button:hover .header__button__text{
+    color: var(--white, #FFF);
 }
 
 .photos{
@@ -49,17 +75,39 @@
     display: flex;
     justify-content: space-between;
 }
-.comment-content{
+.comment__content{
     width: 600px;
 }
-.comment-heading{
+.comment__heading{
     padding-top: 80px;
     margin-bottom: 60px;
 }
-.comment-icon{
+.comment__icon{
     margin-bottom: 24px;
 }
-.comment-content2{
+.comment__text{
+    margin-bottom: 24px;
+}
+.comment__name{
+    margin-top: 24px;
+}
+.comment__content2{
     display: flex;
     justify-content: space-between;
+}
+.comment__arrows{
+    display: flex;
+}
+/* .comment__arrows:first-child{
+    margin-right: 20px;
+} */
+.clients__heading{
+    padding-top: 180px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.clients__logos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 92px;
 }

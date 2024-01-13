@@ -736,7 +736,7 @@ section {
     width: 390px;
     height: 345px;
 }
-.photo-content{
+.photo__content{
     background: var(--white, #FFF);
     padding-top: 16px;
     text-align: center;
@@ -746,11 +746,11 @@ section {
     transform: translateY(345px);
 }
 
-.photo:hover .photo-content{
+.photo:hover .photo__content{
     transform: translateY(260px);
 } 
 
-.button-photo{
+.button_photo{
     width: 172px;
     height: 44px;
 }
