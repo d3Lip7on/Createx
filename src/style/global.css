@@ -137,6 +137,23 @@ section {
 	line-height: 150%;
 }
 
+.text_grey {
+	color: #787a80;
+}
+
+.text_dark {
+	color: #1e212c;
+}
+
+.text_white-with-opacity {
+	color: white;
+	opacity: 0.6;
+}
+
+.text_white {
+	color: white;
+}
+
 /************** Иконки  ************/
 .icon {
 	width: 24px;
