@@ -1,17 +1,20 @@
 .header{
     height: 600px;
 }
+.header-image{
+    background: url('/src/images/our-work/header-bg.png') right center no-repeat;
+}
 .header-homepage{
     padding-top: 80px;
     margin-bottom: 53px;
 }
 .header__heading{
     margin-bottom: 11px;
+    font-size: 4.5rem;
 }
 .header__paragraph{
     width: 600px;
-    color: var(--gray-700, #787A80);
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .header__buttons{
@@ -52,18 +55,15 @@
     color: var(--white, #FFF);
 }
 
-.photos{
-    padding-top: 215px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 60px;
-}
-
 .loadmore-container{
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+}
+
+.loadmore__text{
+    color: var(--gray-800, #424551);
+    margin-left: 16px;
 }
 
 .comment-section{
@@ -87,6 +87,7 @@
 }
 .comment__text{
     margin-bottom: 24px;
+    color: var(--gray-800, #424551);
 }
 .comment__name{
     margin-top: 24px;
@@ -110,4 +111,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 92px;
+}
+
+.text_grey{
+    color: var(--gray-700, #787A80);
+}
+.text_light-grey{
+    color: var(--gray-600, #9A9CA5);
 }

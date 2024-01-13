@@ -718,6 +718,13 @@ section {
 
 
 /** Добавление анимации и кнопки для картинки **/
+.photos{
+    padding-top: 215px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
 .photo{
     width: 390px;
     height: 440px;
@@ -745,7 +752,6 @@ section {
     transition: transform 0.3s ease;
     transform: translateY(345px);
 }
-
 .photo:hover .photo__content{
     transform: translateY(260px);
 } 
@@ -753,4 +759,10 @@ section {
 .button_photo{
     width: 172px;
     height: 44px;
+	transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button_photo:hover{
+	color: #ffffff;
+	background: #ff5a30;
 }
