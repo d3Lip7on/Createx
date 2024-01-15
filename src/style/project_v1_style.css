@@ -2,3 +2,69 @@
   width: ;
 } */
 /* test */
+
+/* .splide__slide {
+    color: black;
+} */
+.splide__slide{
+	display: flex;
+	justify-content: center; 
+	flex-shrink: 0;
+}
+.splide__arrow {
+height: 40px;
+width: 40px;
+margin: 0 0px;
+}
+.header{
+display: flex;
+}
+.header__main{
+margin-bottom: 60px;
+}
+.header{
+/* background: url(../images/right-page-mod-cottage.jpg); */
+/* width: 854px;
+height: 822px; */
+/* flex-shrink: 0; */
+background: url('../images/bg-image.jpg') no-repeat right fixed; /* Замените 'your-background-image.jpg' на путь к вашему изображению */
+background-size: auto;
+}
+.modern-cottage-text{
+color: var(--gray-800, #424551);
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin-bottom: 40px;
+}
+.active-page-style{
+color: var(--gray-600, #9A9CA5);
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.gray-dash-style{
+color: var(--gray-600, #9A9CA5);
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.main-modern-cottage-text{
+color: var(--gray-900, #1E212C);
+font-family: Ubuntu;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 1px;
+margin-bottom: 60px;
+}
+.header__main {
+justify-content: space-between;
+}
