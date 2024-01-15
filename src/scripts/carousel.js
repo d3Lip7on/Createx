@@ -6,6 +6,5 @@ document.addEventListener('DOMContentLoaded', function () {
 	// 	rewind: true,
 	// });
 
-	// splide.mount();
-	new Splide('.splide').mount();
+	splide.mount();
 });
