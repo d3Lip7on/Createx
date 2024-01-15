@@ -1,326 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-			integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
-			integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="/src/style/global.css" />
-		<link rel="stylesheet" href="../style/service_v2_style.css" />
-	</head>
-	<body>
-		<!---------------------------------- HEADER ------------------------------------------>
-		<header class="header" id="header">
-			<div class="container">
-				<div class="header__inner">
-					<div class="header__main">
-						<div class="navbar-brand">
-							<a href="#"><img src="../images/icons/header-logo.svg" alt="Createx Logo" width="130" /></a>
-						</div>
-						<nav class="text_base text_bold navbar-nav" id="burger__links">
-							<a class="nav__item">About Us</a>
-							<a class="nav__item">Services</a>
-							<a class="nav__item">Work</a>
-							<a class="nav__item">News</a>
-							<a class="nav__item">Contacts</a>
-						</nav>
-						<div class="header-contacts">
-							<div class="header-contacts__phone">
-								<img class="header__contacts-image" src="../images/icons/phone-icon.svg" alt="phone icon" />
-								<div class="header__contacts-text">
-									<p class="text_small text_bold header__contacts--text-bold">Call us</p>
-									<p class="text_large text_regular header__contacts--text-regular">(405) 555-0128</p>
-								</div>
-							</div>
-							<div class="header-contacts__chat">
-								<img class="header__contacts-image" src="../images/icons/chat-icon.svg" alt="chat icon" />
-								<div class="header__contacts-text">
-									<p class="text_small text_bold header__contacts--text-bold">Talk to us</p>
-									<p class="text_large text_regular header__contacts--text-regular">hello@createx.com</p>
-								</div>
-							</div>
-						</div>
-						<div class="burger-button" id="burger">
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-				</div>
-				<div class="header__content">
-					<!--                Место для написания продолжения header(-a)-->
-				</div>
-			</div>
-		</header>
-		<section class="offers">
-			<div class="offers img">
-				<img src="../images/content/service_v2_house.jpg" alt="house" />
-			</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style/global.css" />
+    <link rel="stylesheet" href="../style/service_v2_style.css" />
+  </head>
+  <body>
+    <!---------------------------------- HEADER ------------------------------------------>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__main">
+            <div class="navbar-brand">
+              <a href="#"
+                ><img
+                  src="../images/icons/header-logo.svg"
+                  alt="Createx Logo"
+                  width="130"
+              /></a>
+            </div>
+            <nav class="text_base text_bold navbar-nav" id="burger__links">
+              <a class="nav__item">About Us</a>
+              <a class="nav__item">Services</a>
+              <a class="nav__item">Work</a>
+              <a class="nav__item">News</a>
+              <a class="nav__item">Contacts</a>
+            </nav>
+            <div class="header-contacts">
+              <div class="header-contacts__phone">
+                <img
+                  class="header__contacts-image"
+                  src="../images/icons/phone-icon.svg"
+                  alt="phone icon"
+                />
+                <div class="header__contacts-text">
+                  <p class="text_small text_bold header__contacts--text-bold">
+                    Call us
+                  </p>
+                  <p
+                    class="text_large text_regular header__contacts--text-regular"
+                  >
+                    (405) 555-0128
+                  </p>
+                </div>
+              </div>
+              <div class="header-contacts__chat">
+                <img
+                  class="header__contacts-image"
+                  src="../images/icons/chat-icon.svg"
+                  alt="chat icon"
+                />
+                <div class="header__contacts-text">
+                  <p class="text_small text_bold header__contacts--text-bold">
+                    Talk to us
+                  </p>
+                  <p
+                    class="text_large text_regular header__contacts--text-regular"
+                  >
+                    hello@createx.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="burger-button" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="header__content">
+          <!--                Место для написания продолжения header(-a)-->
+        </div>
+      </div>
+    </header>
+    <section class="offers">
+      <div class="offers img">
+        <img src="../images/content/service_v2_house.jpg" alt="house" />
+      </div>
 
-			<div class="offers__content">
-				<h1 class="offers__title">We offer</h1>
+      <div class="offers__content">
+        <h1 class="offers__title">We offer</h1>
 
-				<h3 class="offers__subtitle"><span></span>Interior design of apartments</h3>
-				<p class="text_base text_regular offers__text">
-					Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient
-					diam magna ullamcorper morbi semper massa ac facilisis.
-				</p>
-				<h3 class="offers__subtitle"><span></span>Interior design of apartments</h3>
-				<p class="text_base text_regular offers__text">
-					Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet elementum faucibus dignissim purus. Fusce parturient
-					diam magna ullamcorper morbi semper massa ac facilisis.
-				</p>
-			</div>
-		</section>
-		<section class="actionplan">
-			<h1 class="actionplan__title">That’s how we do it</h1>
-			<div class="actionplan__items">
-				<div class="actionplan__item">
-					<h1 class="actionplan__step">01</h1>
-					<div class="text_lead text_bold actionplan__subtitle">Work Estimate</div>
-					<div class="text_base text_regular actionplan__text">Culpa nostrud commodo ea consequat aliquip reprehenderit.</div>
-				</div>
-				<div class="actionplan__item">
-					<h1 class="actionplan__step">02</h1>
-					<div class="text_lead text_bold actionplan__subtitle">Contract</div>
-					<div class="text_base text_regular actionplan__text">
-						Laoreet ultrices curabitur luctus quisque consequat. Leo lorem velit imperdiet auctor et tempor.
-					</div>
-				</div>
-				<div class="actionplan__item">
-					<h1 class="actionplan__step">03</h1>
-					<div class="text_lead text_bold actionplan__subtitle">Mobilization</div>
-					<div class="text_base text_regular actionplan__text">
-						Odio massa scelerisque purus arcu sed velit eleifend cursus leo.
-					</div>
-				</div>
-				<div class="actionplan__item">
-					<h1 class="actionplan__step">04</h1>
-					<div class="text_lead text_bold actionplan__subtitle">Construction Work</div>
-					<div class="text_base text_regular actionplan__text">
-						Adipisicing esse aliqua aliquip qui amet. Aute eiusmod dolore dolore et ad et veniam ad deserunt.
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="benefits">
-			<div class="container__apperpart">
-				<h1 class="apperpart__title">Our benefits</h1>
-				<p class="text__large text_regular apperpart__undertitle">
-					Our mission is to set the highest standards for construction sphere.
-				</p>
-			</div>
-			<div class="benefits__items">
-				<div class="benefits__item">
-					<div class="benefits__item-img1">
-						<img src="../images/icons/ic-contract.svg" alt="" />
-					</div>
-					<div class="benefits__item-subtitle">Fixed Terms & Cost</div>
-					<div class="text__base text__regular benefits__item-text">
-						Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.
-					</div>
-				</div>
-				<div class="benefits__item">
-					<div class="benefits__item-img2">
-						<img src="../images/icons/ic-helmet.svg" alt="" />
-					</div>
-					<div class="benefits__item-subtitle">Qualified Workers</div>
-					<div class="text__base text__regular benefits__item-text">
-						Anim reprehenderit sint voluptate exercitation adipisicing laborum adipisicing. Minim empor est ea.
-					</div>
-				</div>
-				<div class="benefits__item">
-					<div class="benefits__item-img3">
-						<img src="../images/icons/ic-camera.svg" alt="" />
-					</div>
-					<div class="benefits__item-subtitle">Supervision & Control</div>
-					<div class="text__base text__regular benefits__item-text">
-						Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate ullamco proident ea ad.
-					</div>
-				</div>
-			</div>
-			<form action="#" class="">
-				<button class="button button_large">Discuss a project</button>
-			</form>
-		</section>
+        <h3 class="offers__subtitle">
+          <span></span>Interior design of apartments
+        </h3>
+        <p class="text_base text_regular offers__text">
+          Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet
+          elementum faucibus dignissim purus. Fusce parturient diam magna
+          ullamcorper morbi semper massa ac facilisis.
+        </p>
+        <h3 class="offers__subtitle">
+          <span></span>Interior design of apartments
+        </h3>
+        <p class="text_base text_regular offers__text">
+          Adipiscing nunc arcu enim elit mattis eu placerat proin. Imperdiet
+          elementum faucibus dignissim purus. Fusce parturient diam magna
+          ullamcorper morbi semper massa ac facilisis.
+        </p>
+      </div>
+    </section>
+    <section class="actionplan">
+      <h1 class="actionplan__title">That’s how we do it</h1>
+      <div class="actionplan__items">
+        <div class="actionplan__item">
+          <h1 class="actionplan__step">01</h1>
+          <div class="text_lead text_bold actionplan__subtitle">
+            Work Estimate
+          </div>
+          <div class="text_base text_regular actionplan__text">
+            Culpa nostrud commodo ea consequat aliquip reprehenderit.
+          </div>
+        </div>
+        <div class="actionplan__item">
+          <h1 class="actionplan__step">02</h1>
+          <div class="text_lead text_bold actionplan__subtitle">Contract</div>
+          <div class="text_base text_regular actionplan__text">
+            Laoreet ultrices curabitur luctus quisque consequat. Leo lorem velit
+            imperdiet auctor et tempor.
+          </div>
+        </div>
+        <div class="actionplan__item">
+          <h1 class="actionplan__step">03</h1>
+          <div class="text_lead text_bold actionplan__subtitle">
+            Mobilization
+          </div>
+          <div class="text_base text_regular actionplan__text">
+            Odio massa scelerisque purus arcu sed velit eleifend cursus leo.
+          </div>
+        </div>
+        <div class="actionplan__item">
+          <h1 class="actionplan__step">04</h1>
+          <div class="text_lead text_bold actionplan__subtitle">
+            Construction Work
+          </div>
+          <div class="text_base text_regular actionplan__text">
+            Adipisicing esse aliqua aliquip qui amet. Aute eiusmod dolore dolore
+            et ad et veniam ad deserunt.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="benefits">
+      <div class="container__apperpart">
+        <h1 class="apperpart__title">Our benefits</h1>
+        <p class="text__large text_regular apperpart__undertitle">
+          Our mission is to set the highest standards for construction sphere.
+        </p>
+      </div>
+      <div class="benefits__items">
+        <div class="benefits__item">
+          <div class="benefits__item-img1">
+            <img src="../images/icons/ic-contract.svg" alt="" />
+          </div>
+          <div class="benefits__item-subtitle">Fixed Terms & Cost</div>
+          <div class="text__base text__regular benefits__item-text">
+            Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam
+            velit nostrud aliquip sunt.
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-img2">
+            <img src="../images/icons/ic-helmet.svg" alt="" />
+          </div>
+          <div class="benefits__item-subtitle">Qualified Workers</div>
+          <div class="text__base text__regular benefits__item-text">
+            Anim reprehenderit sint voluptate exercitation adipisicing laborum
+            adipisicing. Minim empor est ea.
+          </div>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-img3">
+            <img src="../images/icons/ic-camera.svg" alt="" />
+          </div>
+          <div class="benefits__item-subtitle">Supervision & Control</div>
+          <div class="text__base text__regular benefits__item-text">
+            Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit
+            voluptate ullamco proident ea ad.
+          </div>
+        </div>
+      </div>
+      <form action="#" class="">
+        <button class="button button_large">Discuss a project</button>
+      </form>
+    </section>
 
-		<div class="wrapper">
-			<section class="slider">
-				<div class="slider__item">
-					<div class="slider__item-img">
-						<img src="../images/content/image.png" alt="" />
-					</div>
-					<div class="text_lead text_bold slider___subtitle">Kids Bedroom With Decorations</div>
-					<div class="text__small text__regular slider__undersubtitle">Apartments &amp; flats</div>
-				</div>
-				<div class="slider__item">
-					<div class="slider__item-img">
-						<img src="../images/content/image1.png" alt="" />
-					</div>
-					<div class="text_lead text_bold slider___subtitle">Modern Double Bedroom</div>
-					<div class="text__small text__regular slider__undersubtitle">Apartments &amp; flats</div>
-				</div>
-				<div class="slider__item">
-					<div class="slider__item-img">
-						<img src="../images/content/image.png" alt style="height: 345px" />
-					</div>
-					<div class="text_lead text_bold slider___subtitle">Scandinavian Style Interior</div>
-					<div class="text__small text__regular slider__undersubtitle">Private houses</div>
-				</div>
-				<div class="slider__item">
-					<div class="slider__item-img">
-						<img src="../images/content/image.png" alt style="height: 345px" />
-					</div>
-					<div class="text_lead text_bold slider___subtitle">Scandinavian Style Interior</div>
-					<div class="text__small text__regular slider__undersubtitle">Private houses</div>
-				</div>
-				<div class="slider__item">
-					<div class="slider__item-img">
-						<img src="../images/content/image1.png" alt style="height: 345px" />
-					</div>
-					<div class="text_lead text_bold slider___subtitle">Scandinavian Style Interior</div>
-					<div class="text__small text__regular slider__undersubtitle">Private houses</div>
-				</div>
-			</section>
-		</div>
+    <div class="wrapper">
+      <h1 class="slider__title">Related projects</h1>
+      <div class="slider">
+        <div class="slider__item">
+          <div class="slider__item-img">
+            <img src="../images/content/image.png" alt="" />
+          </div>
+          <div class="text_lead text_bold slider___subtitle">
+            Kids Bedroom With Decorations
+          </div>
+          <div class="text__small text__regular slider__undersubtitle">
+            Apartments &amp; flats
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item-img">
+            <img src="../images/content/image1.png" alt="" />
+          </div>
+          <div class="text_lead text_bold slider___subtitle">
+            Modern Double Bedroom
+          </div>
+          <div class="text__small text__regular slider__undersubtitle">
+            Apartments &amp; flats
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item-img">
+            <img src="../images/content/image.png" alt="" />
+          </div>
+          <div class="text_lead text_bold slider___subtitle">
+            Scandinavian Style Interior
+          </div>
+          <div class="text__small text__regular slider__undersubtitle">
+            Private houses
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item-img">
+            <img src="../images/content/image.png" alt="" />
+          </div>
+          <div class="text_lead text_bold slider___subtitle">
+            Scandinavian Style Interior
+          </div>
+          <div class="text__small text__regular slider__undersubtitle">
+            Private houses
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item-img">
+            <img src="../images/content/image1.png" alt="" />
+          </div>
+          <div class="text_lead text_bold slider___subtitle">
+            Scandinavian Style Interior
+          </div>
+          <div class="text__small text__regular slider__undersubtitle">
+            Private houses
+          </div>
+        </div>
+      </div>
+      <div class="portfolio">
+        <h3>Explore all our works</h3>
+        <button class="button__portfolio button button_large">
+          View portfolio
+        </button>
+      </div>
+    </div>
 
-		<!---------------------------------- FORM SECTION ------------------------------------------>
-		<section class="form-section">
-			<div class="container">
-				<div class="form-section__inner">
-					<form action="#" class="form">
-						<h3>A quick way to discuss details</h3>
-						<p class="form-text" id="p_name">Name*</p>
-						<input type="text" id="input_name" class="form-input form-text" placeholder="Your name" />
-						<p class="form-text" id="p_phone">Phone*</p>
-						<input type="tel" id="input_phone" class="form-input form-text" placeholder="Your phone number" />
-						<p class="form-text" id="p_email">Email</p>
-						<input type="email" id="input_email" class="form-input form-text" placeholder="Your working email" />
-						<p class="form-text" id="p_message">Message*</p>
-						<textarea
-							name="message"
-							id="input_message"
-							style="height: 76px"
-							class="form-input form-text"
-							placeholder="Your message"
-							cols="3"
-						></textarea>
-						<div class="form-flexbox">
-							<input type="checkbox" class="form-checkbox" />
-							<p class="form-text">I agree to receive communications from Createx Construction Bureau.</p>
-						</div>
-						<button class="button button_primary button_regular form-button button-text" id="input_button">send request</button>
-					</form>
-				</div>
-			</div>
-		</section>
+    <!---------------------------------- FORM SECTION ------------------------------------------>
+    <section class="form-section">
+      <div class="container">
+        <div class="form-section__inner">
+          <form action="#" class="form">
+            <h3>A quick way to discuss details</h3>
+            <p class="form-text" id="p_name">Name*</p>
+            <input
+              type="text"
+              id="input_name"
+              class="form-input form-text"
+              placeholder="Your name"
+            />
+            <p class="form-text" id="p_phone">Phone*</p>
+            <input
+              type="tel"
+              id="input_phone"
+              class="form-input form-text"
+              placeholder="Your phone number"
+            />
+            <p class="form-text" id="p_email">Email</p>
+            <input
+              type="email"
+              id="input_email"
+              class="form-input form-text"
+              placeholder="Your working email"
+            />
+            <p class="form-text" id="p_message">Message*</p>
+            <textarea
+              name="message"
+              id="input_message"
+              style="height: 76px"
+              class="form-input form-text"
+              placeholder="Your message"
+              cols="3"
+            ></textarea>
+            <div class="form-flexbox">
+              <input type="checkbox" class="form-checkbox" />
+              <p class="form-text">
+                I agree to receive communications from Createx Construction
+                Bureau.
+              </p>
+            </div>
+            <button
+              class="button button_primary button_regular form-button button-text"
+              id="input_button"
+            >
+              send request
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-		<!---------------------------------- FOOTER ------------------------------------------>
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__inner">
-					<div class="container__apperpart">
-						<div class="container__leftpart">
-							<div class="logoline">
-								<a href="#"><img src="../images/icons/footer-logo.svg" alt="logo" /></a>
-								<div class="logoline__icons">
-									<a href="#"><img src="../images/icons/whatsapp-icon.svg" alt="whatsapp icon" /></a>
-									<a href="#"><img src="../images/icons/messanger-icon.svg" alt="messanger icon" /></a>
-									<a href="#"><img src="../images/icons/facebook-icon.svg" alt="facebook icon" /></a>
-									<a href="#"><img src="../images/icons/twitter-icon.svg" alt="twitter icon" /></a>
-									<a href="#"><img src="../images/icons/youtube-icon.svg" alt="youtube icon" /></a>
-								</div>
-							</div>
-							<div class="text_small text_regular logoline__undertext">
-								Createx Construction Bureau has been successfully operating in the USA construction market since 2000. We are
-								proud to offer you quality construction and exemplary service. Our mission is to set the highest standards for
-								construction sphere.
-							</div>
-						</div>
-						<div class="container__rightpart">
-							<h4 class="rightpart__title">Let`s stay in touch</h4>
-							<form action="#" method="post" class="footer__form" enctype="multipart/form-data">
-								<input
-									type="text"
-									name="inputline"
-									placeholder="Your email address"
-									class="text_small text_regular rightpart_textline"
-								/>
-								<button type="submit" class="button button_regular button_primary footer__button">SUBSCRIBE</button>
-							</form>
-							<div class="text_extrasmall text_regular rightpart__undertext">
-								*Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.
-							</div>
-						</div>
-					</div>
-					<div class="text_base text_regular footer__inforow">
-						<div class="inforow__contacts">
-							<h6 class="title__contacts">HEAD OFFICE</h6>
-							<ul class="info1">
-								<li>Address:<span> 8502 preston Rd. Inglewood,New York</span></li>
-								<li>Call:<span> (405)555-0128</span></li>
-								<li>Email:<span> hello@cretex.com</span></li>
-							</ul>
-						</div>
-						<div class="inforow__who-we-are">
-							<h6 class="title__who-we-are">WHO WE ARE</h6>
-							<ul class="info2">
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Avaible positions</a></li>
-								<li><a href="#">Contacts</a></li>
-							</ul>
-						</div>
-						<div class="inforow__our-experience">
-							<h6 class="title__our-experience">OUR EXPERIENCE</h6>
-							<ul class="info3">
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Work</a></li>
-								<li><a href="#">News</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="container__downpart">
-						<div class="text_extrasmall text_regular copyright">
-							© All rights reserved. Made with
-							<img src="../images/icons/heart-icon.svg" alt="heart icon" /> by Createx Studio
-						</div>
-						<a class="text_small text_regular up" href="#header"
-							>GO TO TOP <img src="../images/icons/up-btn-icon.png" alt="arrow up"
-						/></a>
-					</div>
-				</div>
-			</div>
-		</footer>
+    <!---------------------------------- FOOTER ------------------------------------------>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="container__apperpart">
+            <div class="container__leftpart">
+              <div class="logoline">
+                <a href="#"
+                  ><img src="../images/icons/footer-logo.svg" alt="logo"
+                /></a>
+                <div class="logoline__icons">
+                  <a href="#"
+                    ><img
+                      src="../images/icons/whatsapp-icon.svg"
+                      alt="whatsapp icon"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="../images/icons/messanger-icon.svg"
+                      alt="messanger icon"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="../images/icons/facebook-icon.svg"
+                      alt="facebook icon"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="../images/icons/twitter-icon.svg"
+                      alt="twitter icon"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      src="../images/icons/youtube-icon.svg"
+                      alt="youtube icon"
+                  /></a>
+                </div>
+              </div>
+              <div class="text_small text_regular logoline__undertext">
+                Createx Construction Bureau has been successfully operating
+                in the USA construction market since 2000. We are proud to offer
+                you quality construction and exemplary service. Our mission is
+                to set the highest standards for construction sphere.
+              </div>
+            </div>
+            <div class="container__rightpart">
+              <h4 class="rightpart__title">Let`s stay in touch</h4>
+              <form
+                action="#"
+                method="post"
+                class="footer__form"
+                enctype="multipart/form-data"
+              >
+                <input
+                  type="text"
+                  name="inputline"
+                  placeholder="Your email address"
+                  class="text_small text_regular rightpart_textline"
+                />
+                <button
+                  type="submit"
+                  class="button button_regular button_primary footer__button"
+                >
+                  SUBSCRIBE
+                </button>
+              </form>
+              <div class="text_extrasmall text_regular rightpart__undertext">
+                *Subscribe to our newsletter to receive communications and early
+                updates from Createx Construction Bureau.
+              </div>
+            </div>
+          </div>
+          <div class="text_base text_regular footer__inforow">
+            <div class="inforow__contacts">
+              <h6 class="title__contacts">HEAD OFFICE</h6>
+              <ul class="info1">
+                <li>
+                  Address:<span> 8502 preston Rd. Inglewood,New York</span>
+                </li>
+                <li>Call:<span> (405)555-0128</span></li>
+                <li>Email:<span> hello@cretex.com</span></li>
+              </ul>
+            </div>
+            <div class="inforow__who-we-are">
+              <h6 class="title__who-we-are">WHO WE ARE</h6>
+              <ul class="info2">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Avaible positions</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="inforow__our-experience">
+              <h6 class="title__our-experience">OUR EXPERIENCE</h6>
+              <ul class="info3">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">News</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="container__downpart">
+            <div class="text_extrasmall text_regular copyright">
+              © All rights reserved. Made with
+              <img src="../images/icons/heart-icon.svg" alt="heart icon" /> by
+              Createx Studio
+            </div>
+            <a class="text_small text_regular up" href="#header"
+              >GO TO TOP
+              <img src="../images/icons/up-btn-icon.png" alt="arrow up"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-		<!---------------------------------- SCRIPTS ------------------------------------------>
-		<script src="../scripts/burger.js"></script>
-		<script src="../scripts/footer.js"></script>
-		<script src="/src/scripts/form.js"></script>
-		<script src="../scripts/service_v2_script.js"></script>
+    <!---------------------------------- SCRIPTS ------------------------------------------>
+    <script src="../scripts/burger.js"></script>
+    <script src="../scripts/footer.js"></script>
+    <script src="/src/scripts/form.js"></script>
+    <script src="../scripts/service_v2_script.js"></script>
 
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		></script>
-		<script src="../scripts/slick.min.js"></script>
-		<script src="../scripts/slider.js"></script>
-	</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../scripts/slick.min.js"></script>
+    <script src="../scripts/slider.js"></script>
+  </body>
 </html>
