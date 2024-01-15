@@ -360,8 +360,8 @@
   justify-content: center;
 }
 .slider .slick-dots li {
-  list-style: none;
-  margin: 0px 10px;
+	list-style: none;
+	margin: 0px 10px;
 }
 
 /* Элемент точки */
