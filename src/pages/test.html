@@ -1,107 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Page v1</title>
-		<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="../style/project_v1_style.css">
-		<link rel="stylesheet" href="../style/global.css">
-		<link
-			href="
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Page v1</title>
+        <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../style/project_v1_style.css">
+        <link rel="stylesheet" href="../style/global.css">
+        <link
+            href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 "
-			rel="stylesheet"
-		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="/src/style/global.css" />
-		<link rel="stylesheet" href="../style/project_v1_style.css" />
-	</head>
-	<header class="header" id="header">
-		<div class="container">
-			<div class="header__inner">
-				<div class="header__main">
-					<div class="navbar-brand">
-						<a href="#"><img src="../images/icons/header-logo.svg" alt="Createx Logo" width="130" /></a>
-					</div>
-					<nav class="text_base text_bold navbar-nav" id="burger__links">
-						<a class="nav__item">About Us</a>
-						<a class="nav__item">Services</a>
-						<a class="nav__item">Work</a>
-						<a class="nav__item">News</a>
-						<a class="nav__item">Contacts</a>
-					</nav>
-					<div class="header-contacts">
-						<div class="header-contacts__phone">
-							<img class="header__contacts-image" src="../images/icons/phone-icon.svg" alt="phone icon" />
-							<div class="header__contacts-text">
-								<p class="text_small text_bold header__contacts--text-bold">Call us</p>
-								<p class="text_large text_regular header__contacts--text-regular">(405) 555-0128</p>
-							</div>
-						</div>
-						<div class="header-contacts__chat">
-							<img class="header__contacts-image" src="../images/icons/chat-icon.svg" alt="chat icon" />
-							<div class="header__contacts-text">
-								<p class="text_small text_bold header__contacts--text-bold">Talk to us</p>
-								<p class="text_large text_regular header__contacts--text-regular">hello@createx.com</p>
-							</div>
-						</div>
-					</div>
-					<div class="burger-button" id="burger">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-				</div>
-			</div>
-			<div class="header__content">
-				<!--                Место для написания продолжения header(-a)-->
-				<div class="main-header-text">
-					<div class="modern-cottage-text">
-						Home page <span class="gray-dash-style">/</span> Work <span class="gray-dash-style">/</span> <span class="active-page-style">Modern Cottage</span>
-					</div>
-					<div class="main-modern-cottage-text">
-						Modern Cottage
-					</div>
-				</div>
-				<!--                            SLIDER                        -->
-				<section class="splide" aria-label="Splide Basic HTML Example">
-					<div class="splide__arrows">
-						<button class="splide__arrow splide__arrow--prev">
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
-							  </svg>
-						</button>
-						<button class="splide__arrow splide__arrow--next">
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
-							  </svg>
-						</button>
-				  </div>
-				  <div class="splide__arrows"></div>
-					<div class="splide__track">
-						<ul class="splide__list">
-							<li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
-							<li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
-							<li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
-							<li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
-							<li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
-						</ul>
-					</div>
-				</section>
-				<!--               END SLIDER                         -->
-			</div>
-		</div>
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/src/style/global.css" />
+        <link rel="stylesheet" href="../style/project_v1_style.css" />
+    </head>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__main">
+                    <div class="navbar-brand">
+                        <a href="#"><img src="../images/icons/header-logo.svg" alt="Createx Logo" width="130" /></a>
+                    </div>
+                    <nav class="text_base text_bold navbar-nav" id="burger__links">
+                        <a class="nav__item">About Us</a>
+                        <a class="nav__item">Services</a>
+                        <a class="nav__item">Work</a>
+                        <a class="nav__item">News</a>
+                        <a class="nav__item">Contacts</a>
+                    </nav>
+                    <div class="header-contacts">
+                        <div class="header-contacts__phone">
+                            <img class="header__contacts-image" src="../images/icons/phone-icon.svg" alt="phone icon" />
+                            <div class="header__contacts-text">
+                                <p class="text_small text_bold header__contacts--text-bold">Call us</p>
+                                <p class="text_large text_regular header__contacts--text-regular">(405) 555-0128</p>
+                            </div>
+                        </div>
+                        <div class="header-contacts__chat">
+                            <img class="header__contacts-image" src="../images/icons/chat-icon.svg" alt="chat icon" />
+                            <div class="header__contacts-text">
+                                <p class="text_small text_bold header__contacts--text-bold">Talk to us</p>
+                                <p class="text_large text_regular header__contacts--text-regular">hello@createx.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="burger-button" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__content">
+                <!--                Место для написания продолжения header(-a)-->
+                <div class="main-header-text">
+                    <div class="modern-cottage-text">
+                        Home page <span class="gray-dash-style">/</span> Work <span class="gray-dash-style">/</span> <span class="active-page-style">Modern Cottage</span>
+                    </div>
+                    <div class="main-modern-cottage-text">
+                        Modern Cottage
+                    </div>
+                </div>
+                <!--                            SLIDER                        -->
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
+                              </svg>
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
+                              </svg>
+                        </button>
+                  </div>
+                  <div class="splide__arrows"></div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
+                            <li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
+                            <li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
+                            <li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
+                            <li class="splide__slide"><img src="../images/modern_cottage.jpg" alt="" /></li>
+                        </ul>
+                    </div>
+                </section>
+                <!--               END SLIDER                         -->
+            </div>
+        </div>
 </header>
-	<body>
-		<script src="
+    <body>
+        <script src="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
     "></script>
-		<script>
-			new Splide('.splide').mount();
-		</script>
-		<script src="../scripts/carousel.js"></script>
-	</body>
+        <script src="../scripts/carousel.js"></script>
+    </body>
 </html>
