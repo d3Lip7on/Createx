@@ -143,6 +143,7 @@
   min-height: 565px;
   background-color: rgba(30, 33, 44, 1);
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
 }
 .container__apperpart {
@@ -180,7 +181,6 @@
   color: white;
   opacity: 0.6;
 }
-
 .button {
   width: 390px;
   color: #ffffff;
@@ -188,4 +188,113 @@
   display: block;
   margin: 0 auto;
   margin-top: 100px;
+}
+/**********************************************************/
+
+.slider {
+}
+.slider__items {
+}
+.slider__item {
+}
+.slider__item-img {
+}
+.text_lead {
+}
+.text_bold {
+}
+.slider___subtitle {
+}
+.text__small {
+}
+.text__regular {
+}
+.slider__undersubtitle {
+  opacity: 0.6;
+}
+
+.wrapper {
+  max-width: 1600px;
+  min-height: 620px;
+  margin: 0 auto;
+}
+.slider {
+  height: 100%;
+  padding: 50px;
+}
+.slick-initialized {
+}
+.slick-slider {
+}
+.slick-prev {
+}
+.slick-arrow {
+}
+.slick-list {
+  overflow: hidden;
+  align-items: flex-start;
+}
+.draggable {
+}
+.slick-track {
+  display: flex;
+}
+.slider__item {
+}
+.slick-slide {
+}
+.slick-cloned {
+}
+.slick-current {
+}
+.slick-active {
+}
+/*********888*/
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+}
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+  width: 24px;
+  height: 24px;
+}
+.slider .slick-arrow.slick-prev {
+  opacity: 1;
+  left: 0;
+  background: url("../images/icons/Left.svg") 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("../images/icons/Right.svg") 0 0 / 100% no-repeat;
+}
+/* Точки (булиты) */
+.slider .slick-dots {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+/* Элемент точки */
+.slider .slick-dots li button {
+  font-size: 0;
+  height: 10px;
+  width: 10px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 1px solid blue;
+}
+.slider__item {
 }
