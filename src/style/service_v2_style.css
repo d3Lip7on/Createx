@@ -330,3 +330,12 @@
 }
 .slider__item {
 }
+
+.slick-next::before,
+.slick-prev::before {
+  color: inherit;
+}
+
+.slick-dots li button::before {
+  content: "";
+}
