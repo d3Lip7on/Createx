@@ -574,7 +574,7 @@ section {
 .header__main {
 	padding: 20px 0;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -594,6 +594,7 @@ section {
 
 .header-contacts {
 	display: flex;
+	gap: 36px;
 }
 
 .header-contacts__phone {
@@ -616,7 +617,6 @@ section {
 }
 
 .header__contacts--text-regular {
-	width: 130px;
 	color: #1e212c;
 }
 
@@ -629,9 +629,8 @@ section {
 	height: 40px;
 	z-index: 3;
 	overflow: hidden;
-	visibility: hidden;
-	position: absolute;
-	right: 10px;
+	display: none;
+	position: relative;
 }
 .burger-button span {
 	width: 25px;
@@ -646,6 +645,8 @@ section {
 }
 .burger-button_active {
 	position: fixed;
+	right: 10px;
+	top: 20px;
 }
 .burger-button span:nth-of-type(2) {
 	top: calc(50% - 8px);
@@ -696,7 +697,7 @@ section {
 		background: linear-gradient(#ff5a70, #ff5a30, #ff5a70);
 	}
 	.burger-button {
-		visibility: visible;
+		display: block;
 	}
 
 	.nav__item {
@@ -716,53 +717,53 @@ section {
 	}
 }
 
-
 /** Добавление анимации и кнопки для картинки **/
-.photos{
-    padding-top: 215px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 60px;
+.photos {
+	padding-top: 215px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 60px;
 }
-.photo{
-    width: 390px;
-    height: 440px;
-    margin-bottom: 24px;
-    
-    gap: 16px;
-    border-radius: 4px;
-    background: var(--white, #FFF);
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+.photo {
+	width: 390px;
+	height: 440px;
+	margin-bottom: 24px;
 
-        display: flex;
-    flex-direction: column; /* Добавьте, если блок должен быть вертикальным столбцом */
-    align-items: center; /* Центрирование по вертикали, если нужно */
-}
-.image{
-    width: 390px;
-    height: 345px;
-}
-.photo__content{
-    background: var(--white, #FFF);
-    padding-top: 16px;
-    text-align: center;
-    position: absolute;
-    width: 390px;
-    transition: transform 0.3s ease;
-    transform: translateY(345px);
-}
-.photo:hover .photo__content{
-    transform: translateY(260px);
-} 
+	gap: 16px;
+	border-radius: 4px;
+	background: var(--white, #fff);
+	box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+		0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
 
-.button_photo{
-    width: 172px;
-    height: 44px;
+	display: flex;
+	flex-direction: column; /* Добавьте, если блок должен быть вертикальным столбцом */
+	align-items: center; /* Центрирование по вертикали, если нужно */
+}
+.image {
+	width: 390px;
+	height: 345px;
+}
+.photo__content {
+	background: var(--white, #fff);
+	padding-top: 16px;
+	text-align: center;
+	position: absolute;
+	width: 390px;
+	transition: transform 0.3s ease;
+	transform: translateY(345px);
+}
+.photo:hover .photo__content {
+	transform: translateY(260px);
+}
+
+.button_photo {
+	width: 172px;
+	height: 44px;
 	transition: background 0.3s ease, color 0.3s ease;
 }
 
-.button_photo:hover{
+.button_photo:hover {
 	color: #ffffff;
 	background: #ff5a30;
 }
