@@ -283,11 +283,11 @@
 
 .slider {
   position: relative;
-  padding: 0px 60px;
+  padding: 40px 60px;
 }
 .slider .slick-arrow {
   position: absolute;
-  top: 50%;
+  top: -80px;
   z-index: 10;
   font-size: 0;
   width: 24px;
@@ -295,11 +295,12 @@
 }
 .slider .slick-arrow.slick-prev {
   opacity: 1;
-  left: 0;
+  left: auto;
   background: url("../images/icons/Left.svg") 0 0 / 100% no-repeat;
+  right: 203px;
 }
 .slider .slick-arrow.slick-next {
-  right: 0;
+  right: 153px;
   background: url("../images/icons/Right.svg") 0 0 / 100% no-repeat;
 }
 /* Точки (булиты) */
@@ -347,8 +348,8 @@
   align-items: center;
   justify-content: center;
   padding: 80px 0px 100px 0px;
+  gap: 40px;
 }
 
 .button__portfolio {
-  padding-right: ;
 }
