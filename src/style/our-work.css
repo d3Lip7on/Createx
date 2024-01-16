@@ -1,58 +1,59 @@
-.header{
-    height: 600px;
+.header {
+	height: 600px;
 }
-.header-image{
-    background: url('/src/images/our-work/header-bg.png') right center no-repeat;
+.header-image {
+	background: url('/src/images/our-work/header-bg.png') right center no-repeat;
 }
-.header-homepage{
-    padding-top: 80px;
-    margin-bottom: 53px;
+.header-homepage {
+	padding-top: 80px;
+	margin-bottom: 53px;
 }
-.header__heading{
-    margin-bottom: 11px;
-    font-size: 4.5rem;
+.header__heading {
+	margin-bottom: 11px;
+	font-size: 4.5rem;
 }
-.header__paragraph{
-    width: 600px;
-    margin-bottom: 100px;
+.header__paragraph {
+	width: 600px;
+	margin-bottom: 100px;
 }
 
-.header__buttons{
-    display: flex;
-    justify-content: space-between;
+.header__buttons {
+	display: flex;
+	justify-content: space-between;
 }
-.header__button{
-    border-radius: 4px;
-    background: var(--white, #FFF);
-    display: flex;
-    flex-direction: column;
-    width: 230px;
-    height: 154px;
-    padding: 32px 0px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
-    transition: background 0.3s ease, color 0.3s ease;
+.header__button {
+	border-radius: 4px;
+	background: var(--white, #fff);
+	display: flex;
+	flex-direction: column;
+	width: 230px;
+	height: 154px;
+	padding: 32px 0px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+		0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+	transition: background 0.3s ease, color 0.3s ease;
 }
 .svg-icon {
-    fill: #FF5A30;
-    transition: background 0.3s ease, color 0.3s ease;
+	fill: #ff5a30;
+	transition: background 0.3s ease, color 0.3s ease;
 }
-.header__button__text{
-    margin-top: 16px;
-    color: var(--gray-600, #9A9CA5);
-    transition: background 0.3s ease, color 0.3s ease;
+.header__button__text {
+	margin-top: 16px;
+	color: var(--gray-600, #9a9ca5);
+	transition: background 0.3s ease, color 0.3s ease;
 }
 
-.header__button:hover{
-    background: var(--primary, #FF5A30);
+.header__button:hover {
+	background: var(--primary, #ff5a30);
 }
-.header__button:hover .svg-icon{
-    fill: white;
+.header__button:hover .svg-icon {
+	fill: white;
 }
-.header__button:hover .header__button__text{
-    color: var(--white, #FFF);
+.header__button:hover .header__button__text {
+	color: var(--white, #fff);
 }
 .photos{
     padding-top: 215px;
@@ -62,49 +63,50 @@
     padding-bottom: 60px;
 }
 
-.loadmore-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+.loadmore-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
 }
 
-.loadmore__text{
-    color: var(--gray-800, #424551);
-    margin-left: 16px;
+.loadmore__text {
+	color: var(--gray-800, #424551);
+	margin-left: 16px;
 }
 
-.comment-section{
-    background: var(--gray-200, #F4F5F6);
+.comment-section {
+	background: var(--gray-200, #f4f5f6);
 }
-.comment-flexbox{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
+.comment-flexbox {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
 }
 .comment__content{
     max-width: 600px;
 }
-.comment__heading{
-    padding-top: 80px;
-    margin-bottom: 60px;
+.comment__heading {
+	padding-top: 80px;
+	margin-bottom: 60px;
 }
-.comment__icon{
-    margin-bottom: 24px;
+.comment__icon {
+	margin-bottom: 24px;
 }
-.comment__text{
-    margin-bottom: 24px;
-    color: var(--gray-800, #424551);
+.comment__text {
+	margin-bottom: 24px;
+	color: var(--gray-800, #424551);
 }
-.comment__name{
-    margin-top: 24px;
+.comment__name {
+	margin-top: 24px;
+	margin-bottom: 4px;
 }
-.comment__content2{
-    display: flex;
-    justify-content: space-between;
+.comment__content2 {
+	display: flex;
+	justify-content: space-between;
 }
-.comment__arrows{
-    display: flex;
+.comment__arrows {
+	display: flex;
 }
 .arrow_left{
     margin-right: 24px;
@@ -122,10 +124,10 @@
     text-align: center;
     margin-bottom: 32px;
 }
-.clients__logos{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 92px;
+.clients__logos {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 92px;
 }
 
 
