@@ -175,15 +175,19 @@ section {
 	color: #ffffff;
 	background: #ff5a30;
 }
-@media (min-width: 1200px) {
-	.button_primary:hover {
-		background: #fc3300;
-	}
+.button_primary:hover {
+	background: #fc3300;
 }
+
 .button_white {
 	color: #ff5a30;
 	background: white;
 }
+.button_white:hover {
+	background: #ff5a30;
+	color: white;
+}
+
 .button_large {
 	font-size: 1rem;
 	line-height: 3.25em;
