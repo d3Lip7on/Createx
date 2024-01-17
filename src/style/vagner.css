@@ -1,0 +1,26 @@
+.thumbnail-splide .splide__slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.thumbnail-splide .splide__slide {
+	opacity: 0.6;
+}
+
+.thumbnail-splide .splide__slide.is-active {
+	opacity: 1;
+}
+
+.main-splide {
+	margin-bottom: 20px;
+}
+
+.splide__track--nav > .splide__list > .splide__slide {
+	border: none;
+}
+
+.splide__track--nav > .splide__list > .splide__slide.is-active {
+	border: none;
+}
