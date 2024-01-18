@@ -78,6 +78,83 @@
 .head__project_v1{
 	margin-top: 140px;
 }
+.project__text{
+	color: var(#424551);
+}
+.project-flexbox{
+	display: flex;
+	justify-content: space-between;
+}
+.card-description{
+	text-align: left;
+}
+.project_text{
+	width: 600px;
+}
+.card-description{
+	gap: 32px;
+	padding: 40px 60px;
+	border-radius: 4px;
+	background: var(--white, #FFF);
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+.project-section{
+	margin-top: 100px;
+}
+.card-description__line{
+	margin-bottom: 16px;
+}
 
+.card-description{
+	display: flex;
+	gap: 32px;
+	margin-bottom: 120px;
+}
 
+.card-description__title{
+	margin-bottom: 16px;
+}
+.card-description__texte{
+	margin-bottom: 16px;
+}
+.header{
+	background: url(../images/modern-cottage-bg.png) no-repeat right;
+}
+.comment__heading{
+	padding-bottom: 60px;
+}
+.comment__heading{
+}
+.constructive-decisions{
+	background: var(--gray-200, #F4F5F6);	
+}
+.constructive-decision__inner{
+	display: flex;
+	justify-content: right;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 114px;
+
+	
+}
+.constructive-decision__inner > img{
+
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+.constructive-decisions__content{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+.constructive-logo{
+	margin-bottom: 26px;
+}
+.contructive-content{
+	margin-bottom: 27px;
+}
 
