@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9add786a-4314-41b6-b42d-bd859cbbc6eb" name="Changes" comment="BEM, burger-menu upd, not finished">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9add786a-4314-41b6-b42d-bd859cbbc6eb" name="Changes" comment="BEM, burger-menu upd, not finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +86,7 @@
       <workItem from="1702392373677" duration="2251000" />
       <workItem from="1702559787718" duration="1053000" />
       <workItem from="1702562825519" duration="614000" />
-      <workItem from="1705593289295" duration="321000" />
+      <workItem from="1705593289295" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="navbar sec commit (Не закончено)">
       <option name="closed" value="true" />
