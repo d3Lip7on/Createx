@@ -175,15 +175,19 @@ section {
 	color: #ffffff;
 	background: #ff5a30;
 }
-@media (min-width: 1200px) {
-	.button_primary:hover {
-		background: #fc3300;
-	}
+.button_primary:hover {
+	background: #fc3300;
 }
+
 .button_white {
 	color: #ff5a30;
 	background: white;
 }
+.button_white:hover {
+	background: #ff5a30;
+	color: white;
+}
+
 .button_large {
 	font-size: 1rem;
 	line-height: 3.25em;
@@ -574,7 +578,7 @@ section {
 .header__main {
 	padding: 20px 0;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -594,6 +598,7 @@ section {
 
 .header-contacts {
 	display: flex;
+	gap: 36px;
 }
 
 .header-contacts__phone {
@@ -616,7 +621,6 @@ section {
 }
 
 .header__contacts--text-regular {
-	width: 130px;
 	color: #1e212c;
 }
 
@@ -629,9 +633,8 @@ section {
 	height: 40px;
 	z-index: 3;
 	overflow: hidden;
-	visibility: hidden;
-	position: absolute;
-	right: 10px;
+	display: none;
+	position: relative;
 }
 .burger-button span {
 	width: 25px;
@@ -646,6 +649,8 @@ section {
 }
 .burger-button_active {
 	position: fixed;
+	right: 10px;
+	top: 20px;
 }
 .burger-button span:nth-of-type(2) {
 	top: calc(50% - 8px);
@@ -696,7 +701,7 @@ section {
 		background: linear-gradient(#ff5a70, #ff5a30, #ff5a70);
 	}
 	.burger-button {
-		visibility: visible;
+		display: block;
 	}
 
 	.nav__item {
@@ -716,8 +721,8 @@ section {
 	}
 }
 
-
 /** Добавление анимации и кнопки для картинки **/
+
 .photo{
     width: 390px;
     height: 440px;
@@ -755,11 +760,10 @@ section {
 	transition: background 0.3s ease, color 0.3s ease;
 }
 
-.button_photo:hover{
+.button_photo:hover {
 	color: #ffffff;
 	background: #ff5a30;
 }
-
 @media screen and (max-width: 1230px) {
 	.photos{
 		justify-content: space-around;
@@ -769,3 +773,4 @@ section {
 		margin-right: 20px;
 	}
 }
+
