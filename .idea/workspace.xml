@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9add786a-4314-41b6-b42d-bd859cbbc6eb" name="Changes" comment="BEM, burger-menu upd, not finished">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YarikAssShot&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f3e8281e-bf0d-4f79-a1f0-abdb4c353486" />
+        <option name="url" value="https://github.com/d3Lip7on/Createx.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ZLyyuCTw09bWECTl7u4vzMQ4fY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "services",
+    "last_opened_file_path": "C:/web/Createx",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yarik\OneDrive\Documents\GitHub\Createx\src\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yarik\OneDrive\Documents\GitHub\Createx\src\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9add786a-4314-41b6-b42d-bd859cbbc6eb" name="Changes" comment="navbar sec commit (Не закончено)" />
+      <created>1702215915782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702215915782</updated>
+      <workItem from="1702215917387" duration="230000" />
+      <workItem from="1702217899156" duration="1133000" />
+      <workItem from="1702219055128" duration="684000" />
+      <workItem from="1702230190318" duration="1500000" />
+      <workItem from="1702231801692" duration="8204000" />
+      <workItem from="1702392373677" duration="2251000" />
+      <workItem from="1702559787718" duration="1053000" />
+      <workItem from="1702562825519" duration="614000" />
+      <workItem from="1705593289295" duration="321000" />
+    </task>
+    <task id="LOCAL-00001" summary="navbar sec commit (Не закончено)">
+      <option name="closed" value="true" />
+      <created>1702217966796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702217966796</updated>
+    </task>
+    <task id="LOCAL-00002" summary="navbar sec commit (Не закончено)">
+      <option name="closed" value="true" />
+      <created>1702218119204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702218119204</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test GitHub Discord">
+      <option name="closed" value="true" />
+      <created>1702218154171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702218154171</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test GitHub Discord 1">
+      <option name="closed" value="true" />
+      <created>1702218266317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702218266317</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Маленькое изменения (перенос файла index.html в pages)">
+      <option name="closed" value="true" />
+      <created>1702219143696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702219143696</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Введения бургер меню (Не финальный вариант)">
+      <option name="closed" value="true" />
+      <created>1702236350851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702236350853</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Смена иконки бургер меню">
+      <option name="closed" value="true" />
+      <created>1702240552590</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702240552590</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Смена иконки бургер меню">
+      <option name="closed" value="true" />
+      <created>1702394473888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702394473888</updated>
+    </task>
+    <task id="LOCAL-00009" summary="BEM, burger-menu upd, not finished">
+      <option name="closed" value="true" />
+      <created>1702394629958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702394629958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="navbar sec commit (Не закончено)" />
+    <MESSAGE value="Test GitHub Discord" />
+    <MESSAGE value="Test GitHub Discord 1" />
+    <MESSAGE value="Маленькое изменения (перенос файла index.html в pages)" />
+    <MESSAGE value="Введения бургер меню (Не финальный вариант)" />
+    <MESSAGE value="Смена иконки бургер меню" />
+    <MESSAGE value="BEM, burger-menu upd, not finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="BEM, burger-menu upd, not finished" />
+  </component>
+</project>
