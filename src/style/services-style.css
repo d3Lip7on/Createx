@@ -1,0 +1,36 @@
+.services-section{
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+.hui{
+    display: flex;
+}
+.hui2{
+    margin-top: 76px;
+}
+.hui2_1{
+    margin-left: 80px;
+}
+.hui2_2{
+    margin-right: 80px;
+}
+.image-content{
+    width: 575px;
+    height: 420px;
+    flex-shrink: 0;
+    border-radius: 4px;
+
+}
+.text_gray{
+    color: var(--gray-700, #787A80);
+    font-size: 16px;
+}
+.padfortext{
+    padding-bottom: 48px;
+}
+.padforh2{
+    padding-bottom: 24px;
+}
+.mar_for_block{
+    margin-bottom: 120px;
+}
