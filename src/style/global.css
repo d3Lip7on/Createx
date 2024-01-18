@@ -4,6 +4,10 @@
   margin: 0;
   border: 0;
   font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 *,
 *:before,
@@ -175,10 +179,11 @@ section {
   color: #ffffff;
   background: #ff5a30;
 }
-.button_primary:hover {
-  background: #fc3300;
+@media (min-width: 1200px) {
+  .button_primary:hover {
+    background: #fc3300;
+  }
 }
-
 .button_white {
   color: #ff5a30;
   background: white;
@@ -579,7 +584,7 @@ section {
 .header__main {
   padding: 20px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -599,7 +604,6 @@ section {
 
 .header-contacts {
   display: flex;
-  gap: 36px;
 }
 
 .header-contacts__phone {
@@ -622,6 +626,7 @@ section {
 }
 
 .header__contacts--text-regular {
+  width: 130px;
   color: #1e212c;
 }
 
@@ -634,8 +639,9 @@ section {
   height: 40px;
   z-index: 3;
   overflow: hidden;
-  display: none;
-  position: relative;
+  visibility: hidden;
+  position: absolute;
+  right: 10px;
 }
 .burger-button span {
   width: 25px;
@@ -650,8 +656,6 @@ section {
 }
 .burger-button_active {
   position: fixed;
-  right: 10px;
-  top: 20px;
 }
 .burger-button span:nth-of-type(2) {
   top: calc(50% - 8px);
@@ -702,7 +706,7 @@ section {
     background: linear-gradient(#ff5a70, #ff5a30, #ff5a70);
   }
   .burger-button {
-    display: block;
+    visibility: visible;
   }
 
   .nav__item {
