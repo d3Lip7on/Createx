@@ -1,10 +1,9 @@
-$(document).ready(function () {
-  $(".slider").slick({
-    arrows: true,
-    dots: false,
-    adaptiveHeight: true,
-    slidesToShow: 3,
-    speed: 1000,
-    infinite: false,
-  });
+var splide = new Splide(".splide", {
+  type: "loop",
+  perPage: 3,
+  perMove: 1,
+  gap: 30,
+  pagination: false,
 });
+
+splide.mount();

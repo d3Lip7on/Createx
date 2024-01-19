@@ -6,20 +6,10 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
-      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
       rel="stylesheet"
@@ -30,7 +20,7 @@
   <body>
     <!---------------------------------- HEADER ------------------------------------------>
     <header class="header" id="header">
-      <div class="container">
+      <class="container">
         <div class="header__inner">
           <div class="header__main">
             <div class="navbar-brand">
@@ -93,7 +83,7 @@
 
           <!--                Место для написания продолжения header(-a)-->
           <div class="header__content">
-            <div class="content__leftpart">
+            <div class="header__inner">
               <div class="header__mainblocks">
                 <div class="text_small text_regular mainblocks__text">
                   Homepage
@@ -120,6 +110,8 @@
         </div>
       </div>
     </header>
+
+
     <section class="offers">
       <div class="offers__inner">
         <div class="offers img">
@@ -148,6 +140,9 @@
         </div>
       </div>
     </section>
+
+
+
     <section class="actionplan">
       <h1 class="actionplan__title">That’s how we do it</h1>
       <div class="actionplan__items">
@@ -190,6 +185,8 @@
       </div>
     </section>
     <section class="benefits">
+      <div class="container">
+        div
       <div class="container__apperpart">
         <h1 class="apperpart__title">Our benefits</h1>
         <p class="text__large text_regular apperpart__undertitle">
@@ -233,72 +230,81 @@
           Discuss a project
         </button>
       </form>
+      </div>
     </section>
 
-    <div class="wrapper">
+    <section class="related-projects">
+      <div class="container">
+      <div class="related-projects__inner">
       <h1 class="slider__title">Related projects</h1>
-      <div class="slider">
-        <div class="slider__item" style="width: 390px">
-          <div class="slider__item-img" style="width: 390px">
-            <img src="../images/content/image.png" alt="" />
-          </div>
-          <div class="item__content">
-            <div class="text_lead text_bold slider___subtitle">
-              Kids Bedroom With Decorations
+    <section class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide" style="width: 390px">
+            <div class="splide__slide-img" style="width: 390px">
+              <img src="../images/content/image.png" alt="" />
             </div>
-            <div class="text__small text__regular slider__undersubtitle">
-              Apartments &amp; flats
+            <div class="item__content">
+              <div class="text_lead text_bold slider___subtitle">
+                Kids Bedroom With Decorations
+              </div>
+              <div class="text__small text__regular slider__undersubtitle">
+                Apartments &amp; flats
+              </div>
             </div>
-          </div>
-        </div>
+          </li>
 
-        <div class="slider__item">
-          <div class="slider__item-img">
-            <img src="../images/content/image1.png" alt="" />
-          </div>
-          <div class="item__content">
+          <li class="splide__slide">
+            <div class="splide__slide-img">
+              <img src="../images/content/image1.png" alt="" />
+            </div>
+            <div class="item__content">
+              <div class="text_lead text_bold slider___subtitle">
+                Modern Double Bedroom
+              </div>
+              <div class="text__small text__regular slider__undersubtitle">
+                Apartments &amp; flats
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__slide-img">
+              <img src="../images/content/image.png" alt="" />
+            </div>
             <div class="text_lead text_bold slider___subtitle">
-              Modern Double Bedroom
+              Scandinavian Style Interior
             </div>
             <div class="text__small text__regular slider__undersubtitle">
-              Apartments &amp; flats
+              Private houses
             </div>
-          </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-img">
-            <img src="../images/content/image.png" alt="" />
-          </div>
-          <div class="text_lead text_bold slider___subtitle">
-            Scandinavian Style Interior
-          </div>
-          <div class="text__small text__regular slider__undersubtitle">
-            Private houses
-          </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-img">
-            <img src="../images/content/image.png" alt="" />
-          </div>
-          <div class="text_lead text_bold slider___subtitle">
-            Scandinavian Style Interior
-          </div>
-          <div class="text__small text__regular slider__undersubtitle">
-            Private houses
-          </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-img">
-            <img src="../images/content/image1.png" alt="" />
-          </div>
-          <div class="text_lead text_bold slider___subtitle">
-            Scandinavian Style Interior
-          </div>
-          <div class="text__small text__regular slider__undersubtitle">
-            Private houses
-          </div>
-        </div>
-      </div>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__slide-img">
+              <img src="../images/content/image.png" alt="" />
+            </div>
+            <div class="text_lead text_bold slider___subtitle">
+              Scandinavian Style Interior
+            </div>
+            <div class="text__small text__regular slider__undersubtitle">
+              Private houses
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__slide-img">
+              <img src="../images/content/image1.png" alt="" />
+            </div>
+            <div class="text_lead text_bold slider___subtitle">
+              Scandinavian Style Interior
+            </div>
+            <div class="text__small text__regular slider__undersubtitle">
+              Private houses
+            </div>
+          </li>
+      </ul>
+    </section>
+  </div>
+</div>
+  </section>
       <div class="portfolio">
         <h3 class="portfolio__subtitle">Explore all our works</h3>
         <button class="button button_large button_primary button__portfolio">
@@ -490,13 +496,10 @@
     <script src="/src/scripts/form.js"></script>
     <script src="../scripts/service_v2_script.js"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="../scripts/slick.min.js"></script>
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
     <script src="../scripts/slider.js"></script>
   </body>
 </html>
