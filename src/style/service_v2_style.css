@@ -8,7 +8,7 @@
 }
 .header__content {
 }
-.content__leftpart {
+.header__inner {
   max-width: 1920px;
   margin: 0 auto;
   padding-top: 80px;
@@ -38,17 +38,16 @@
 }
 .offers__inner {
   display: flex;
+  flex-direction: row;
   padding-top: 188px;
 }
 @media (max-width: 1024px) {
-  .offers {
+  .offers__inner {
     flex-wrap: wrap;
     margin: 0 auto;
   }
 }
 .offers.img {
-  max-width: 705px;
-  max-height: 440px;
 }
 .offers__content {
   display: flex;
@@ -197,7 +196,7 @@
 .container__apperpart {
   display: flex;
   flex-direction: column;
-  text-align: center;
+
   padding: 80px 0px 60px 0px;
 }
 .apperpart__title {
@@ -237,20 +236,6 @@
 }
 /**********************************************************/
 
-.slider {
-}
-.slider__items {
-}
-.slider__item {
-}
-.slider__item-img {
-  min-width: 390px;
-  max-height: 440px;
-}
-.item__content {
-  min-width: 390px;
-  max-height: 440px;
-}
 .item__content:hover {
   background: var(--white, #fff);
   padding-top: 16px;
@@ -271,52 +256,22 @@
   opacity: 0.6;
   text-align: center;
 }
-.slider__item .slick-slide .slick-current .slick-active {
-  width: 390px;
-}
-.wrapper {
-  max-width: 1600px;
-  min-height: 620px;
-  margin: 0 auto;
-}
-.slider {
-}
+
 .slider__title {
   padding: 180px 0px 60px 50px;
 }
-.slick-initialized {
+.splide__arrow {
+  opacity: 1;
 }
-.slick-slider {
-}
-.slick-prev {
-}
-.slick-arrow {
-}
-.slick-list {
-  overflow: hidden;
-  align-items: flex-start;
-}
-.draggable {
-}
-.slick-track {
-  display: flex;
-}
-.slider__item {
-  min-width: 390px;
-  max-height: 440px;
-}
-.slick-slide {
-}
-.slick-cloned {
-}
-.slick-current {
-}
-.slick-active {
+.splide__arrow--prev {
+  opacity: 1;
+  background: url("../images/icons/Left.svg") 0 0 / 100% no-repeat;
+  right: 203px;
 }
 
 /*********888*/
 
-.slider {
+/* .slider {
   position: relative;
   padding: 40px 60px;
 }
@@ -339,7 +294,7 @@
   background: url("../images/icons/Right.svg") 0 0 / 100% no-repeat;
 }
 /* Точки (булиты) */
-.slider .slick-dots {
+/* .slider .slick-dots {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -373,6 +328,8 @@
 .slick-dots li button::before {
   content: "";
 }
+*/ */
+
 
 /***************************/
 .portfolio__subtitle {
