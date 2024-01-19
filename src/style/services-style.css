@@ -1,15 +1,15 @@
 
 }
-.text_gray{
-    color: var(--gray-700, #787A80);
-    font-size: 16px;
+.services-section__margin-left{
+    margin-left: 80px;
+
 }
-.padfortext{
-    padding-bottom: 48px;
+.services-section__text-margin-bottom{
+    margin-bottom: 46px;
 }
-.padforh2{
-    padding-bottom: 24px;
+.services-section__row-margin-bottom{
+    margin-bottom: 24px;
 }
-.mar_for_block{
-    margin-bottom: 120px;
+.services-section__row{
+    margin-top: 76px;
 }
