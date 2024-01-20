@@ -7,17 +7,16 @@
     height: 420px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .services-section{
     margin-top: 120px;
     margin-bottom: 180px;
 }
-.services-section__margin-right{
+.services-section__image_margin-right{
     margin-right: 80px;
 
 }
-.services-section__margin-left{
+.services-section__image_margin-left{
     margin-left: 80px;
 
 }
@@ -35,4 +34,9 @@
     background-position: right;
     background-repeat: no-repeat;
     background-position: fixed;
+}
+.header{
+    background-image: url(/src/images/services/header-background.png);
+    background-position: right;
+    background-repeat: no-repeat;
 }
