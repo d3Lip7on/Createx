@@ -739,7 +739,7 @@ section {
     align-items: center; 
 }
 .image{
-    width: 390px;
+    width: inherit;
     height: auto;
 }
 .photo__content{
@@ -748,7 +748,7 @@ section {
 	padding-bottom: 19px;
     text-align: center;
     position: absolute;
-    width: 390px;
+    width: inherit;
     transition: transform 0.3s ease;
     transform: translateY(345px);
 }
@@ -771,14 +771,10 @@ section {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-	/* .image{
-		max-width: 100%;
-		height: auto;
-	} */
 }
 
 @media screen and (max-width: 450px) {
-	.image{
+	.photo{
 		width: 290px;
 	}
 	.photo{
@@ -790,5 +786,19 @@ section {
 	}
 	.photo:hover .photo__content{
 		transform: translateY(175px);
+	} 
+}
+
+@media screen and (max-width:320px) {
+	.photo{
+		width: 240px;
+	}
+	.photo__content{
+		transform: translateY(200px);
+		padding-bottom: 0;
+		height: 110px;
+	}
+	.photo:hover .photo__content{
+		transform: translateY(130px);
 	} 
 }
