@@ -188,7 +188,7 @@
 }
 @media screen and (max-width:625px) {
 	.header__button{
-		margin-top: 170px;
+		margin-top: 230px;
 	}
 	.header__paragraph{
 		display: none;
@@ -201,6 +201,9 @@
 		width: 100%;
 		height: auto;
 	}
+	.header__button{
+		padding: 10px 0;
+	}
 	.header__button__text{
 		display: none;
 	}
@@ -210,7 +213,7 @@
 }
 @media screen and (max-width: 432px) {
 	.header__button{
-		margin-top: 100px;
+		margin-top: 135px;
 	}
 	.header__paragraph{
 		display: none;
