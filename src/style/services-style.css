@@ -48,25 +48,22 @@
 }
 .header__content-heading{
     color: var(--gray-900, #1E212C);
-    font-family: Ubuntu;
     font-size: 72px;
-    font-style: normal;
     font-weight: 700;
     line-height: 130%; /* 93.6px */
     letter-spacing: 1px;
     margin-bottom: 24px;
 }
 .header__content-breadcrumb{
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
+    color: var(--gray-800, #424551);
     margin-bottom: 40px;
     word-spacing: 8px;
+
 }
 .header__content-paragraph{
     text-align: left;
     width: 600px;
 }
 .header__content{
-    padding-bottom: 179px;
+    padding-bottom: 150px;
 }
