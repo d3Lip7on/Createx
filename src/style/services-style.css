@@ -30,3 +30,9 @@
 .services-section__row{
     margin-top: 76px;
 }
+.services-section__background{
+    background: url(/src/images/our-work/bg-image.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
