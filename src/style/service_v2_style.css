@@ -1,12 +1,4 @@
-.header {
-  background-image: url("../images/background/image.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-color: #e3e3e3;
-}
 .service_v2 {
-}
-.header__content {
 }
 .header__inner {
   max-width: 1920px;
@@ -52,23 +44,10 @@
     margin: 0 auto;
   }
 }
-.WEBpage__offers {
-  max-width: 1230px;
-  min-height: 440px;
-  margin: 0 auto;
-}
-.offers__inner {
-  display: flex;
-  flex-direction: row;
-  padding-top: 188px;
-}
-@media (max-width: 1024px) {
-  .offers__inner {
-    flex-wrap: wrap;
-    margin: 0 auto;
-  }
-}
-.offers.img {
+
+.img {
+  max-width: 705px;
+  max-height: 440px;
 }
 .content {
   display: flex;
@@ -76,31 +55,45 @@
   padding-left: 100px;
 }
 
-.WEBpage__offer-title {
+.offers {
+  max-width: 1230px;
+  min-height: 440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1024px) {
+  .offers {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+.offers.img {
+  max-width: 705px;
+  max-height: 440px;
+}
+.offers__content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.offers__title {
   color: #1e212c;
-  font-size: 46px;
-  font-family: Lato;
-  font-weight: 900;
-  line-height: 59.8px;
-  word-wrap: break-word;
   padding-bottom: 60px;
 }
 
-.WEBpage__offer-subtitle {
+.offers__subtitle {
   color: #1e212c;
-  font-size: 28px;
-  font-family: Ubuntu;
-  font-weight: 700;
-  line-height: 42px;
   padding-left: 30px;
   position: relative;
   cursor: pointer;
 }
-.WEBpage__offer-subtitle span {
+.offers__subtitle span {
   width: 24px;
   height: 24px;
 }
-.WEBpage__offer-subtitle span:after {
+.offers__subtitle span:after {
   content: "";
   top: 10px;
   left: 9px;
@@ -111,10 +104,10 @@
   border-radius: 15px;
   transition: all 0.3s ease 0s;
 }
-.WEBpage__offer-subtitle_active span:after {
+.offers__subtitle_active span:after {
   transform: rotate(90deg);
 }
-.WEBpage__offer-subtitle span:before {
+.offers__subtitle span:before {
   content: "";
   top: 19px;
   left: 0;
@@ -125,7 +118,7 @@
   border-radius: 15px;
 }
 
-.WEBpage__offer-text {
+.service_v2__offer-text {
   max-width: 376px;
   color: #787a80;
   font-size: 16px;
@@ -141,21 +134,11 @@
   display: flex;
 }
 
-.WEBpage__offer-subtitle2 {
-  color: #1e212c;
-  font-size: 28px;
-  font-family: Ubuntu;
-  font-weight: 700;
-  line-height: 42px;
-  padding-left: 30px;
-  position: relative;
-  cursor: pointer;
-}
-.WEBpage__offer-subtitle2 span {
+.offers__subtitle span {
   width: 24px;
   height: 24px;
 }
-.WEBpage__offer-subtitle2 span:after {
+.offers__subtitle span:after {
   content: "";
   top: 10px;
   left: 9px;
@@ -166,52 +149,10 @@
   border-radius: 15px;
   transition: all 0.3s ease 0s;
 }
-.WEBpage__offer-subtitle2_active span:after {
+.offers__subtitle_active span:after {
   transform: rotate(90deg);
 }
-.WEBpage__offer-subtitle2 span:before {
-  content: "";
-  top: 19px;
-  left: 0;
-  width: 20px;
-  height: 2px;
-  position: absolute;
-  background-color: #ff4500;
-  border-radius: 15px;
-}
-
-.WEBpage__offer-text2 {
-  max-width: 376px;
-  color: #787a80;
-  font-size: 16px;
-  font-family: Ubuntu;
-  font-weight: 400;
-  line-height: 25.6px;
-  word-wrap: break-word;
-  padding-bottom: 25px;
-  padding-left: 30px;
-  position: relative;
-  cursor: pointer;
-}
-.WEBpage__offer-subtitle2 span {
-  width: 24px;
-  height: 24px;
-}
-.WEBpage__offer-subtitle2 span:after {
-  content: "";
-  top: 10px;
-  left: 9px;
-  width: 2px;
-  height: 20px;
-  position: absolute;
-  background-color: orangered;
-  border-radius: 15px;
-  transition: all 0.3s ease 0s;
-}
-.WEBpage__offer-subtitle2_active span:after {
-  transform: rotate(90deg);
-}
-.WEBpage__offer-subtitle2 span:before {
+.offers__subtitle span:before {
   content: "";
   top: 19px;
   left: 0;
@@ -222,7 +163,7 @@
   border-radius: 15px;
 }
 
-.WEBpage__offer-text2 {
+.service_v2__offer-text2 {
   max-width: 376px;
   color: #787a80;
   font-size: 16px;
@@ -240,7 +181,7 @@
 
 /***************************/
 
-.WEBpage__actionplan {
+.service_v2__actionplan {
   max-width: 1215px;
   min-height: 315px;
   margin: 0 auto;
@@ -416,7 +357,7 @@
 
 /***********************************************/
 
-.WEBpage__benefits {
+.service_v2__benefits {
   max-width: 1920px;
   min-height: 565px;
   background-color: rgba(30, 33, 44, 1);
