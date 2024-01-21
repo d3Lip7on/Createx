@@ -1,4 +1,4 @@
-.services-section__inner{
+.services-section__content{
     display: flex;
     margin-bottom: 120px;
 }
@@ -9,16 +9,17 @@
     border-radius: 4px;
 }
 .services-section{
-    margin-top: 120px;
     margin-bottom: 180px;
+    background: url(/src/images/services/bg-image.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position: fixed;
 }
 .services-section__image_margin-right{
     margin-right: 80px;
-
 }
 .services-section__image_margin-left{
     margin-left: 80px;
-
 }
 .services-section__text-margin-bottom{
     margin-bottom: 46px;
@@ -29,19 +30,12 @@
 .services-section__row{
     margin-top: 76px;
 }
-.services-section__background{
-    background: url(/src/images/services/bg-image.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-position: fixed;
-}
 .header{
     background: var(--gray-200, #F4F5F6);
     background-image: url(/src/images/services/header-background.png);
     background-position: right;
     background-repeat: no-repeat;
-    
-
+    margin-bottom: 120px;
 }
 .header__main{
     margin-bottom: 80px;
