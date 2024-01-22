@@ -1,18 +1,18 @@
 .services-section{
     margin-bottom: 180px;
-    background: url(/src/images/services/bg-image.png);
-    background-position: right;
-    background-repeat: no-repeat;
+    background:
+    url(/src/images/services/bg-image.png) top right no-repeat,
+    url(/src/images/services/bg-image.png) bottom left no-repeat;
     background-position: fixed;
 }
 .services-section__inner{
     display: flex;
     flex-direction: column;
-    column-gap: 120px;
+    gap: 120px;
 }
 .services-section__content{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     gap: 80px;
 }
 .services-section__info{
@@ -24,7 +24,7 @@
 .services-section__text{
     padding-bottom: 46px;
 }
-.services-section__column{
+.services-section__title{
     padding-bottom: 24px;
 }
 .header{
