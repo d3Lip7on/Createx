@@ -1,4 +1,10 @@
-.top-section-image{
-    flex-shrink: 0;
-    background-size: cover;
+.top-section{
+    width: 120rem;
+    height: 61.75rem;
+    background-image: url(src/images/homepage/top-section-bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top-section-text{
+    padding: 50px;
 }
