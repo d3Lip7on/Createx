@@ -1,8 +1,8 @@
 .services-section{
     margin-bottom: 180px;
     background:
-    url(/src/images/services/bg-image.png) top right no-repeat,
-    url(/src/images/services/bg-image.png) bottom left no-repeat;
+    url(/src/images/services/bg-image.png) right no-repeat,
+    url(/src/images/services/bg-image2.png) bottom left no-repeat;
     background-position: fixed;
 }
 .services-section__inner{
