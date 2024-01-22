@@ -3,9 +3,6 @@
     margin-bottom: 120px;
 }
 .services-section__image{
-    width: 575px;
-    height: 420px;
-    flex-shrink: 0;
     border-radius: 4px;
 }
 .services-section{
@@ -15,6 +12,7 @@
     background-repeat: no-repeat;
     background-position: fixed;
 }
+
 .services-section__image_margin-right{
     margin-right: 80px;
 }
