@@ -38,11 +38,15 @@
 	color: var(--gray-800, #424551);
 	margin-bottom: 40px;
 }
+.string_main_text{
+	cursor: pointer;
+}
 .active-page-style {
 	color: var(--gray-600, #9a9ca5);
 }
 .gray-dash-style {
 	color: var(--gray-600, #9a9ca5);
+	cursor: pointer;
 	
 }
 .main-modern-cottage-text {
@@ -95,10 +99,10 @@
 	margin-bottom: 16px;
 }
 .card-description__texte{
-	margin-bottom: 16px;
+	margin-bottom: 20px;
 }
 .header{
-	background: url(../images/modern-cottage-bg.png) no-repeat right;
+	background: url(../images/project_v1/bg-image\ \(1\).jpg) no-repeat right;
 }
 .comment__heading{
 	padding-bottom: 60px;
