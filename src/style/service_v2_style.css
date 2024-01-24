@@ -326,7 +326,13 @@
   opacity: 1;
 }
 .splide__arrow--prev {
-  opacity: 1;
+  top: -21%;
+  right: 6%;
+  left: auto;
+}
+.splide__arrow--next {
+  top: -21%;
+  right: 1%;
 }
 
 /*********888*/
@@ -404,4 +410,111 @@
 }
 
 .button__portfolio {
+}
+
+/************************************/
+
+.prising {
+  max-width: 1920px;
+  min-height: 1420px;
+  margin: 0 auto;
+
+  background-color: #e3e3e3;
+}
+.prising__container {
+}
+.container__pricing-layout {
+  max-width: 1230px;
+  min-height: 745px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.pricing-layout__content {
+  display: flex;
+  max-width: 1230px;
+  min-height: 56px;
+}
+.blocks-names {
+  max-width: 495px;
+  width: 100%;
+}
+.pricing-layout__types-of-prising {
+  max-width: 735px;
+  min-height: 63px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 32px;
+}
+.block-basicprices {
+  max-width: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 24px;
+}
+.block-standardprices {
+  max-width: 245px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+}
+.block-bisinessprices {
+  max-width: 245px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.block-title {
+  color: #1e212c;
+  font-size: 24px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.content__item {
+  display: flex;
+  width: 100%;
+}
+.pricing-layout_collumn-name {
+  max-width: 495px;
+  min-height: 56px;
+  width: 100%;
+  padding-left: 24px;
+}
+.mark {
+  max-width: 245px;
+  min-height: 58px;
+  width: 100%;
+  padding-top: 18px;
+  text-align: center;
+}
+.pricing-layout_collumn-name-grey {
+  max-width: 520px;
+  min-height: 58px;
+  width: 100%;
+
+  background-color: #e3e3e3;
+  border-color: #e3e3e3;
+  box-sizing: border-box;
+}
+.mark-grey {
+  box-sizing: border-box;
+  max-width: 245px;
+  min-height: 58px;
+  width: 100%;
+  padding-top: 18px;
+  text-align: center;
+  background-color: #e3e3e3;
+  border-color: #e3e3e3;
 }
