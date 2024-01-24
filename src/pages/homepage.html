@@ -57,71 +57,48 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
     </div>
 </header>
-<section class="top-section">
-    <!-- Slideshow container -->
-    <div style="position:absolute; top: 28.7rem; z-index: 1; font-size: 500%;"><p>CREATEX <br>CONSTRUCTION</p></div>
-    <div class="slideshow-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <img src="../images/homepage/top-section-bg1.png" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
+<!--<section class="top-section">-->
+<!--        <div class="top-section-inner">-->
+<!--            <div class="top-section_text">-->
+<!--                <h1 class="top-section_heading">-->
+<!--                    CREATE<span class="top-section_heading__orange">X</span><br>CONSTRUCTION-->
+<!--                </h1>-->
+<!--                <p class="top-section_regular">-->
+<!--                    Cras ultrices leo vitae non viverra. Fringilla nisi quisque-->
+<!--                    consequat, dignissim vitae proin ipsum sed. Pellentesque nec-->
+<!--                    turpis purus eget pellentesque integer ipsum elementum Felis.-->
+<!--                </p>-->
+<!--                <button>-->
 
-        <div class="mySlides fade">
-            <img src="../images/homepage/top-section-bg1.png" style="width:100%">
-            <div class="text">Caption Two</div>
-        </div>
+<!--                </button>-->
+<!--                <button>-->
 
-        <div class="mySlides fade">
-            <img src="../images/homepage/top-section-bg1.png" style="width:100%">
-            <div class="text">Caption Three</div>
+<!--                </button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--</section>-->
+<section class="question">
+    <h3 class="question_heading">
+        Want to know more? Ask us a question:
+    </h3>
+    <div class="question-form">
+        <div class="question-form_block1">
+            <label for="question-name" class="text_small text_regular">Name*</label>
+            <input  id="question-name" type="text" placeholder="Your name" class="question-form_block__input text_small text_regular">
         </div>
-        <div class="mySlides fade">
-            <img src="../images/homepage/top-section-bg1.png" style="width:100%">
-            <div class="text">Caption Three</div>
+        <div class="question-form_block2">
+            <label for="question-phone" class="text_small text_regular">Phone</label>
+            <input  id="question-phone" type="tel" placeholder="Your phone" class="question-form_block__input text_small text_regular">
         </div>
-
-        <!-- Next and previous buttons -->
-        <a class="dot_button" onclick="plusSlides(-1)"> <img src="../images/homepage/icons/Left.png" alt=""> </a>
-        <a class="dot_button dot_button__next" onclick="plusSlides(1)"><img src="../images/homepage/icons/Left.png" alt="" style="transform: rotate(180deg)"></a>
-    </div>
-    <br>
-
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
+        <div class="question-form_block3">
+            <label for="question-messange" class="text_small text_regular">Messange*</label>
+            <input  id="question-messange" type="text" placeholder="Your message" class="question-form_block__input text_small text_regular">
+        </div>
+        <div class="question-form_block4">
+            <button type="submit" class="question-form_block__submit button_regular">Send</button>
+        </div>
     </div>
 </section>
+penis penis penis
 </body>
-<script>let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-}</script>
 </html>

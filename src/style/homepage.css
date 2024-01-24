@@ -1,83 +1,98 @@
 .top-section{
-padding: 0!important;
+    background-image: url('../images/homepage/photos/top-section-bg1.png');
+    width: 120rem;
+    height: 61.75rem;
+    flex-shrink: 0;
 }
 
-.slideshow-container {
-    max-width: 100%;
-    position: relative;
-    margin: auto;
+
+/*QUESTION FORM*/
+
+.question{
+    padding-bottom: 3rem;
+    padding-top: 3.72rem;
+    background: white;
+    width: 80rem;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 4px rgba(30, 33, 44, 0.03)) drop-shadow(0px 12px 10px rgba(154, 156, 165, 0.04)) drop-shadow(0px 30px 24px rgba(154, 156, 165, 0.05)) drop-shadow(0px 80px 80px rgba(154, 156, 165, 0.08));
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.dot_button {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    user-select: none;
-    background-color: white;
-    opacity: 0.5;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-/* Position the "next button" to the right */
-.dot_button__next {
-    background-color: white;
-    right: 0;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.dot_button:hover, .dot_button:hover {
-    opacity: 1;
-}
-
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
+.question_heading{
+    padding-bottom: 0.5rem;
     text-align: center;
+    margin-bottom: 2.69rem;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+.question-form{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.active, .dot:hover {
-    background-color: #717171;
+.question-form_block1{
+    display: flex;
+    width: 16.25rem;
+    height: 4.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    margin-left: 3.75rem;
 }
 
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+.question-form_block2{
+    display: flex;
+    width: 16.25rem;
+    height: 4.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    margin-left: 1.5rem;
 }
 
+.question-form_block3{
+    display: flex;
+    width: 25.875rem;
+    height: 4.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.question-form_block__input{
+    display: block;
+    width: 100%;
+    padding: 0.625rem 1rem;
+    color: #424551;
+    border-radius: 0.25rem;
+    border: 1px solid #D7DADD;
+    background: #F4F5F6;
+}
+
+.question-form_block4{
+    display: inline-flex;
+    padding: 0 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.question-form_block__submit{
+    border-radius: 0.25rem;
+    background: #FF5A30;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.75rem; /* 314.286% */
+    letter-spacing: 0.03125rem;
+    text-transform: uppercase;
+    text-decoration-color: white;
+    color: white;
+    margin-top: 1.8rem;
+}
