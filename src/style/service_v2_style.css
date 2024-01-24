@@ -136,6 +136,35 @@
   display: none;
 }
 
+.offers__subtitle span {
+  width: 24px;
+  height: 24px;
+}
+.offers__subtitle span:after {
+  content: "";
+  top: 10px;
+  left: 9px;
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  background-color: orangered;
+  border-radius: 15px;
+  transition: all 0.3s ease 0s;
+}
+.offers__subtitle_active span:after {
+  transform: rotate(90deg);
+}
+.offers__subtitle span:before {
+  content: "";
+  top: 19px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  background-color: orangered;
+  border-radius: 15px;
+}
+
 .offers__text_active {
   display: flex;
 }
