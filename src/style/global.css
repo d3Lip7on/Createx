@@ -4,10 +4,6 @@
   margin: 0;
   border: 0;
   font-family: "Ubuntu", sans-serif;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-family: "Ubuntu", sans-serif;
 }
 *,
 *:before,
@@ -221,11 +217,10 @@ h6 {
   color: #ffffff;
   background: #ff5a30;
 }
-@media (min-width: 1200px) {
-  .button_primary:hover {
-    background: #fc3300;
-  }
+.button_primary:hover {
+  background: #fc3300;
 }
+
 .button_white {
   color: #ff5a30;
   background: white;
@@ -618,7 +613,6 @@ h6 {
   }
 }
 /******************HEADER*******************/
-
 .navbar-brand {
   cursor: pointer;
   justify-content: space-evenly;
@@ -627,7 +621,7 @@ h6 {
 .header__main {
   padding: 20px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -647,6 +641,7 @@ h6 {
 
 .header-contacts {
   display: flex;
+  gap: 36px;
 }
 
 .header-contacts__phone {
@@ -669,7 +664,6 @@ h6 {
 }
 
 .header__contacts--text-regular {
-  width: 130px;
   color: #1e212c;
 }
 
@@ -682,9 +676,8 @@ h6 {
   height: 40px;
   z-index: 3;
   overflow: hidden;
-  visibility: hidden;
-  position: absolute;
-  right: 10px;
+  display: none;
+  position: relative;
 }
 .burger-button span {
   width: 25px;
@@ -699,6 +692,8 @@ h6 {
 }
 .burger-button_active {
   position: fixed;
+  right: 10px;
+  top: 20px;
 }
 .burger-button span:nth-of-type(2) {
   top: calc(50% - 8px);
@@ -749,7 +744,7 @@ h6 {
     background: linear-gradient(#ff5a70, #ff5a30, #ff5a70);
   }
   .burger-button {
-    visibility: visible;
+    display: block;
   }
 
   .nav__item {

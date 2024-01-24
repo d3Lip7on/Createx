@@ -30,6 +30,22 @@
   opacity: 0.4;
   padding-bottom: 50px;
 }
+@media (max-width: 1024px) {
+  .WEBpage__offers {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+
+.img {
+  max-width: 705px;
+  max-height: 440px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
 
 .offers {
   max-width: 1230px;
