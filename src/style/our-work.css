@@ -3,6 +3,7 @@
 }
 .header-image {
 	background: url('/src/images/our-work/header-bg.png') right center no-repeat;
+	background-color: #F4F5F6;
 }
 .header-homepage {
 	padding-top: 80px;
@@ -23,6 +24,7 @@
 	justify-content: space-between;
 }
 .header__button {
+	cursor: pointer;
 	border-radius: 4px;
 	background: var(--white, #fff);
 	display: flex;
@@ -70,6 +72,7 @@
 }
 
 .loadmore__text {
+	cursor: pointer;
 	color: var(--gray-800, #424551);
 	margin-left: 16px;
 }
@@ -109,15 +112,17 @@
 	display: flex;
 }
 .arrow_left{
+	cursor: pointer;
     margin-right: 24px;
 }
 .arrow_right{
-
+	cursor: pointer;
 }
 .comment__image{
     width: 495px;
     height: 550px;
     border-radius: 4px;
+	transform: translateY(70px);
 }
 .clients__heading{
     padding-top: 180px;
@@ -174,11 +179,6 @@
 	}
     .header-image{
     }
-    /* .header__heading{
-        -webkit-text-stroke: 2px #FFFFFF;
-        text-stroke: 2px #FFFFFF;
-        color: #FF5A30;
-    } */
     .comment__content{
         margin-left: 20px;
         margin-right: 20px;
@@ -196,6 +196,12 @@
     .comment__heading{
         padding-top: 10px;
     }
+	.comment__image{
+		transform: none;
+	}
+	.clients__heading{
+		padding-top: 100px;
+	}
 	.clients__logos{
 		grid-template-columns: repeat(3, 1fr);
 	}
