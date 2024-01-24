@@ -755,6 +755,7 @@ section {
   text-align: center;
   position: absolute;
   width: 390px;
+
   transition: transform 0.3s ease;
   transform: translateY(345px);
 }
@@ -771,7 +772,7 @@ section {
   color: #ffffff;
   background: #ff5a30;
 }
-@media screen and (max-width: 1230px) {
+/* @media screen and (max-width: 1230px) {
   .photos {
     justify-content: space-around;
   }
@@ -779,18 +780,4 @@ section {
     margin-left: 20px;
     margin-right: 20px;
   }
-}
-
-@media screen and (max-width: 320px) {
-  .photo {
-    width: 240px;
-  }
-  .photo__content {
-    transform: translateY(200px);
-    padding-bottom: 0;
-    height: 110px;
-  }
-  .photo:hover .photo__content {
-    transform: translateY(130px);
-  }
-}
+} */
