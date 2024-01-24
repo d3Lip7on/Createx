@@ -1,0 +1,386 @@
+.service_v2 {
+}
+.container {
+  padding: 20px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.container__inner {
+}
+
+.offers {
+  max-width: 1230px;
+  min-height: 440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1024px) {
+  .offers {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+.offers.img {
+  max-width: 705px;
+  max-height: 440px;
+}
+.offers__content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+.offers__title {
+  color: #1e212c;
+  padding-bottom: 60px;
+}
+
+.offers__subtitle {
+  color: #1e212c;
+  padding-left: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.offers__subtitle span {
+  width: 24px;
+  height: 24px;
+}
+.offers__subtitle span:after {
+  content: "";
+  top: 10px;
+  left: 9px;
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  background-color: orangered;
+  border-radius: 15px;
+  transition: all 0.3s ease 0s;
+}
+.offers__subtitle_active span:after {
+  transform: rotate(90deg);
+}
+.offers__subtitle span:before {
+  content: "";
+  top: 19px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  background-color: orangered;
+  border-radius: 15px;
+}
+
+.service_v2__offer-text {
+  max-width: 376px;
+  color: #787a80;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+  word-wrap: break-word;
+  padding-bottom: 25px;
+  position: relative;
+  display: none;
+}
+.active {
+  display: flex;
+}
+
+.offers__subtitle span {
+  width: 24px;
+  height: 24px;
+}
+.offers__subtitle span:after {
+  content: "";
+  top: 10px;
+  left: 9px;
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  background-color: orangered;
+  border-radius: 15px;
+  transition: all 0.3s ease 0s;
+}
+.offers__subtitle_active span:after {
+  transform: rotate(90deg);
+}
+.offers__subtitle span:before {
+  content: "";
+  top: 19px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  background-color: orangered;
+  border-radius: 15px;
+}
+
+.service_v2__offer-text2 {
+  max-width: 376px;
+  color: #787a80;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+  word-wrap: break-word;
+  padding-bottom: 25px;
+  position: relative;
+  display: none;
+}
+.active {
+  display: flex;
+}
+
+/***************************/
+
+.service_v2__actionplan {
+  max-width: 1215px;
+  min-height: 315px;
+  margin: 0 auto;
+}
+.actionplan__title {
+  color: #1e212c;
+  font-size: 46px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 59.8px;
+  padding: 180px 0px 60px 0px;
+}
+.actionplan__items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+.actionplan__item01 {
+  width: 280px;
+  height: 190px;
+}
+.actionplan__sptep1 {
+  color: #d7dadd;
+  font-size: 46px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 59.8px;
+  padding-bottom: 15px;
+}
+.actionplan__subtitle1 {
+  color: #1e212c;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.actionplan__text1 {
+  max-width: 285px;
+  color: #787a80;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.actionplan__item02 {
+  width: 280px;
+  height: 190px;
+}
+.actionplan__sptep2 {
+  color: #d7dadd;
+  font-size: 46px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 59.8px;
+  padding-bottom: 15px;
+}
+.actionplan__subtitle2 {
+  color: #1e212c;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.actionplan__text2 {
+  max-width: 285px;
+  color: #787a80;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.actionplan__item03 {
+  width: 280px;
+  height: 190px;
+}
+.actionplan__sptep3 {
+  color: #d7dadd;
+  font-size: 46px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 59.8px;
+  padding-bottom: 15px;
+}
+.actionplan__subtitle3 {
+  color: #1e212c;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.actionplan__text3 {
+  max-width: 285px;
+  color: #787a80;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.actionplan__item04 {
+  width: 280px;
+  height: 190px;
+}
+.actionplan__sptep4 {
+  color: #d7dadd;
+  font-size: 46px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 59.8px;
+  padding-bottom: 15px;
+}
+.actionplan__subtitle4 {
+  color: #1e212c;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.actionplan__text4 {
+  max-width: 285px;
+  color: #787a80;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+/***********************************************/
+
+.service_v2__benefits {
+  max-width: 1920px;
+  min-height: 565px;
+  background-color: rgba(30, 33, 44, 1);
+  display: flex;
+  flex-direction: column;
+}
+.container__apperpart {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 0px 60px 0px;
+}
+.apperpart-title {
+  color: white;
+  font-size: 46px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 59.8px;
+}
+.apperpart-undertitle {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.6;
+  padding-top: 25px;
+}
+.benefits__items {
+  display: flex;
+  justify-content: space-around;
+}
+.benefit_item1 {
+  width: 285px;
+  height: 188px;
+  text-align: center;
+}
+.benefits__item-img1 {
+}
+.benefits__item-subtitle1 {
+  color: white;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 25px 0px 10px 0px;
+}
+.benefits__item-text1 {
+  color: white;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+  opacity: 0.6;
+}
+.benefits__item2 {
+  width: 285px;
+  height: 188px;
+  text-align: center;
+}
+.benefits__item-img2 {
+}
+.benefits__item-subtitle2 {
+  color: white;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 25px 0px 10px 0px;
+}
+.benefits__item-text2 {
+  color: white;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+  opacity: 0.6;
+}
+.benefits__item3 {
+  width: 285px;
+  height: 188px;
+  text-align: center;
+}
+.benefits__item-img3 {
+}
+.benefits__item-subtitle3 {
+  color: white;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 25px 0px 10px 0px;
+}
+.benefits__item-text3 {
+  color: white;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 25.6px;
+  opacity: 0.6;
+}
+.benefits__button {
+  font-weight: 700;
+  color: #ffffff;
+  background: #ff5a30;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid #ff5a30;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 3.25em;
+  padding: 0 40px;
+}
