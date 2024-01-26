@@ -59,6 +59,9 @@ ul li {
 img {
 	vertical-align: top;
 }
+textarea {
+	resize: none;
+}
 
 /************** Общие стили  ************/
 h1,
