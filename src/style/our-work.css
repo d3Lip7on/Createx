@@ -55,12 +55,12 @@
 .header__button:hover .header__button__text {
 	color: var(--white, #fff);
 }
-.photos{
-    padding-top: 215px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 60px;
+.photos {
+	padding-top: 215px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 60px;
 }
 
 .loadmore-container {
@@ -83,8 +83,8 @@
 	display: flex;
 	justify-content: space-between;
 }
-.comment__content{
-    max-width: 600px;
+.comment__content {
+	max-width: 600px;
 }
 .comment__heading {
 	padding-top: 80px;
@@ -108,139 +108,127 @@
 .comment__arrows {
 	display: flex;
 }
-.arrow_left{
-    margin-right: 24px;
+.arrow_left {
+	margin-right: 24px;
 }
-.arrow_right{
-
+.arrow_right {
 }
-.comment__image{
-    width: 495px;
-    height: 550px;
-    border-radius: 4px;
+.comment__image {
+	width: 495px;
+	height: 550px;
+	border-radius: 4px;
 }
-.clients__heading{
-    padding-top: 180px;
-    text-align: center;
-    margin-bottom: 32px;
+.clients__heading {
+	padding-top: 180px;
+	text-align: center;
+	margin-bottom: 32px;
 }
 .clients__logos {
 	display: grid;
-    grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: repeat(6, 1fr);
 	justify-content: space-between;
 	margin-bottom: 92px;
 }
 
-
-.text_light-grey{
-    color: var(--gray-600, #9A9CA5);
+.text_light-grey {
+	color: var(--gray-600, #9a9ca5);
 }
 
 @media screen and (max-width: 1230px) {
-	.photos{
+	.photos {
 		justify-content: space-around;
 	}
 }
 
-@media screen and (max-width: 1200px){
-	.header__button{
+@media screen and (max-width: 1200px) {
+	.header__button {
 		border-radius: 0;
 		width: 20%;
 		/* box-shadow: 0; */
 	}
 }
 
-@media screen and (max-width: 1150px) {	
-    .header__content{
-        text-align: center;
-        align-items: center;
-    }
-	.header__heading{
-		text-shadow: 
-        -1px -1px 0 #fff,  
-         1px -1px 0 #fff,
-        -1px  1px 0 #fff,
-         1px  1px 0 #fff;
+@media screen and (max-width: 1150px) {
+	.header__content {
+		text-align: center;
+		align-items: center;
 	}
-	.header__paragraph{
+	.header__heading {
+		text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+	}
+	.header__paragraph {
 		color: #000;
-		text-shadow: 
-        -1px -1px 0 #fff,  
-         1px -1px 0 #fff,
-        -1px  1px 0 #fff,
-         1px  1px 0 #fff;
-		 margin: 0 auto;
-		 margin-bottom: 100px;
+		text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+		margin: 0 auto;
+		margin-bottom: 100px;
 	}
-    .header-image{
-    }
-    /* .header__heading{
+	.header-image {
+	}
+	/* .header__heading{
         -webkit-text-stroke: 2px #FFFFFF;
         text-stroke: 2px #FFFFFF;
         color: #FF5A30;
     } */
-    .comment__content{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+	.comment__content {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 
-@media screen and (max-width:950px) {
-    .comment-flexbox{
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .comment__content{
-        margin-bottom: 20px;
-    }
-    .comment__heading{
-        padding-top: 10px;
-    }
-	.clients__logos{
+@media screen and (max-width: 950px) {
+	.comment-flexbox {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.comment__content {
+		margin-bottom: 20px;
+	}
+	.comment__heading {
+		padding-top: 10px;
+	}
+	.clients__logos {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
-@media screen and (max-width:800px) {
-    .clients__logos{
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+@media screen and (max-width: 800px) {
+	.clients__logos {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
 }
-@media screen and (max-width:625px) {
-	.header__button{
+@media screen and (max-width: 625px) {
+	.header__button {
 		margin-top: 230px;
 	}
-	.header__paragraph{
+	.header__paragraph {
 		display: none;
 	}
 }
 
-
-@media screen and (max-width:550px) {
-	.comment__image{
+@media screen and (max-width: 550px) {
+	.comment__image {
 		width: 100%;
 		height: auto;
 	}
-	.header__button{
+	.header__button {
 		padding: 10px 0;
 	}
-	.header__button__text{
+	.header__button__text {
 		display: none;
 	}
-	.photos{
+	.photos {
 		padding-top: 100px;
 	}
 }
 @media screen and (max-width: 432px) {
-	.header__button{
+	.header__button {
 		margin-top: 135px;
 	}
-	.header__paragraph{
+	.header__paragraph {
 		display: none;
 	}
-	.clients__logos{
+	.clients__logos {
 		grid-template-columns: repeat(2, 1fr);
 	}
-	
 }

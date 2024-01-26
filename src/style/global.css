@@ -727,15 +727,14 @@ section {
 
 /** Добавление анимации и кнопки для картинки **/
 
-.photo {
-	width: 390px;
-	/* height: 440px; */
-	margin-bottom: 24px;
+.box-with-hover {
+	max-width: 390px;
 	padding-bottom: 24px;
+	position: relative;
 
 	gap: 16px;
 	border-radius: 4px;
-	background: var(--white, #fff);
+	background: #fff;
 	box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04),
 		0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
 
@@ -743,67 +742,20 @@ section {
 	flex-direction: column;
 	align-items: center;
 }
-.image {
-	width: inherit;
-	height: auto;
+.box-with-hover__image {
+	width: 100%;
 }
-.photo__content {
+.box-with-hover__content {
 	background: #fff;
 	padding-top: 16px;
 	padding-bottom: 19px;
 	text-align: center;
 	position: absolute;
-	width: inherit;
-	transition: transform 0.3s ease;
-	transform: translateY(345px);
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transition: bottom 0.3s ease;
 }
-.photo:hover .photo__content {
-	transform: translateY(260px);
-}
-
-.button_photo {
-	margin-top: 24px;
-	width: 172px;
-	height: 44px;
-	transition: background 0.3s ease, color 0.3s ease;
-}
-.button_photo:hover {
-	color: #ffffff;
-	background: #ff5a30;
-}
-@media screen and (max-width: 1230px) {
-	.photo {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	.photo {
-		width: 290px;
-	}
-	.photo {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.photo__content {
-		transform: translateY(256px);
-	}
-	.photo:hover .photo__content {
-		transform: translateY(175px);
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.photo {
-		width: 240px;
-	}
-	.photo__content {
-		transform: translateY(200px);
-		padding-bottom: 0;
-		height: 110px;
-	}
-	.photo:hover .photo__content {
-		transform: translateY(130px);
-	}
+.box-with-hover:hover .box-with-hover__content {
+	bottom: 80px;
 }
