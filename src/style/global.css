@@ -64,6 +64,19 @@ textarea {
 }
 
 /************** Общие стили  ************/
+header,
+footer,
+section {
+	padding: 0 10px;
+}
+
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+/************** Текст ***************/
+/*** Заголовки ***/
 h1,
 h2,
 h3,
@@ -92,18 +105,20 @@ h6 {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
-header,
-footer,
-section {
-	padding: 0 10px;
+@media screen and (max-width: 450px) {
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.35rem;
+	}
+	h4 {
+		font-size: 1.1rem;
+	}
 }
-
-.container {
-	max-width: 1230px;
-	margin: 0 auto;
-}
-
-/************** Текст ***************/
 
 /** Жирность **/
 .text_regular {
