@@ -136,4 +136,34 @@
 .contructive-content{
 	margin-bottom: 27px;
 }
+@media screen and (max-width: 1100px) {
+	.project_text{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.comment__heading{
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.project-flexbox {
+	  display: flex;
+	  flex-direction: column;
+	}
+	
+	.project__content, .card-description {
+		width: 100%; /* Zapewnienie, że zajmują całą szerokość */
+		justify-content: center;
+	}
+	.card-description{
+		/* max-width: 100%; */
+		gap: 30%;
+	}
+  }
+  @media screen and (max-width: 856px){
+	.card-description{
+		
+		
+	}
+  }
 
