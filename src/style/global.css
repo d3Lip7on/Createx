@@ -155,6 +155,29 @@ h6 {
 	line-height: 150%;
 }
 
+@media screen and (max-width: 450px) {
+	.text_extrasmall {
+		font-size: 0.65rem;
+	}
+
+	.text_small {
+		font-size: 0.72rem;
+	}
+
+	.text_base {
+		font-size: 0.85rem;
+	}
+
+	.text_large {
+		font-size: 1rem;
+	}
+
+	.text_lead {
+		font-size: 1.15rem;
+	}
+}
+/****** Цвет ******/
+
 .text_grey {
 	color: #787a80;
 }
