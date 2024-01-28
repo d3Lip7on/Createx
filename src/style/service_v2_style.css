@@ -370,10 +370,12 @@
   max-width: 1920px;
   min-height: 1420px;
   margin: 0 auto;
-
+  background-image: url("../images/background/image.svg");
+  background-repeat: no-repeat;
   background-color: #e3e3e3;
 }
-.prising__container {
+.prising__header {
+  align-items: center;
 }
 .container__pricing-layout {
   max-width: 1230px;
@@ -389,6 +391,9 @@
 .blocks-names {
   max-width: 495px;
   width: 100%;
+}
+.block-title__name {
+  padding: 60px 0px 24px 24px;
 }
 .pricing-layout__types-of-prising {
   max-width: 735px;
@@ -440,9 +445,10 @@
 }
 .pricing-layout_collumn-name {
   max-width: 495px;
-  min-height: 56px;
+  min-height: 58px;
   width: 100%;
   padding-left: 24px;
+  padding-top: 18px;
 }
 .mark {
   max-width: 245px;
@@ -459,6 +465,8 @@
   background-color: #e3e3e3;
   border-color: #e3e3e3;
   box-sizing: border-box;
+  padding-left: 24px;
+  padding-top: 18px;
 }
 .mark-grey {
   box-sizing: border-box;
