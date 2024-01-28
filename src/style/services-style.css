@@ -111,17 +111,16 @@
 @media screen and (max-width: 425px){
     .services-section{
         margin: 0px 30px 0px 30px;
-
     }
     .services-section__inner{
         padding-bottom: 90px;
         gap: 80px;
     }
     .services-section__info{
-        padding-top: 0;
+        padding-top: 0; 
     }
     .services-section__content{
-        gap: 65px;
+        gap: 40px;
     }
     .header{
         margin-bottom: 80px;
@@ -148,9 +147,6 @@
     .services-section__content{
         gap: 50px;
     }
-    .services-section__info{
-        padding-top: 0;
-    }
     .header{
         margin-bottom: 60px;
     }
@@ -158,7 +154,6 @@
         padding-bottom: 40px;
     }
     .header__content{
-        margin: 0px 30px 0px 30px;
         padding-bottom: 75px;
     }
     .header__content-heading{
