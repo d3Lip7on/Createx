@@ -120,9 +120,9 @@
 	
 }
 .constructive-decision__inner > img{
-	position: relative;
-	top: 80px;
+	position: absolute;
 	left: 0;
+	max-width: 495px;
 }
 .constructive-decisions__content{
 	display: flex;
@@ -160,7 +160,19 @@
 		padding: 0px 130px;
 		gap: 250px;
 	}
+	.constructive-decision__inner > img{
+		position: static;
+	}
+	.constructive-decision__inner{
+		justify-content: start;
+		gap: 40px;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 60px;
+	}
+	.constructive-decisions__content{
+		padding-left: 70px;
+
+	}
   }
-  @media screen and (max-width: 620px){
-	
-  }
+ 
