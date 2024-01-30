@@ -30,3 +30,39 @@
 .pointer{
     cursor: pointer;
 }
+.about-us__statistics{
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    padding-bottom: 120px;
+}
+.about-us__statistics-item{
+text-align: center;
+}
+.statistics-item__icon{
+    width: 48px;
+    margin-bottom: 20px;
+}
+.statistics-item__heading{
+    color: #FF5A30;
+    margin-bottom: 8px;
+
+}
+.statistics-item__paragraph{
+    max-width: 240px;
+}
+.about-us__ceo{
+    display: flex;
+}
+.about-us__team{
+    padding-bottom: 120px;
+}
+.about-us__map {
+    height: 100vh;
+    background-color: #F4F5F6;
+    
+}
+.about-us__map-heading {
+}
+.about-us__map-image {
+}
