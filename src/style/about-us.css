@@ -30,14 +30,14 @@
 .pointer{
     cursor: pointer;
 }
-.about-us__statistics{
+.stats-section__statistics{
     display: flex;
     justify-content: center;
     gap: 86px;
     padding-bottom: 120px;
 }
-.about-us__statistics-item{
-text-align: center;
+.stats-section__statistics-item{
+    text-align: center;
 }
 .statistics-item__icon{
     width: 48px;
@@ -51,18 +51,16 @@ text-align: center;
 .statistics-item__paragraph{
     max-width: 240px;
 }
-.about-us__ceo{
+.stats-section__ceo{
     display: flex;
 }
-.about-us__team{
-    padding-bottom: 120px;
-}
-.about-us__map {
-    height: 100vh;
+.map-section{
     background-color: #F4F5F6;
-    
 }
-.about-us__map-heading {
+.map-heading{
+    padding: 80px 60px;
+    text-align: center;
 }
-.about-us__map-image {
+.map-image{
+    padding-bottom: 120px;
 }
