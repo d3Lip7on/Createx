@@ -1,0 +1,32 @@
+.header{
+    background-image: url(/src/images/about-us/background-about-us.png);
+    background-position: right initial;
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+.header__main{
+    padding-bottom: 80px;
+}
+.header__content-heading{
+    color: #1E212C;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 130%; /* 93.6px */
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+.header__content-breadcrumb{
+    color: #424551;
+    margin-bottom: 40px;
+    word-spacing: 8px;
+}
+.header__content-paragraph{
+    text-align: left;
+    max-width: 600px;
+}
+.header__content{
+    padding-bottom: 150px;
+}
+.pointer{
+    cursor: pointer;
+}
