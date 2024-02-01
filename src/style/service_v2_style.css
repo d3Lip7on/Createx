@@ -303,15 +303,24 @@
   opacity: 1;
 }
 .splide__arrow--prev {
-  top: -21%;
-  right: 6%;
+  top: -90px;
+  right: 90px;
   left: auto;
 }
 .splide__arrow--next {
-  top: -21%;
-  right: 1%;
+  top: -90px;
+  right: 20px;
 }
-
+@media (max-width: 585px) {
+  .splide__arrow--prev {
+    top: 50%;
+    left: 0px;
+  }
+  .splide__arrow--next {
+    top: 50%;
+    right: 0px;
+  }
+}
 /*********888*/
 
 /* .slider {
