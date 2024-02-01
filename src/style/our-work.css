@@ -212,14 +212,20 @@
 		margin-bottom: 20px;
 	}
 	.header__buttons{
+		width: auto;
 		flex-direction: column;
 		justify-content: baseline;
 	}
 	.header__button {
+		justify-content: left;
 		width: auto;
 		margin-top: 0;
 		flex-direction: row;
 		padding: 10px 0px;
+	}
+	.svg-icon{
+		margin-left: 20px;
+		margin-right: 10px;
 	}
 	.header__paragraph {
 		display: none;
