@@ -2,7 +2,7 @@
 	height: 600px;
 }
 .header-image {
-	background: url('/src/images/our-work/header-bg.png') right center no-repeat;
+	/* background: url('/src/images/our-work/header-bg.png') right center no-repeat; */
 	background-color: #F4F5F6;
 }
 .header-homepage {
