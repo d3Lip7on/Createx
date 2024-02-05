@@ -112,8 +112,6 @@
 .arrow_left {
 	margin-right: 24px;
 }
-.arrow_right {
-}
 .comment__image {
 	width: 495px;
 	height: 550px;
@@ -161,8 +159,6 @@
 		text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 		margin: 0 auto;
 		margin-bottom: 100px;
-	}
-	.header-image {
 	}
 	.comment__content {
 		margin-left: 20px;
