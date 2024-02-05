@@ -199,6 +199,9 @@
 	.constructive-decision__inner{
 		padding-bottom: 0px;
 	}
+	.similar-projects__splide{
+		padding-top: 1000px;
+	}
   }	
   @media screen and (max-width: 770px) {
 	.project_text{
