@@ -54,6 +54,7 @@
 .stats-section__ceo{
     display: flex;
 }
+
 .map-section{
     background-color: #F4F5F6;
 }
@@ -68,7 +69,9 @@
     padding-bottom: 120px;
 }
 .stats-section__ceo-image{
- 
+    object-fit: none;
+    max-width: 525px;
+    width: 100%;
 }
 .stats-section__quotation {
     position: relative;
@@ -87,6 +90,7 @@
     margin: 0 auto;
 }
 .quotation__info-image {
+
 }
 .quotation__info-text {
     max-width: 495px;
@@ -105,4 +109,14 @@
 .quotation__owner-position {
 }
 .quotation__owner-signature {
+}
+@media screen and (max-width: 425px){
+    .stats-section__quotation{
+        position: 0;
+        flex-direction: column;
+    }
+    .quotation__owner-signature{
+        
+    }
+    
 }
