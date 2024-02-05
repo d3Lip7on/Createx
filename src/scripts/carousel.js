@@ -1,17 +1,3 @@
-// var splide = new Splide( '.splide',{
-// 	gap: '1200px',
-// 	speed: number = 1300
-// } );
-// splide.mount();
-
-// document.addEventListener('DOMContentLoaded', function () {
-// 	new Splide('#thumbnail-carousel', {
-// 		fixedWidth: 100,
-// 		gap: 10,
-// 		rewind: true,
-// 		pagination: false,
-// 	}).mount();
-// });
 var main = new Splide('#main-carousel', {
 	type: 'fade',
 	rewind: true,
@@ -28,7 +14,8 @@ const thumbnailSlider = new Splide('#thumbnail-carousel', {
 	isNavigation: true,
 	arrows: false,
 	gap: 20,
-	drag: false,
+	drag: true,
+	
 });
 main.sync(thumbnailSlider);
 main.mount();

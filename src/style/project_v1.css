@@ -143,6 +143,20 @@
 .contructive-content{
 	margin-bottom: 27px;
 }
+.similar-projects__text{
+	padding: 140px 0px 70px 0px;
+}
+.vieving-ours-portfolio{
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+.similar-projects__splide{
+	padding-bottom: 80px;
+}
+.vieving-ours-portfolio{
+	padding-bottom: 100px;
+}
 @media screen and (max-width: 1100px) {
 	.project-section {
 		margin-top: 30px;
@@ -196,14 +210,14 @@
 		align-items: center;
 		padding-top: 60px;
 	}
-	.constructive-decision__inner{
-		padding-bottom: 0px;
-	}
-	.similar-projects__splide{
-		padding-top: 1000px;
+	.similar-projects__text{
+		padding: 70px 0px 70px 0px;
 	}
   }	
   @media screen and (max-width: 770px) {
+	.header{
+		background: none;
+	}
 	.project_text{
 		margin: 0 auto;
 	}
@@ -221,7 +235,7 @@
 		padding-bottom: 50px;
 	}
 
-  }
+  
   @media screen and (max-width: 770px) {
 	.card-description{
 		padding: 0px 0px;
@@ -233,6 +247,11 @@
   @media screen and (max-width: 523px) {
 	.main-modern-cottage-text{
 		font-size: 40px;
+	}
+	.vieving-ours-portfolio{
+		text-align: center;
+		flex-direction: column;
+	
 	}
 	
   }
