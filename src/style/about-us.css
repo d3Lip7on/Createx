@@ -30,30 +30,6 @@
 .pointer{
     cursor: pointer;
 }
-.stats-section__statistics{
-    display: flex;
-    justify-content: center;
-    gap: 86px;
-    padding-bottom: 240px;
-}
-.stats-section__statistics-item{
-    text-align: center;
-}
-.statistics-item__icon{
-    width: 48px;
-    margin-bottom: 20px;
-}
-.statistics-item__heading{
-    color: #FF5A30;
-    margin-bottom: 8px;
-
-}
-.statistics-item__paragraph{
-    max-width: 240px;
-}
-.stats-section__ceo{
-    display: flex;
-}
 
 .map-section{
     background-color: #F4F5F6;
