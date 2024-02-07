@@ -39,5 +39,59 @@
     text-align: center;
 }
 .map-image{
+    width: 1230px;
+    width: 100%;
     padding-bottom: 120px;
+}
+.statistics{}
+.statistics__inner{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+.statistics__item{
+    text-align: center;
+}
+.statistics__item-icon{
+    max-width: 48px;
+    padding-bottom: 20px;
+}
+.statistics__item-heading{
+    color: rgb(255, 90, 48);
+    padding-bottom: 8px;
+}
+.statistics__item-text{
+    max-width: 240px;
+}
+.values{
+    background: rgb(244, 245, 247);
+}
+.values__inner{
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+.values__description{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.values__description-heading{
+    padding-bottom: 24px;
+}
+.values__items-box{
+    text-align: center;
+}
+.values__items-icon{
+    padding-bottom: 24px;
+}
+.values__items-heading{
+    padding-bottom: 8px;
+}
+.values__items-text{
+    max-width: 285px;
+
+}
+.values__items{
+    display: flex;
+    gap: 94px;
 }
