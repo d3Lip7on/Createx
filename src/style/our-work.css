@@ -168,12 +168,10 @@
 		margin: 0 auto;
 		margin-bottom: 100px;
 	}
-    .header-image{
-    }
-    .comment__content{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+	.comment__content {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 
 @media screen and (max-width:950px) {
