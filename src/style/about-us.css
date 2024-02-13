@@ -95,3 +95,29 @@
     display: flex;
     gap: 94px;
 }
+.partners{
+
+}
+.partners__inner{
+    padding-top: 120px;
+    padding-bottom: 156px
+}
+.partners__description{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.partners__description-heading{
+    padding-bottom: 24px;
+}
+.partners__description-text{
+
+}
+.partners__clients{
+    display: flex;
+    gap: 102px;
+    flex-wrap: wrap;
+    
+}
+.partners__clients-logo{
+    max-width:120px;
+}
