@@ -26,7 +26,6 @@
 .pointer{
     cursor: pointer;
 }
-
 .map-section{
     background-color: #F4F5F6;
 }
@@ -84,13 +83,15 @@
 }
 .values__items-text{
     max-width: 285px;
-
+}
+.values__items-divider{
+    width: 2px;
+    height: 188px;
 }
 .values__items{
     display: flex;
     gap: 94px;
 }
-
 .partners__inner{
     padding-top: 120px;
     padding-bottom: 156px
@@ -106,8 +107,18 @@
     display: flex;
     gap: 102px;
     flex-wrap: wrap;
-    
 }
 .partners__clients-logo{
+    position: relative;
     max-width:120px;
+}
+@media screen and (max-width: 1024px){
+    .values__items{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .values__items-divider{
+        transform: rotate(90deg);
+    }
 }
