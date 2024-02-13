@@ -9,10 +9,6 @@
 }
 .header__content-heading{
     color: #1E212C;
-    font-size: 72px;
-    font-weight: 700;
-    line-height: 130%; /* 93.6px */
-    letter-spacing: 1px;
     margin-bottom: 24px;
 }
 .header__content-breadcrumb{
@@ -43,7 +39,6 @@
     width: 100%;
     padding-bottom: 120px;
 }
-.statistics{}
 .statistics__inner{
     display: flex;
     gap: 86px;
@@ -95,9 +90,7 @@
     display: flex;
     gap: 94px;
 }
-.partners{
 
-}
 .partners__inner{
     padding-top: 120px;
     padding-bottom: 156px
@@ -108,9 +101,6 @@
 }
 .partners__description-heading{
     padding-bottom: 24px;
-}
-.partners__description-text{
-
 }
 .partners__clients{
     display: flex;
