@@ -1,0 +1,30 @@
+.header{
+   
+    background: rgb(244, 245, 247);
+}
+.header__content{
+    padding-top: 60px;
+}
+.header__content-heading{
+    padding-top: 40px;
+    font-size: 4rem;
+}
+.header__content-breadcrumb{
+    
+}
+.header__content-display{
+    padding-top: 48px;
+    padding-bottom: 80px;
+}
+.icons-right-part{
+    display: flex;
+    gap: 20px;
+}
+.header__content-info{
+    display: flex;
+    gap: 12px;
+}
+.header__content-display{
+    display: flex;
+    justify-content: space-between;
+}
