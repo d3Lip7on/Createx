@@ -16,6 +16,9 @@
     margin-bottom: 40px;
     word-spacing: 8px;
 }
+.nowd{
+    word-spacing: normal;
+}
 .header__content-paragraph{
     text-align: left;
     max-width: 600px;
@@ -112,6 +115,33 @@
     position: relative;
     max-width:120px;
 }
+.team__peoples{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.team__peoples-socials{
+    z-index: 1;
+    background: rgb(255, 90, 48);
+    opacity: 0;
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px 100px;
+    position: absolute;
+    bottom: 0;
+    transition: 0.4s;
+}
+
+.team__peoples-icon{
+}
+.team__peoples-socials:hover{
+    opacity: 0.7;
+}
+
+
 @media screen and (max-width: 1024px){
     .values__items{
         flex-direction: column;
@@ -120,5 +150,19 @@
     }
     .values__items-divider{
         transform: rotate(90deg);
+    }
+    .statistics__inner{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .statistics__item{
+        
+    }
+    .partners__clients{
+        justify-content: center;
+
+    }
+    .statistics__item-text{
+        max-width: 130px;
     }
 }
