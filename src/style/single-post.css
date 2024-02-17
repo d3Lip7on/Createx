@@ -1,5 +1,5 @@
 .header{
-   
+    height: 600px;
     background: rgb(244, 245, 247);
 }
 .header__content{
@@ -27,4 +27,65 @@
 .header__content-display{
     display: flex;
     justify-content: space-between;
+}
+.photo-men-work{
+    padding-bottom: 80px;
+}
+.max-width_text{
+    margin: 0 auto;
+    max-width: 803px;
+}
+.vulputate-text{
+    padding-bottom: 24px;
+}
+.an-facilisi-text{
+    align-items: left;
+    color: rgb(66, 69, 81);
+    padding-bottom: 48px;
+}
+.Lorem-ipsum_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 48px;
+}
+.mauris-text{
+    color: rgb(66, 69, 81);
+    padding-bottom: 24px;
+}
+.goals-accomplished{
+    display: flex;
+    gap: 16px;
+    padding-bottom: 24px;
+}
+.textes-accomplished{
+    color: rgb(66, 69, 81);
+    font-size: 1.125rem;
+}
+.icon-accomplished{
+    padding-bottom: 15px;
+}
+.text-accomplished{
+    padding-bottom: 13px;
+}
+.text-2for3{
+    margin-bottom: 2px;
+}
+.text-3for4{
+    margin-bottom: 2px;
+}
+.enim-text{
+    font-size: 1.125rem;
+	line-height: 160%; /* 27px */
+    color: rgb(66, 69, 81);
+    padding-bottom: 60px;
+}
+.Share_menu{
+    display: flex;
+    gap: 19px;
+    padding-bottom: 80px;
+}
+.icons-share{
+    display: flex;
+    gap: 12px;
 }
