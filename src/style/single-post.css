@@ -89,3 +89,79 @@
     display: flex;
     gap: 12px;
 }
+.container-for-comments{
+    max-width: 810px;
+    margin: 0 auto;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.flex-properties{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding-bottom: 60px;
+}
+.comments-text{
+    max-width: 630px;
+    padding-bottom: 16px;
+    color: rgb(66, 69, 81);
+}
+.share-comments{
+    display: flex;
+    gap: 9px;
+}
+.reply-comments-text{
+    color: rgb(120, 122, 128);
+}
+.name-creator-comments{
+    padding-bottom: 8px;
+}
+.added-bottom{
+    padding-bottom: 120px;
+}
+.container-for-form-section{
+    max-width: 810px;
+    margin: 0 auto;
+    
+}
+.leave-comments{
+   text-align: center;
+   padding-bottom: 48px;
+}
+.form-leave-your-comments{
+    padding-bottom: 180px;
+}
+.first-column-form{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 22px;
+}
+.form-2{
+    width: 390px;
+    max-width: 390px;
+}
+.form-input-2{
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid#d7dadd;
+    background: #f4f5f6;
+    padding: 11px;
+    margin-bottom: 16px;
+}
+.form-input-message {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid#d7dadd;
+    background: #f4f5f6;
+    height: 41px;
+    padding: 11px;
+    margin-bottom: 16px;
+}
+.padding-text-form{
+    padding-bottom: 8px;
+}
+.padding-bottom-post-comment{
+    padding-bottom: 48px;
+}
