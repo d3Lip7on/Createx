@@ -45,7 +45,7 @@
     display: flex;
     gap: 86px;
     justify-content: center;
-    padding-bottom: 120px;
+    padding-bottom: 240px;
 }
 .statistics__item{
     text-align: center;
@@ -115,8 +115,53 @@
     position: relative;
     max-width:120px;
 }
-
-
+.ceo-quatation__inner{
+    display: flex;
+    position: relative;
+    padding-bottom: 120px;
+}
+.ceo-quatation__item-text{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    gap: 30px;
+}
+.ceo-quatation__owner{
+    max-width: 525px;
+    max-height: 580px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.ceo-quatation__item{
+    padding-top: 80px;
+    padding-right: 105px;
+    padding-bottom: 80px;
+    padding-left: 77px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),0px 12px 10px -6px rgba(154, 156, 165, 0.04),0px 30px 24px -10px rgba(154, 156, 165, 0.05),0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    background: rgb(255, 255, 255);
+    position: absolute;
+    max-width: 735px;
+    width: 100%;
+    right: 0;
+    bottom: 240px;
+    
+    
+}
+.ceo-quatation__item-position{
+    display: flex;
+    padding-left: 58px;
+    gap: 145px;
+}
+.team{
+    background: url(/src/images/about-us/team-bot-background.png); 
+    background-position: left bottom ;
+    background-repeat: no-repeat;
+}
+.team__inner{
+    padding-bottom: 120px;
+}
 .team__description {
     text-align: center;
     padding-bottom: 60px;
@@ -130,7 +175,9 @@
     flex-wrap: wrap;
     position: relative;
     gap: 30px;
+    padding-bottom: 20px;
 }
+
 .team__peoples-image-box{
     position: relative;
     left: 0;
@@ -147,7 +194,6 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
-    /* padding: 20px 100px; */
     width: 100%;
     height: 60px;
     position: absolute;
@@ -171,13 +217,32 @@
     padding-bottom: 60px;
     text-align: center;
 }
-
-
-
+.team__aval-position{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.team__aval-position a{
+    text-decoration-line: underline;
+    color: rgb(255, 90, 48); 
+    max-width: 154px;
+}
+.team__aval-position-paragraph{
+    max-width: 575px;
+}
 
 
 
 @media screen and (max-width: 1024px){
+    .ceo-quatation__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ceo-quatation__item{
+        position: relative;
+        bottom: 20px;
+        left: 30px;
+    }
     .values__items{
         flex-direction: column;
         align-items: center;
@@ -198,6 +263,25 @@
 
     }
     .statistics__item-text{
-        max-width: 130px;
+        
+    }
+}
+@media screen and (max-width: 768px){
+    .team__aval-position{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .team__inner{
+        padding-bottom: 60px;
+    }
+    .ceo-quatation__item{
+        padding-top: 46px;
+        padding-right: 31px;
+        padding-bottom: 54px;
+        padding-left: 15px;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
     }
 }
