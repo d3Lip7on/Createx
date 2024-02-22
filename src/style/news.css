@@ -77,3 +77,16 @@
 .content__paragraph{
     color: rgb(66, 69, 81);
 }
+.news__pages{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 180px;
+}
+.news__page{
+    background-color: inherit;
+    font-size: 1rem;
+}
+.news__page-active{
+    color: #ff5a30;
+}
