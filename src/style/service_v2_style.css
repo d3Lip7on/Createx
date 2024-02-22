@@ -163,6 +163,7 @@
 .actionplan__title {
   color: #1e212c;
   padding: 180px 0px 60px 0px;
+  text-align: center;
 }
 .actionplan__items {
   display: flex;
@@ -402,7 +403,9 @@
   width: 100%;
 }
 .block-title__name {
-  padding: 60px 0px 24px 24px;
+  max-width: 495px;
+  min-height: 58px;
+  width: 100%;
 }
 .pricing-layout__types-of-prising {
   max-width: 735px;
@@ -486,4 +489,58 @@
   text-align: center;
   background-color: #e3e3e3;
   border-color: #e3e3e3;
+}
+@media (max-width: 760px) {
+  .header__inner {
+    padding-top: 20px;
+  }
+  .offers__inner {
+    padding-top: 60px;
+  }
+  .actionplan__title {
+    padding-top: 70px;
+  }
+
+  .slider__title {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 400px) {
+  .button__discuss {
+    width: 260px;
+  }
+}
+@media (max-width: 400px) {
+  .button_large {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 500px) {
+  .offers {
+    min-height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .offers {
+    min-height: 230px;
+  }
+}
+
+@media (max-width: 400px) {
+  .offers__content {
+    min-height: 230px;
+  }
+}
+@media (max-width: 610px) {
+  .actionplan__items {
+    padding-left: 10px;
+  }
+  .actionplan__items {
+    justify-content: center;
+  }
+}
+@media (max-width: 350px) {
+  .offers__content {
+    padding-left: 60px;
+  }
 }
