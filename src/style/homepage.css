@@ -5,11 +5,71 @@
     background-size: cover;
 }
 
-.top-section-inner{
+.top-section__inner{
     padding-top: 245px;
     padding-bottom: 140px;
 }
 
+.top-section__content{
+    margin-bottom: 179px;
+}
+
+.top-section__text{
+    max-width: 563px;
+    max-height: 79px;
+    color: white;
+    margin-bottom: 65px;
+}
+.top-section__heading{
+color:white;
+margin-bottom: 54px;
+}
+
+.top-section__slider-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.top-section__heading > span{
+    color:rgb(255, 90, 48);
+}
+
+.top-section__button_opacity{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    color: rgb(255, 255, 255);
+}
+
+.top-section__slider-buttons{
+    color: white;
+    opacity: 0.6;
+
+}
+
+.top-section__number{
+    cursor: pointer;
+}
+
+.top-section__span {
+    cursor: pointer;
+    height: 2px;
+    width: 147px;
+    margin: 0 2px;
+    background: rgb(255, 255, 255);
+    opacity: 0.3 !important;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .top-section__span_active, .top-section__span:hover {
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .top-section__span:not(:hover){
+    transition: 0.3s;
+  }
 /*QUESTION FORM*/
 
 .question{
@@ -57,8 +117,4 @@ border-radius: 4px;
 width: 105px;
 height: 45px;
 
-}
-
-@media screen and () {
-    
 }
