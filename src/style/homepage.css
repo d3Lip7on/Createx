@@ -1,9 +1,25 @@
 .top-section{
-    background-image: url('../images/homepage/photos/top-section-bg1.png');
+
     flex-shrink: 0;
     background-position: center;
     background-size: cover;
     position: relative
+}
+
+.top-section_img1{
+    background-image: url('../images/homepage/photos/top-section-bg1.png');
+}
+
+.top-section_img2{
+    background-image: url('../images/homepage/photos/top-section-bg1.png');
+}
+
+.top-section_img3{
+    background-image: url('../images/homepage/photos/top-section-bg3.png');
+}
+
+.top-section_img4{
+    background-image: url('../images/homepage/photos/top-section-bg1.png');
 }
 
 .top-section__inner{
@@ -63,6 +79,7 @@
 
 .top-section__arrow-button-next {
     right: 5px;
+    rotate: 180deg;
 }
 
 
@@ -97,7 +114,7 @@
     cursor: pointer;
 }
 
-.top-section:first-child{
+.top-section__block:first-child{
     opacity: 0.6;
 }
 
@@ -105,7 +122,6 @@
     height: 2px;
     width: 147px;
     margin: 0 2px;
-
     background: rgb(255, 255, 255);
     display: inline-block;
     transition: background-color 0.6s ease;

@@ -57,7 +57,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
     </div>
 </header>
-<section class="top-section">
+<section class="top-section top-section_img1" id="test">
     <div class="container">
         <div class="top-section__inner">
             <div class="top-section__content">
@@ -77,23 +77,23 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 <button class="button button_primary button_large">
                     <p>SUBMIT REQUEST</p>
                 </button>
-                    <div class="top-section__arrow-button top-section__arrow-button-prev"><a onclick="plusSlides(-1)"><img src="../images/homepage/icons/prev-btn.svg" alt=""></a></div>
-                    <div class="top-section__arrow-button top-section__arrow-button-next"><a onclick="plusSlides(1)"><img src="../images/homepage/icons/next-btn.svg" alt=""></a></div>
+                    <div class="top-section__arrow-button top-section__arrow-button-prev"><a onclick="slider_arrow('pidor')"><img src="../images/homepage/icons/prev-btn.svg" alt=""></a></div>
+                    <div class="top-section__arrow-button top-section__arrow-button-next"><a onclick="slider_arrow('forward')"><img src="../images/homepage/icons/prev-btn.svg" alt=""></a></div>
             </div>
             <div class="top-section__slider-buttons">
-                <div class="top-section__block"  onclick="currentSlide(1)">
+                <div class="top-section__block"  onclick="span_button(1)">
                     <h4 class="top-section__number">01</h4>
                     <span class="top-section__span" ></span> 
                 </div>
-                <div class="top-section__block" onclick="currentSlide(2)">
+                <div class="top-section__block" onclick="span_button(2)">
                     <h4 class="top-section__number">02</h4>
                     <span class="top-section__span"></span> 
                 </div>                    
-                <div class="top-section__block"  onclick="currentSlide(3)">
+                <div class="top-section__block"  onclick="span_button(3)">
                     <h4 class="top-section__number">03</h4>
                     <span class="top-section__span"></span> 
                 </div>                    
-                <div class="top-section__block"  onclick="currentSlide(4)">
+                <div class="top-section__block"  onclick="span_button(4)">
                     <h4 class="top-section__number">04</h4>
                     <span class="top-section__span"></span> 
                 </div>   
@@ -124,4 +124,5 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 penis penis penis
 </body>
 <script src="../scripts/burger.js"></script>
+<script src="../scripts/sliderTopSection.js"></script>
 </html>

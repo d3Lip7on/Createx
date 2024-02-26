@@ -1,28 +1,23 @@
 let slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+function slider_arrow(param){
+    const element = document.getElementById("test");
+    let prevIndex = slideIndex - 1 < 1 ? 4 : slideIndex - 1;
+    let nextIndex = slideIndex + 1 > 4 ? 1 : slideIndex + 1;
 
-// Thumbnail image controls
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+    element.classList.remove("top-section_img" + slideIndex);
 
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("top-section__dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+    if (param === 'forward') {
+        element.classList.add("top-section_img" + nextIndex)
+        slideIndex = nextIndex
+    } else {
+        element.classList.add("top-section_img" + prevIndex)
+        slideIndex = prevIndex
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+}
+function span_button(param){
+    const element = document.getElementById("test");
+    element.classList.remove("top-section_img" + slideIndex);
+    slideIndex=param
+    element.classList.add("top-section_img" + slideIndex)
 }
