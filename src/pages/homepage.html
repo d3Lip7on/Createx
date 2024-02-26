@@ -66,34 +66,36 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 </h1>
                 <div>
                 <p class="top-section__text">
-                    Cras ultrices leo vitae non viverra. Fringilla nisi quisque
-                    consequat, dignissim vitae proin ipsum sed. Pellentesque nec
+                    Cras ultrices leo vitae non viverra. Fringilla nisi quisque<br>
+                    consequat, dignissim vitae proin ipsum sed. Pellentesque nec<br>
                     turpis purus eget pellentesque integer ipsum elementum Felis.
                 </p>
                 </div>
-                <button class="button button_white button_large top-section__button_opacity">
+                <button class="button button_white button_large top-section__button_opacity top-section__button_margin">
                     <p>Learn more about us</p>
                 </button>
                 <button class="button button_primary button_large">
                     <p>SUBMIT REQUEST</p>
                 </button>
+                <div class="top-section__prev-button"><a onclick="plusSlides(-1)"><img src="../images/homepage/icons/Left.png" alt=""></a></div>
+                <div class="top-section__next-button"><a onclick="plusSlides(1)">❯</a></div>
             </div>
             <div class="top-section__slider-buttons">
-                <div onclick="currentSlide(1)">
+                <div class="top-section__block"  onclick="currentSlide(1)">
                     <h4 class="top-section__number">01</h4>
                     <span class="top-section__span" ></span> 
                 </div>
-                <div onclick="currentSlide(2)">
+                <div class="top-section__block" onclick="currentSlide(2)">
                     <h4 class="top-section__number">02</h4>
-                    <span class="top-section__span" onclick="currentSlide(2)"></span> 
+                    <span class="top-section__span"></span> 
                 </div>                    
-                <div onclick="currentSlide(3)">
+                <div class="top-section__block"  onclick="currentSlide(3)">
                     <h4 class="top-section__number">03</h4>
-                    <span class="top-section__span" onclick="currentSlide(3)"></span> 
+                    <span class="top-section__span"></span> 
                 </div>                    
-                <div onclick="currentSlide(4)">
+                <div class="top-section__block"  onclick="currentSlide(4)" class="top-section__block">
                     <h4 class="top-section__number">04</h4>
-                    <span class="top-section__span" onclick="currentSlide(4)"></span> 
+                    <span class="top-section__span"></span> 
                 </div>   
             </div>
         </div>
@@ -121,4 +123,5 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </section>
 penis penis penis
 </body>
+<script src="../scripts/burger.js"></script>
 </html>
