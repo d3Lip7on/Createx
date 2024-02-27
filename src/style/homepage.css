@@ -2,7 +2,8 @@
     flex-shrink: 0;
     background-position: center;
     background-size: cover;
-    position: relative
+    position: relative;
+    margin-bottom: 130px;
 }
 
 .top-section_img1{
@@ -215,6 +216,103 @@
 @media screen and (max-width: 320px) {
     .top-section__button-transparent{
         width: 245px;
+    }
+}
+
+/* YOUTUBE INTEGRATION */
+
+.youtube-integration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.youtube-integration__heading{
+    margin-bottom: 45px;
+}
+
+.youtube-integration__text{
+    margin-bottom: 60px;
+}
+
+.youtube-integration__video{
+    width: 1280px; 
+    height: 720px;
+    margin-bottom: 200px;
+}
+
+.youtube-integration__span {
+        display: none;
+}
+
+.youtube-integration__heading
+{
+    line-height: 75%;
+    text-align: center;
+}
+
+.youtube-integration__text
+{
+    line-height: 120%;
+    text-align: center;
+}
+
+.youtube-integration__span{
+    width: 0;
+    height: 0;
+}
+
+@media screen and (max-width: 1350px) {
+    .youtube-integration__video{
+        width: 900px;
+        height: 400px;
+        margin-bottom: 65px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .youtube-integration__video{
+        width: 650px;
+        height: 500px;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .youtube-integration__span {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .youtube-integration__video{
+        width: 100%;
+        height: 400px;
+    }
+    .youtube-integration__block{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .youtube-integration__video{
+        width: 100%;
+        height: 250px;
+    }
+    .youtube-integration__block{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .youtube-integration__video{
+        width: 100%;
+        height: 200px;
+    }
+    .youtube-integration__block{
+        height: 200px;
     }
 }
 
