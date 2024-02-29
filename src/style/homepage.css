@@ -316,6 +316,57 @@
     }
 }
 
+/* VALUES */
+
+.values {
+	background: rgb(255,255,255);
+}
+.values__inner {
+	padding-top: 80px;
+	padding-bottom: 180px;
+}
+.values__description {
+	text-align: center;
+	padding-bottom: 60px;
+}
+.values__description-heading {
+	padding-bottom: 24px;
+}
+.values__items-box {
+	text-align: center;
+}
+.values__items-icon {
+	padding-bottom: 24px;
+}
+.values__items-heading {
+	padding-bottom: 8px;
+}
+.values__items-text {
+	max-width: 285px;
+}
+.values__items {
+    display: flex;
+    flex-direction: row;
+	gap: 94px;
+}
+
+.values__items-divider{
+    vertical-align: middle;
+}
+
+@media screen  and (max-width: 1150px) {
+    .values__items-divider{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .values__items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 /*QUESTION FORM*/
 
 .question{
