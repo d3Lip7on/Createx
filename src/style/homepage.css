@@ -442,7 +442,7 @@ margin-bottom: 35px;
 /* OUR SERVICES */
 
 .our-services{
-    background: #F4F5F7;
+    background: url(/src/images/homepage/photos/our-services_background.png);
     padding-top: 226px;
 }
 
@@ -456,6 +456,7 @@ margin-bottom: 35px;
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .our-services__hover-blocks{
@@ -464,6 +465,7 @@ margin-bottom: 35px;
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .our-services__hover-block {
@@ -480,6 +482,18 @@ margin-bottom: 35px;
 
 .our-services__hover-block1::before {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/images/homepage/photos/our-services-hover1.jpg);
+}
+
+.our-services__hover-block2::before {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/images/homepage/photos/our-services-hover2.jpg);
+}
+
+.our-services__hover-block3::before {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/images/homepage/photos/our-services-hover3.jpg);
+}
+
+.our-services__hover-block4::before {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/images/homepage/photos/our-services-hover4.jpg);
 }
 
 .our-services__hover-block::before {
@@ -500,41 +514,29 @@ margin-bottom: 35px;
     opacity: 1;
 }
 
-.our-services__hover-block2::before {
-    background-image: url(/src/images/homepage/photos/our-services-hover2.jpg);
-}
-
-.our-services__hover-block3::before {
-    background-image: url(/src/images/homepage/photos/our-services-hover3.jpg);
-}
-
-.our-services__hover-block4::before {
-    background-image: url(/src/images/homepage/photos/our-services-hover4.jpg);
-}
-
-.our-services__hover-block p{
+.our-services__hover-block p, svg{
     z-index: 10;
     position: relative;
 }
 
-.our-services__hover-block svg{
-    z-index: 10;
-    position: relative;
-}
-
-.our-services__hover-block1:hover p{
+.our-services__hover-block:hover p{
     opacity: 1;
     transition: opacity .3s ease-in-out;
-    z-index: 250;
     color: white;
 }
 
-.our-services__hover-block1:hover svg path{
+.our-services__hover-block:hover svg path{
     fill: #F4F5F6;
     transition: fill .3s ease-in-out;
 }
-.our-service__hover-block1 svg:hover path{
-    fill: #F4F5F6;
+
+.our-services__fotter{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 1300px) {
