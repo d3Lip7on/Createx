@@ -539,8 +539,24 @@ margin-bottom: 35px;
     flex-direction: row;
 }
 
+.our-services__fotter{
+    padding-bottom: 80px;
+}
+
 @media screen and (max-width: 1300px) {
     .our-services{
         padding-top: 330px;
     }
 }
+
+/* PROJECTS */
+
+.projects{
+    padding-top: 135px;
+}
+
+.projects__heading{
+    max-width: 700px;
+}
+
+
