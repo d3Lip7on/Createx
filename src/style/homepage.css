@@ -551,12 +551,18 @@ margin-bottom: 35px;
 
 /* PROJECTS */
 
-.projects{
-    padding-top: 135px;
-}
-
-.projects__heading{
-    max-width: 700px;
-}
+.portfolio__subtitle {
+    padding-left: 40px;
+  }
+  .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 100px 0px;
+    gap: 40px;
+  }
+  
+  .button__portfolio {
+  }
 
 
