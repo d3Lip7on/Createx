@@ -506,7 +506,7 @@ margin-bottom: 35px;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.9s ease-in-out;
     z-index: 1;
 }
 
@@ -514,20 +514,20 @@ margin-bottom: 35px;
     opacity: 1;
 }
 
-.our-services__hover-block p, svg{
+.our-services__hover-block p, .our-services__hover-block svg{
     z-index: 10;
     position: relative;
 }
 
 .our-services__hover-block:hover p{
     opacity: 1;
-    transition: opacity .3s ease-in-out;
+    transition: color 0.3s ease-in-out;
     color: white;
 }
 
 .our-services__hover-block:hover svg path{
     fill: #F4F5F6;
-    transition: fill .3s ease-in-out;
+    transition: fill 0.3s ease-in-out;
 }
 
 .our-services__fotter{
