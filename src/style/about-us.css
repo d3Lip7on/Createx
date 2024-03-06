@@ -41,12 +41,6 @@
 	width: 100%;
 	padding-bottom: 120px;
 }
-
-.ceo-quatation {
-	background: url(/src/images/about-us/ceo-quatation-bg.png);
-	background-position: right bottom;
-	background-repeat: no-repeat;
-}
 .statistics__inner {
 	display: flex;
 	gap: 86px;
@@ -200,6 +194,11 @@
 .partners__clients-logo {
 	position: relative;
 	max-width: 120px;
+}
+.ceo-quatation {
+	background: url(/src/images/about-us/ceo-quatation-bg.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
 }
 .ceo-quatation__inner {
 	display: flex;
