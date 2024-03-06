@@ -65,7 +65,7 @@
 	padding-bottom: 8px;
 }
 .statistics__item-text {
-	max-width: 240px;
+	width: 200px;
 }
 .values {
 	background: rgb(244, 245, 247);
@@ -430,6 +430,9 @@
 		align-items: center;
 		text-align: center;
 	}
+	.team {
+		background: none;
+	}
 	.team__inner {
 		padding-bottom: 60px;
 	}
@@ -452,6 +455,52 @@
 		gap: 10px;
 	}
 }
+@media screen and (max-width: 425px) {
+	.header {
+		margin-bottom: 35px;
+	}
+	.header__main {
+		padding-bottom: 40px;
+	}
+	.header__content {
+		padding-bottom: 70px;
+	}
+	.statistics__inner {
+		padding-bottom: 60px;
+		gap: 43px;
+	}
+	.ceo-quatation__inner {
+		padding-bottom: 45px;
+	}
+	.values__inner {
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+	.history__buttons {
+		padding-top: 12px;
+		padding-bottom: 24px;
+	}
+	.history__inner {
+		padding-bottom: 40px;
+	}
+	.partners__inner {
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+	.team__inner {
+		padding-bottom: 40px;
+	}
+	.team__peoples-text {
+		padding-bottom: 0;
+	}
+	.map-heading {
+		padding: 40px 30px;
+	}
+	.map-image {
+		padding-bottom: 40px;
+	}
+}
+
 @media screen and (max-width: 310px) {
 	.ceo-quatation__item-position {
 		padding: 0;
