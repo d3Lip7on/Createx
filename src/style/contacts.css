@@ -1,6 +1,6 @@
 .header {
-  background: url("../images/background/image2.png") right no-repeat;
-  background-color: #e3e3e3;
+  background: url("../images/background/image-cover.png") right no-repeat;
+  background-color: #f4f5f6;
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -233,7 +233,7 @@ select {
 .our-offices {
   max-width: 1920px;
   min-height: 565px;
-  background-color: #e3e3e3;
+  background-color: #f4f5f6;
   margin: 0 auto;
 }
 .our-offices__inner {
